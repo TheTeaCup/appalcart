@@ -1,13 +1,17 @@
 import SEO from "@/components/seo";
-import {Text} from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
+import Navbar from "@/components/navbar";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <SEO title={"Home"} />
-        <Text>
-            Soon™
-        </Text>
+
+      <Navbar>
+        <Text>Home</Text>
+      </Navbar>
     </>
   );
-}
+};
+
+export default Home;
