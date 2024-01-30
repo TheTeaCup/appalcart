@@ -3,12 +3,12 @@ import { Flex, Text } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 
 const Home = () => {
-    return (
-        <>
-            <SEO title={"Home"} />
+  return (
+    <>
+      <SEO title={"Home"} />
 
-            <Navbar>
-                {/*
+      <Navbar>
+        {/*
           <Center>
           <Grid templateColumns="repeat(5, 1fr)" gap={4}>
             <GridItem colSpan={2}>
@@ -48,14 +48,12 @@ const Home = () => {
         </Center>
           */}
 
-                <Flex minH={"40vh"} align={"center"} justify={"center"}>
-                    <Text fontSize={{ md: "xl" }}>
-                        Employment Page
-                    </Text>
-                </Flex>
-            </Navbar>
-        </>
-    );
+        <Flex minH={"40vh"} align={"center"} justify={"center"}>
+          <Text fontSize={{ md: "xl" }}>Employment Page</Text>
+        </Flex>
+      </Navbar>
+    </>
+  );
 };
 
 export default Home;

@@ -1,4 +1,4 @@
-import {Box, Button, useColorModeValue} from "@chakra-ui/react";
+import { Box, Button, useColorModeValue } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 interface Props {
