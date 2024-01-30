@@ -3,8 +3,13 @@ import {
   Button,
   Center,
   Flex,
+  Heading,
   HStack,
   IconButton,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
   Stack,
   Text,
   useColorMode,
@@ -13,28 +18,89 @@ import {
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { ReactNode } from "react";
+import NavLink from "@/components/navbar/link.tsx";
 import NextLink from "next/link";
 
 const links = [
   {
-    name: "Home",
-    url: "/",
-  },
-  {
-    name: "Abount",
-    url: "/about",
+    name: "About",
+    sections: [
+      {
+        name: "History",
+        url: "/about/history",
+      },
+      {
+        name: "Board of Directors",
+        url: "/about/board-of-directors",
+      },
+      {
+        name: "Title VI",
+        url: "/about/title-vi",
+      },
+    ],
   },
   {
     name: "Routes & Schedules",
-    url: "/route-maps-and-schedules",
+    sections: [
+      {
+        name: "Route Maps and Schedules",
+        url: "/route-maps-and-schedules/route-maps",
+      },
+      {
+        name: "Live Bus Tracking",
+        url: "/route-maps-and-schedules/live",
+      },
+      {
+        name: "Game Day Routes",
+        url: "/route-maps-and-schedules/game-day-routes",
+      },
+      {
+        name: "Inclement Weather Alterations",
+        url: "/route-maps-and-schedules/inclement-weather",
+      },
+      {
+        name: "Riders Guide",
+        url: "/route-maps-and-schedules/riders-guide",
+      },
+    ],
   },
   {
     name: "Services",
-    url: "/services",
+    sections: [
+      {
+        name: "Fixed Route",
+        url: "/services/fixed-route",
+      },
+      {
+        name: "Paratransit",
+        url: "/services/paratransit",
+      },
+      {
+        name: "Rural Services",
+        url: "/services/rural-services",
+      },
+      {
+        name: "Regional Travel",
+        url: "/services/advertising",
+      },
+      {
+        name: "Advertising",
+        url: "/services/advertising",
+      },
+    ],
   },
   {
     name: "Accessibility",
-    url: "/accessibility",
+    sections: [
+      {
+        name: "Accessibility on Fixed Route",
+        url: "/accessibility/fixed-route",
+      },
+      {
+        name: "Reasonable Modification",
+        url: "/accessibility/reasonable-modification",
+      },
+    ],
   },
   {
     name: "Employment",
@@ -46,33 +112,6 @@ const links = [
   },
 ];
 
-interface Props {
-  children: {
-    name: string;
-    url: string;
-  };
-}
-
-const NavLink = (props: Props) => {
-  const { children } = props;
-
-  return (
-    <Box
-      as={NextLink}
-      px={2}
-      py={1}
-      rounded={"md"}
-      _hover={{
-        textDecoration: "none",
-        bg: useColorModeValue("gray.200", "gray.700"),
-      }}
-      href={children.url}
-    >
-      {children.name}
-    </Box>
-  );
-};
-
 const Navbar = ({ children }: { children?: ReactNode }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
@@ -81,56 +120,103 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
     <>
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <IconButton
-            right={0}
-            size={"md"}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={"Open Menu"}
-            display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
-          />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <Flex direction="row">
-                <Text
-                  fontFamily={"heading"}
-                  fontSize={"xl"}
-                  as={"i"}
-                  color={"red"}
-                >
-                  Appal
-                </Text>
-                <Text
-                  fontFamily={"heading"}
-                  fontSize={"xl"}
-                  color={"green"}
-                  marginLeft={0}
-                >
-                  CART
-                </Text>
-              </Flex>
+              <NextLink href={"/"}>
+                <Flex direction="row">
+                  <Text
+                    fontFamily={"heading"}
+                    fontSize={"xl"}
+                    as={"i"}
+                    color={"red"}
+                  >
+                    Appal
+                  </Text>
+                  <Text
+                    fontFamily={"heading"}
+                    fontSize={"xl"}
+                    color={"green"}
+                    marginLeft={0}
+                  >
+                    CART
+                  </Text>
+                </Flex>
+              </NextLink>
             </Box>
+          </HStack>
+
+          <Flex>
             <Center>
               <HStack spacing={4} display={{ base: "none", md: "flex" }}>
-                {links.map((link) => (
-                  <NavLink key={link.name}>{link}</NavLink>
-                ))}
+                {links.map((link) => {
+                  if (link.sections) {
+                    return (
+                      <>
+                        {/* drop down with other sections */}
+                        <Menu>
+                          <MenuButton as={Button} variant={"ghost"}>
+                            {link.name}
+                          </MenuButton>
+                          <MenuList>
+                            {link.sections.map((section) => (
+                              <MenuItem
+                                as={NextLink}
+                                href={section.url}
+                                key={section.name}
+                              >
+                                <Box fontWeight={"semibold"} px={2} py={1}>
+                                  {section.name}
+                                </Box>
+                              </MenuItem>
+                            ))}
+                          </MenuList>
+                        </Menu>
+                      </>
+                    );
+                  } else {
+                    return <NavLink key={link.name}>{link}</NavLink>;
+                  }
+                })}
               </HStack>
             </Center>
-          </HStack>
+          </Flex>
+
           <Flex alignItems={"center"}>
-            <Button onClick={toggleColorMode}>
+            <Button size={"md"} onClick={toggleColorMode} mr={1}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
+            <IconButton
+              size={"md"}
+              icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+              aria-label={"Open Menu"}
+              display={{ md: "none" }}
+              onClick={isOpen ? onClose : onOpen}
+            />
           </Flex>
         </Flex>
 
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              {links.map((link) => (
-                <NavLink key={link.name}>{link}</NavLink>
-              ))}
+              {links.map((link) => {
+                if (link.sections) {
+                  return (
+                    <>
+                      {/* use a list here */}
+                      <Heading as={"h3"} size={"md"}>
+                        {link.name}
+                      </Heading>
+                      <Stack as={"nav"} spacing={4} pl={4}>
+                        {link.sections.map((section) => (
+                          <NavLink key={section.name}>{section}</NavLink>
+                        ))}
+                      </Stack>
+                    </>
+                  );
+                } else {
+                  return <NavLink key={link.name}>{link}</NavLink>;
+                }
+              })}
             </Stack>
           </Box>
         ) : null}
