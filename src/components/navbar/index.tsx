@@ -132,14 +132,14 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                     fontFamily={"heading"}
                     fontSize={"xl"}
                     as={"i"}
-                    color={"red"}
+                    color={"red.400"}
                   >
                     Appal
                   </Text>
                   <Text
                     fontFamily={"heading"}
                     fontSize={"xl"}
-                    color={"green"}
+                    color={"green.400"}
                     marginLeft={0}
                   >
                     CART
