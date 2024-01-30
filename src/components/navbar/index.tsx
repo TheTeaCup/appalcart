@@ -3,8 +3,13 @@ import {
   Button,
   Center,
   Flex,
+  Heading,
   HStack,
   IconButton,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
   Stack,
   Text,
   useColorMode,
@@ -18,24 +23,84 @@ import NextLink from "next/link";
 
 const links = [
   {
-    name: "Home",
-    url: "/",
-  },
-  {
     name: "About",
-    url: "/about",
+    sections: [
+      {
+        name: "History",
+        url: "/about/history",
+      },
+      {
+        name: "Board of Directors",
+        url: "/about/board-of-directors",
+      },
+      {
+        name: "Title VI",
+        url: "/about/title-vi",
+      },
+    ],
   },
   {
     name: "Routes & Schedules",
-    url: "/route-maps-and-schedules",
+    sections: [
+      {
+        name: "Route Maps and Schedules",
+        url: "/route-maps-and-schedules/route-maps",
+      },
+      {
+        name: "Live Bus Tracking",
+        url: "/route-maps-and-schedules/live",
+      },
+      {
+        name: "Game Day Routes",
+        url: "/route-maps-and-schedules/game-day-routes",
+      },
+      {
+        name: "Inclement Weather Alterations",
+        url: "/route-maps-and-schedules/inclement-weather",
+      },
+      {
+        name: "Riders Guide",
+        url: "/route-maps-and-schedules/riders-guide",
+      },
+    ],
   },
   {
     name: "Services",
-    url: "/services",
+    sections: [
+      {
+        name: "Fixed Route",
+        url: "/services/fixed-route",
+      },
+      {
+        name: "Paratransit",
+        url: "/services/paratransit",
+      },
+      {
+        name: "Rural Services",
+        url: "/services/rural-services",
+      },
+      {
+        name: "Regional Travel",
+        url: "/services/advertising",
+      },
+      {
+        name: "Advertising",
+        url: "/services/advertising",
+      },
+    ],
   },
   {
     name: "Accessibility",
-    url: "/accessibility",
+    sections: [
+      {
+        name: "Accessibility on Fixed Route",
+        url: "/accessibility/fixed-route",
+      },
+      {
+        name: "Reasonable Modification",
+        url: "/accessibility/reasonable-modification",
+      },
+    ],
   },
   {
     name: "Employment",
@@ -83,9 +148,35 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
           <Flex>
             <Center>
               <HStack spacing={4} display={{ base: "none", md: "flex" }}>
-                {links.map((link) => (
-                  <NavLink key={link.name}>{link}</NavLink>
-                ))}
+                {links.map((link) => {
+                  if (link.sections) {
+                    return (
+                      <>
+                        {/* drop down with other sections */}
+                        <Menu>
+                          <MenuButton as={Button} variant={"ghost"}>
+                            {link.name}
+                          </MenuButton>
+                          <MenuList>
+                            {link.sections.map((section) => (
+                              <MenuItem
+                                as={NextLink}
+                                href={section.url}
+                                key={section.name}
+                              >
+                                <Box fontWeight={"semibold"} px={2} py={1}>
+                                  {section.name}
+                                </Box>
+                              </MenuItem>
+                            ))}
+                          </MenuList>
+                        </Menu>
+                      </>
+                    );
+                  } else {
+                    return <NavLink key={link.name}>{link}</NavLink>;
+                  }
+                })}
               </HStack>
             </Center>
           </Flex>
@@ -107,9 +198,25 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              {links.map((link) => (
-                <NavLink key={link.name}>{link}</NavLink>
-              ))}
+              {links.map((link) => {
+                if (link.sections) {
+                  return (
+                    <>
+                      {/* use a list here */}
+                      <Heading as={"h3"} size={"md"}>
+                        {link.name}
+                      </Heading>
+                      <Stack as={"nav"} spacing={4} pl={4}>
+                        {link.sections.map((section) => (
+                          <NavLink key={section.name}>{section}</NavLink>
+                        ))}
+                      </Stack>
+                    </>
+                  );
+                } else {
+                  return <NavLink key={link.name}>{link}</NavLink>;
+                }
+              })}
             </Stack>
           </Box>
         ) : null}

@@ -13,6 +13,7 @@ const NavLink = (props: Props) => {
 
   return (
     <Box
+      fontWeight={"semibold"}
       as={NextLink}
       px={2}
       py={1}
