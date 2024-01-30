@@ -14,7 +14,7 @@ const theme = extendTheme({
       },
     }),
   },
-  components: { Menu: menuTheme, },
+  components: { Menu: menuTheme },
 });
 
 export default theme;

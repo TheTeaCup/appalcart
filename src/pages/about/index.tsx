@@ -3,19 +3,17 @@ import { Flex, Text } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 
 const AboutHome = () => {
-    return (
-        <>
-            <SEO title={"About"} />
+  return (
+    <>
+      <SEO title={"About"} />
 
-            <Navbar>
-                <Flex minH={"40vh"} align={"center"} justify={"center"}>
-                    <Text fontSize={{ md: "xl" }}>
-                        About AppalCART
-                    </Text>
-                </Flex>
-            </Navbar>
-        </>
-    );
+      <Navbar>
+        <Flex minH={"40vh"} align={"center"} justify={"center"}>
+          <Text fontSize={{ md: "xl" }}>About AppalCART</Text>
+        </Flex>
+      </Navbar>
+    </>
+  );
 };
 
 export default AboutHome;
