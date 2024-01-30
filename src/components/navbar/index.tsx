@@ -151,7 +151,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                 {links.map((link) => {
                   if (link.sections) {
                     return (
-                      <>
+                      <div key={link.name}>
                         {/* drop down with other sections */}
                         <Menu>
                           <MenuButton as={Button} variant={"ghost"}>
@@ -171,7 +171,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                             ))}
                           </MenuList>
                         </Menu>
-                      </>
+                      </div>
                     );
                   } else {
                     return <NavLink key={link.name}>{link}</NavLink>;
@@ -201,7 +201,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
               {links.map((link) => {
                 if (link.sections) {
                   return (
-                    <>
+                    <div key={link.name}>
                       {/* use a list here */}
                       <Heading as={"h3"} size={"md"}>
                         {link.name}
@@ -211,7 +211,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                           <NavLink key={section.name}>{section}</NavLink>
                         ))}
                       </Stack>
-                    </>
+                    </div>
                   );
                 } else {
                   return <NavLink key={link.name}>{link}</NavLink>;
