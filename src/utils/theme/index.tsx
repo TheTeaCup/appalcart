@@ -4,6 +4,7 @@ import { menuTheme } from "@/utils/theme/menu.tsx";
 
 const theme = extendTheme({
   config: {
+    useSystemColorMode: true,
     initialColorMode: "system",
   },
   styles: {
