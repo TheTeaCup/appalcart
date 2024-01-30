@@ -1,25 +1,15 @@
 import SEO from "@/components/seo";
 import Navbar from "@/components/navbar";
 import {
-  Container,
-  Stack,
-  Flex,
-  Box,
-  Heading,
-  Text,
-  Button,
-  Image,
-  Icon,
-  IconButton,
-  createIcon,
-  IconProps,
-  useColorModeValue,
   AspectRatio,
-  VStack,
+  Box,
+  Button,
+  Container,
+  Flex,
+  Heading,
+  Stack,
+  Text,
 } from "@chakra-ui/react";
-import { TbBus } from "react-icons/tb";
-import { CiApple } from "react-icons/ci";
-import { FaAppleAlt } from "react-icons/fa";
 import NextLink from "next/link";
 
 const Home = () => {
