@@ -206,7 +206,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                 if (link.sections) {
                   return (
                     <div key={link.name}>
-                      {/* use a list here */}
+                      {/* todo: use a list here */}
                       <Heading as={"h3"} size={"md"}>
                         {link.name}
                       </Heading>
