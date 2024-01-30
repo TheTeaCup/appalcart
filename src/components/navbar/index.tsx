@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { ReactNode } from "react";
+import NavLink from "@/components/navbar/link.tsx";
 import NextLink from "next/link";
 
 const links = [
@@ -21,7 +22,7 @@ const links = [
     url: "/",
   },
   {
-    name: "Abount",
+    name: "About",
     url: "/about",
   },
   {
@@ -46,33 +47,6 @@ const links = [
   },
 ];
 
-interface Props {
-  children: {
-    name: string;
-    url: string;
-  };
-}
-
-const NavLink = (props: Props) => {
-  const { children } = props;
-
-  return (
-    <Box
-      as={NextLink}
-      px={2}
-      py={1}
-      rounded={"md"}
-      _hover={{
-        textDecoration: "none",
-        bg: useColorModeValue("gray.200", "gray.700"),
-      }}
-      href={children.url}
-    >
-      {children.name}
-    </Box>
-  );
-};
-
 const Navbar = ({ children }: { children?: ReactNode }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
@@ -81,35 +55,32 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
     <>
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <IconButton
-            right={0}
-            size={"md"}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={"Open Menu"}
-            display={{ md: "none" }}
-            onClick={isOpen ? onClose : onOpen}
-          />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <Flex direction="row">
-                <Text
-                  fontFamily={"heading"}
-                  fontSize={"xl"}
-                  as={"i"}
-                  color={"red"}
-                >
-                  Appal
-                </Text>
-                <Text
-                  fontFamily={"heading"}
-                  fontSize={"xl"}
-                  color={"green"}
-                  marginLeft={0}
-                >
-                  CART
-                </Text>
-              </Flex>
+              <NextLink href={"/"}>
+                <Flex direction="row">
+                  <Text
+                    fontFamily={"heading"}
+                    fontSize={"xl"}
+                    as={"i"}
+                    color={"red"}
+                  >
+                    Appal
+                  </Text>
+                  <Text
+                    fontFamily={"heading"}
+                    fontSize={"xl"}
+                    color={"green"}
+                    marginLeft={0}
+                  >
+                    CART
+                  </Text>
+                </Flex>
+              </NextLink>
             </Box>
+          </HStack>
+
+          <Flex>
             <Center>
               <HStack spacing={4} display={{ base: "none", md: "flex" }}>
                 {links.map((link) => (
@@ -117,11 +88,19 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                 ))}
               </HStack>
             </Center>
-          </HStack>
+          </Flex>
+
           <Flex alignItems={"center"}>
-            <Button onClick={toggleColorMode}>
+            <Button size={"md"} onClick={toggleColorMode} mr={1}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
+            <IconButton
+              size={"md"}
+              icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+              aria-label={"Open Menu"}
+              display={{ md: "none" }}
+              onClick={isOpen ? onClose : onOpen}
+            />
           </Flex>
         </Flex>
 
