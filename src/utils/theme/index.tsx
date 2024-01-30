@@ -1,9 +1,10 @@
 import { extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
+import {menuTheme} from "@/utils/theme/menu.tsx";
 
 const theme = extendTheme({
   config: {
-    initialColorMode: "light",
+    initialColorMode: "system",
     useSystemColorMode: true,
   },
   styles: {
@@ -13,6 +14,7 @@ const theme = extendTheme({
       },
     }),
   },
+  components: { Menu: menuTheme, },
 });
 
 export default theme;
