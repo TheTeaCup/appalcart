@@ -26,6 +26,10 @@ const links = [
     name: "About",
     sections: [
       {
+        name: "Who We Are",
+        url: "/about/",
+      },
+      {
         name: "History",
         url: "/about/history",
       },
@@ -44,15 +48,15 @@ const links = [
     sections: [
       {
         name: "Route Maps and Schedules",
-        url: "/route-maps-and-schedules/route-maps",
+        url: "/route-maps-and-schedules/",
       },
       {
         name: "Live Bus Tracking",
-        url: "/route-maps-and-schedules/live",
+        url: "/route-maps-and-schedules/live-transit",
       },
       {
         name: "Game Day Routes",
-        url: "/route-maps-and-schedules/game-day-routes",
+        url: "/route-maps-and-schedules/game-day",
       },
       {
         name: "Inclement Weather Alterations",
@@ -94,7 +98,7 @@ const links = [
     sections: [
       {
         name: "Accessibility on Fixed Route",
-        url: "/accessibility/fixed-route",
+        url: "/accessibility",
       },
       {
         name: "Reasonable Modification",
