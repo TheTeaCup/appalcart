@@ -5,7 +5,7 @@ import { DefaultSeo } from "next-seo";
 import SEO from "@/components/seo";
 import theme from "@/utils/theme";
 
-export default function App({ Component, pageProps }: AppProps) {
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <DefaultSeo {...SEO} />
@@ -14,4 +14,6 @@ export default function App({ Component, pageProps }: AppProps) {
       </ChakraProvider>
     </>
   );
-}
+};
+
+export default App;
