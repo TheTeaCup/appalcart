@@ -1,6 +1,6 @@
 import { extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
-import {menuTheme} from "@/utils/theme/menu.tsx";
+import { menuTheme } from "@/utils/theme/menu.tsx";
 
 const theme = extendTheme({
   config: {
