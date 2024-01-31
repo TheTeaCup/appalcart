@@ -1,13 +1,11 @@
 import SEO from "@/components/seo";
 import {
   Button,
-  Container,
   Flex,
   Heading,
   Image,
   Stack,
   Text,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 import NextLink from "next/link";
