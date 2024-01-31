@@ -3,7 +3,8 @@ import {
   Button,
   Flex,
   Heading,
-  Image, Link,
+  Image,
+  Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -67,21 +68,29 @@ const AboutHome = () => {
         </Stack>
 
         <Stack mt={5} direction={{ base: "column", md: "row" }}>
-          <Flex flex={1} position="relative" >
+          <Flex flex={1} position="relative">
             <Image
-                draggable={false}
-                alt={"Login Image"}
-                objectFit={"cover"}
-                src={"/about_services.webp"}
+              draggable={false}
+              alt={"Login Image"}
+              objectFit={"cover"}
+              src={"/about_services.webp"}
             />
             <Flex
-                position="absolute"
-                bottom={0}
-                left={7}
-                color={"gray.800"}
-                fontSize="sm"
+              position="absolute"
+              bottom={0}
+              left={7}
+              color={"gray.800"}
+              fontSize="sm"
             >
-              Image Credit: {" "} <Link href={"https://theappalachianonline.com/opinion-students-need-to-work-with-appalcart-to-adapt-to-route-changes/"}>The Appalachian, V. Fortea</Link> {" ,"} 2018
+              Image Credit:{" "}
+              <Link
+                href={
+                  "https://theappalachianonline.com/opinion-students-need-to-work-with-appalcart-to-adapt-to-route-changes/"
+                }
+              >
+                The Appalachian, V. Fortea
+              </Link>{" "}
+              {" ,"} 2018
             </Flex>
           </Flex>
           <Flex p={8} flex={1} align={"center"} justify={"center"}>
@@ -126,7 +135,7 @@ const AboutHome = () => {
             </Stack>
           </Flex>
         </Stack>
-        <br/>
+        <br />
       </Navbar>
     </>
   );

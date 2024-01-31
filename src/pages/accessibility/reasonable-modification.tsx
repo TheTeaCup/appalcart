@@ -3,17 +3,17 @@ import { Flex, Text } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 
 const AccessibilityReasonableModification = () => {
-    return (
-        <>
-            <SEO title={"Accessibility"} />
+  return (
+    <>
+      <SEO title={"Reasonable Modification"} />
 
-            <Navbar>
-                <Flex minH={"40vh"} align={"center"} justify={"center"}>
-                    <Text fontSize={{ md: "xl" }}>Reasonable Modification</Text>
-                </Flex>
-            </Navbar>
-        </>
-    );
+      <Navbar>
+        <Flex minH={"40vh"} align={"center"} justify={"center"}>
+          <Text fontSize={{ md: "xl" }}>Reasonable Modification</Text>
+        </Flex>
+      </Navbar>
+    </>
+  );
 };
 
 export default AccessibilityReasonableModification;

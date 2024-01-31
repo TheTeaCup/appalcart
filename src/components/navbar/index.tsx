@@ -97,7 +97,7 @@ const links = [
       },
       {
         name: "Regional Travel",
-        url: "/services/advertising",
+        url: "/services/regional-travel",
       },
       {
         name: "Advertising",

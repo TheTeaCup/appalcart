@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar";
 const RoutesMapsSchedulesGameDay = () => {
   return (
     <>
-      <SEO title={"Route Maps and Schedules"} />
+      <SEO title={"Game Day Route Maps and Schedules"} />
 
       <Navbar>
         <Flex minH={"40vh"} align={"center"} justify={"center"}>
