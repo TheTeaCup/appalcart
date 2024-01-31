@@ -34,12 +34,24 @@ const links = [
         url: "/about/history",
       },
       {
+        name: "News and Updates",
+        url: "/blog",
+      },
+      {
         name: "Board of Directors",
         url: "/about/board-of-directors",
       },
       {
+        name: "Board Documents",
+        url: "/about/board-documents",
+      },
+      {
         name: "Title VI",
         url: "/about/title-vi",
+      },
+      {
+        name: "Statistics",
+        url: "/statistics",
       },
     ],
   },
