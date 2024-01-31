@@ -3,12 +3,13 @@ import {
   Button,
   Flex,
   Heading,
-  Image,
+  Image, Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 import NextLink from "next/link";
+import Footer from "@/components/footer.tsx";
 
 const AboutHome = () => {
   return (
@@ -67,13 +68,22 @@ const AboutHome = () => {
         </Stack>
 
         <Stack mt={5} direction={{ base: "column", md: "row" }}>
-          <Flex flex={1}>
+          <Flex flex={1} position="relative" >
             <Image
-              draggable={false}
-              alt={"Login Image"}
-              objectFit={"cover"}
-              src={"/about_services.webp"}
+                draggable={false}
+                alt={"Login Image"}
+                objectFit={"cover"}
+                src={"/about_services.webp"}
             />
+            <Flex
+                position="absolute"
+                bottom={0}
+                left={7}
+                color={"gray.800"}
+                fontSize="sm"
+            >
+              Image Credit: {" "} <Link href={"https://theappalachianonline.com/opinion-students-need-to-work-with-appalcart-to-adapt-to-route-changes/"}>The Appalachian, V. Fortea</Link> {" ,"} 2018
+            </Flex>
           </Flex>
           <Flex p={8} flex={1} align={"center"} justify={"center"}>
             <Stack spacing={6} w={"full"} maxW={"lg"}>
@@ -117,7 +127,9 @@ const AboutHome = () => {
             </Stack>
           </Flex>
         </Stack>
+        <br/>
       </Navbar>
+      <Footer/>
     </>
   );
 };
