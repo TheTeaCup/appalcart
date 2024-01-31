@@ -59,8 +59,9 @@ const AboutHome = () => {
           </Flex>
           <Flex flex={1}>
             <Image
+              loading={"lazy"}
               draggable={false}
-              alt={"Login Image"}
+              alt={"Head Quarters Image"}
               objectFit={"cover"}
               src={"/appalcart.webp"}
             />
@@ -70,8 +71,9 @@ const AboutHome = () => {
         <Stack mt={5} direction={{ base: "column", md: "row" }}>
           <Flex flex={1} position="relative">
             <Image
+              loading={"lazy"}
               draggable={false}
-              alt={"Login Image"}
+              alt={"About Services Image"}
               objectFit={"cover"}
               src={"/about_services.webp"}
             />
