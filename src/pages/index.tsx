@@ -103,16 +103,6 @@ const Home = () => {
                     allowFullScreen
                   />
                 </AspectRatio>
-
-                {/*<Image
-                              alt={"YouTube Video"}
-                              fit={"cover"}
-                              align={"center"}
-                              w={"100%"}
-                              h={"100%"}
-                              src={"https://youtu.be/9LeVgqGI40Y?list=TLGGw3D4ubzv15QzMDAxMjAyNA"}
-                          />
-*/}
               </Box>
             </Flex>
           </Stack>

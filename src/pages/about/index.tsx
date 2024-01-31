@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 import Navbar from "@/components/navbar";
 import NextLink from "next/link";
-import Footer from "@/components/footer.tsx";
 
 const AboutHome = () => {
   return (
@@ -129,7 +128,6 @@ const AboutHome = () => {
         </Stack>
         <br/>
       </Navbar>
-      <Footer/>
     </>
   );
 };
