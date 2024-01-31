@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar";
 const Home = () => {
   return (
     <>
-      <SEO title={"Home"} />
+      <SEO title={"Employment"} />
 
       <Navbar>
         <Flex minH={"40vh"} align={"center"} justify={"center"}>
