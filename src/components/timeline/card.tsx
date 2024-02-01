@@ -53,12 +53,13 @@ const TimelineCard = ({ id, title, description, date }: CardProps) => {
       }}
     >
       <Box>
-        <Text fontSize="lg">{date}</Text>
-
         <VStack spacing={2} mb={3} textAlign="left">
           <chakra.h1 fontSize="2xl" lineHeight={1.2} fontWeight="bold" w="100%">
             {title}
           </chakra.h1>
+          <Text as={"i"} w="100%" fontSize="lg">
+            {date}
+          </Text>
           <Text
             fontSize="md"
             dangerouslySetInnerHTML={{
