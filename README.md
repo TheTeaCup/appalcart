@@ -30,6 +30,6 @@
 
 - Run `npm run build` to build the app for production.
 - Run `npm run start` to start the production server.
-- Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 </div>
