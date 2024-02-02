@@ -16,6 +16,15 @@ const nextRedirects = {
         destination: "https://discord.gg/9Fk75sXVZZ",
         permanent: false,
       },
+      {
+        source: "/twitter",
+        destination: "https://twitter.com/appalcart",
+        permanent: true,
+      },
+      {
+        source: "/instagram",
+        destination: "https://www.instagram.com/appalcarttransit",
+      }
     ];
   },
 };
