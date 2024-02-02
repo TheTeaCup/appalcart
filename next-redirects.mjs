@@ -24,6 +24,7 @@ const nextRedirects = {
       {
         source: "/instagram",
         destination: "https://www.instagram.com/appalcarttransit",
+        permanent: true,
       },
     ];
   },
