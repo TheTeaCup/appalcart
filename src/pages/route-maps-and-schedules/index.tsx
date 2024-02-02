@@ -13,6 +13,8 @@ import {
 import Navbar from "@/components/navbar";
 import NextLink from "next/link";
 import Routes from "@/data/routes.json";
+import BreakRoutes from "@/data/break_routes.json";
+import NightOwl from "@/data/night_owl_routes.json";
 import Circle from "@/components/circle.tsx";
 
 const RoutesMapsSchedulesHome = () => {
@@ -95,12 +97,92 @@ const RoutesMapsSchedulesHome = () => {
             justifyContent="center"
             justifyItems="center"
             placeContent={"center"}
+            mb={5}
           >
             {Routes.map((route) => {
               return (
                 <Circle
                   key={route.name}
                   initials={route.initials}
+                  bgColor={route.hex}
+                  name={route.name}
+                  pdf={route.pdf}
+                />
+              );
+            })}
+          </SimpleGrid>
+        </Center>
+
+        <Divider
+          css={{ borderBottomWidth: "3px" }}
+          size={"10px"}
+          mt={5}
+          mb={5}
+        />
+
+        <Text fontSize="3xl" textAlign="center" fontWeight="bold">
+          Break Schedule Routes
+        </Text>
+        <Text fontSize="lg" textAlign="center">
+          Effective August 2023
+        </Text>
+        <Text mt={2} fontSize="md" textAlign="center">
+          Break Schedule Routes operate during ASU Winter, Summer, and Holiday
+          Breaks
+        </Text>
+
+        <Center mt={5}>
+          <SimpleGrid
+            columns={[1, 2, 4]}
+            spacing={10}
+            justifyContent="center"
+            justifyItems="center"
+            placeContent={"center"}
+            mb={5}
+          >
+            {BreakRoutes.map((route) => {
+              return (
+                <Circle
+                  key={route.name}
+                  initials={route.initials}
+                  bgColor={route.hex}
+                  name={route.name}
+                  pdf={route.pdf}
+                />
+              );
+            })}
+          </SimpleGrid>
+        </Center>
+
+        <Divider
+          css={{ borderBottomWidth: "3px" }}
+          size={"10px"}
+          mt={5}
+          mb={5}
+        />
+
+        <Text fontSize="3xl" textAlign="center" fontWeight="bold">
+          Night Owl Routes
+        </Text>
+        <Text fontSize="lg" textAlign="center">
+          Maps effective as of July 2021
+        </Text>
+
+        <Center mt={5}>
+          <SimpleGrid
+            columns={[1, 2, 3]}
+            spacing={10}
+            justifyContent="center"
+            justifyItems="center"
+            placeContent={"center"}
+            mb={5}
+          >
+            {NightOwl.map((route) => {
+              return (
+                <Circle
+                  key={route.name}
+                  initials={route.initials}
+                  initialsColor={route.initialsHex}
                   bgColor={route.hex}
                   name={route.name}
                   pdf={route.pdf}

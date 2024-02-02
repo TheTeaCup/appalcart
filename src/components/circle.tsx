@@ -3,12 +3,19 @@ import NextLink from "next/link";
 
 interface CircleProps {
   initials: string;
+  initialsColor?: string;
   bgColor: string;
   name: string;
   pdf: string;
 }
 
-const Circle = ({ initials, bgColor, name, pdf }: CircleProps) => {
+const Circle = ({
+  initials,
+  initialsColor,
+  bgColor,
+  name,
+  pdf,
+}: CircleProps) => {
   return (
     <Box key={name} textAlign="center">
       <NextLink href={pdf} target="_about">
@@ -22,7 +29,11 @@ const Circle = ({ initials, bgColor, name, pdf }: CircleProps) => {
             alignItems="center"
             justifyContent="center"
           >
-            <Text fontSize="2xl" fontWeight="bold" color="white">
+            <Text
+              color={initialsColor ? initialsColor : "white"}
+              fontSize="3xl"
+              fontWeight="bold"
+            >
               {initials}
             </Text>
           </Box>
