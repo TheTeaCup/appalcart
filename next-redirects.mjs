@@ -7,11 +7,15 @@ const nextRedirects = {
         permanent: true,
       },
       {
-        /* this isn't working?? */
         source: "/live",
         destination: "/route-maps-and-schedules/live-transit",
         permanent: true,
       },
+      {
+        source: "/discord",
+        destination: "https://discord.gg/9Fk75sXVZZ",
+        permanent: false,
+      }
     ];
   },
 };
