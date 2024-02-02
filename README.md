@@ -7,7 +7,7 @@
 
 ### This is a redo of their website, which can be found [here](https://www.appalcart.com/)
 
-# Discord Server: [https://discord.gg/9Fk75sXVZZ](https://discord.gg/9Fk75sXVZZ)
+#### Discord Server: [https://discord.gg/9Fk75sXVZZ](https://discord.gg/9Fk75sXVZZ)
 
 ## Tech Stack
 

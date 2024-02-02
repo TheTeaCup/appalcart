@@ -15,7 +15,7 @@ const nextRedirects = {
         source: "/discord",
         destination: "https://discord.gg/9Fk75sXVZZ",
         permanent: false,
-      }
+      },
     ];
   },
 };
