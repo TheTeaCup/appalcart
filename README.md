@@ -5,7 +5,9 @@
 <h4>Providing public transportation for the High Country since 1981</h4>
 </div>
 
-### This is a redo of their webstie, which can be found [here](https://www.appalcart.com/)
+### This is a redo of their website, which can be found [here](https://www.appalcart.com/)
+
+# Discord Server: [https://discord.gg/9Fk75sXVZZ](https://discord.gg/9Fk75sXVZZ)
 
 ## Tech Stack
 
