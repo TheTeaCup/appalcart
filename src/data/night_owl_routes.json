@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Express",
+    "initals": "E",
+    "color": "darkblue",
+    "pdf": "/routes/night_owl/express.pdf"
+  },
+  {
+    "name": "Gold",
+    "initals": "G",
+    "color": "darkblue",
+    "pdf": "/routes/night_owl/gold.pdf"
+  },
+  {
+    "name": "Pop 105",
+    "initals": "POP",
+    "color": "darkblue",
+    "pdf": "/routes/night_owl/pop_105.pdf"
+  }
+]
