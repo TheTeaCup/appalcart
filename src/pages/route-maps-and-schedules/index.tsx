@@ -76,12 +76,15 @@ const RoutesMapsSchedulesHome = () => {
           </Grid>
         </Center>
 
-        <Divider
-          css={{ borderBottomWidth: "3px" }}
-          size={"10px"}
-          mt={5}
-          mb={5}
-        />
+        <Center>
+          <Divider
+              css={{ borderBottomWidth: "3px" }}
+              size={"10px"}
+              width={"50%"}
+              mt={5}
+              mb={5}
+          />
+        </Center>
 
         <Text fontSize="3xl" textAlign="center" fontWeight="bold">
           Route maps and schedules
@@ -113,12 +116,15 @@ const RoutesMapsSchedulesHome = () => {
           </SimpleGrid>
         </Center>
 
-        <Divider
-          css={{ borderBottomWidth: "3px" }}
-          size={"10px"}
-          mt={5}
-          mb={5}
-        />
+        <Center>
+          <Divider
+              css={{ borderBottomWidth: "3px" }}
+              size={"10px"}
+              width={"50%"}
+              mt={5}
+              mb={5}
+          />
+        </Center>
 
         <Text fontSize="3xl" textAlign="center" fontWeight="bold">
           Break Schedule Routes
@@ -154,12 +160,15 @@ const RoutesMapsSchedulesHome = () => {
           </SimpleGrid>
         </Center>
 
-        <Divider
-          css={{ borderBottomWidth: "3px" }}
-          size={"10px"}
-          mt={5}
-          mb={5}
-        />
+        <Center>
+          <Divider
+              css={{ borderBottomWidth: "3px" }}
+              size={"10px"}
+              width={"50%"}
+              mt={5}
+              mb={5}
+          />
+        </Center>
 
         <Text fontSize="3xl" textAlign="center" fontWeight="bold">
           Night Owl Routes
