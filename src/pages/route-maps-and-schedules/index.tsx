@@ -200,6 +200,29 @@ const RoutesMapsSchedulesHome = () => {
             })}
           </SimpleGrid>
         </Center>
+
+        <Center>
+          <Divider
+              css={{ borderBottomWidth: "3px" }}
+              size={"10px"}
+              width={"50%"}
+              mt={5}
+              mb={5}
+          />
+        </Center>
+
+        <Text fontSize="3xl" textAlign="center" fontWeight="bold">
+          Using Google Maps to Find a Route
+        </Text>
+        <Text fontSize="lg" textAlign="center">
+        {/*  If you are unable to use our latest real-time app,*/}
+        {/*  you can still find if a route comes near you*/}
+        {/*  or determine which route to take by using Google Maps.*/}
+        {/*  The following example is from using Google Maps on a desktop computer. <br/>*/}
+        {/*  Please note this is an example and the times resulting below will need to be checked for the current day.*/}
+        To Do
+        </Text>
+
       </Navbar>
     </>
   );
