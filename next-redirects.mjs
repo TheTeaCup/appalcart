@@ -18,7 +18,7 @@ const nextRedirects = {
       },
       {
         source: "/twitter",
-        destination: "https://twitter.com/appalcart",
+        destination: "https://twitter.com/AppalCART",
         permanent: true,
       },
       {
