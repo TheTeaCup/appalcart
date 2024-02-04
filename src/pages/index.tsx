@@ -97,7 +97,7 @@ const Home = () => {
               >
                 <AspectRatio>
                   <iframe
-                    src="https://www.youtube.com/embed/9LeVgqGI40Y?list=TLGGw3D4ubzv15QzMDAxMjAyNA"
+                    src="https://www.youtube.com/embed/9LeVgqGI40Y"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
