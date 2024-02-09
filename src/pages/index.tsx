@@ -69,7 +69,7 @@ const Home = () => {
                 </Button>
                 <Button
                   as={NextLink}
-                  href={"/route-maps-and-schedules"}
+                  href={"/route-maps-and-schedules#night-owl"}
                   variant={"ghost"}
                   rounded={"full"}
                   size={"lg"}
