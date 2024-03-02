@@ -1,6 +1,6 @@
 import { NextSeo } from "next-seo";
 import React from "react";
-import siteConfig from "../../website/next-seo.config.mjs";
+import siteConfig from "../../next-seo.config.mjs";
 
 const SEO = ({
   title,
