@@ -14,16 +14,16 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./src/*"]
     },
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "next.config.mjs",
-    "next-seo.config.mjs",
+    "website/next.config.mjs",
+    "website/next-seo.config.mjs"
   ],
-  "exclude": ["node_modules"],
+  "exclude": ["../node_modules"]
 }

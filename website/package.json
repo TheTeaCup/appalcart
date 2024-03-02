@@ -2,11 +2,11 @@
   "name": "appalcart",
   "version": "0.0.1",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write . && eslint --ext .js,.ts --fix"
+    "dev": "../node_modules/.bin/next dev",
+    "build": "../node_modules/.bin/next build",
+    "start": "../node_modules/.bin/next start",
+    "lint": "../node_modules/.bin/next lint",
+    "format": "../node_modules/.bin/prettier --write . && eslint --ext .js,.ts --fix"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
