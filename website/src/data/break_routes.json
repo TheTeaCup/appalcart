@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Express",
+    "initials": "E",
+    "hex": "#B9CBE2",
+    "pdf": "/routes/breaks/express.pdf"
+  },
+  {
+    "name": "Gold",
+    "initials": "G",
+    "hex": "#DEDC84",
+    "pdf": "/routes/breaks/gold.pdf"
+  },
+  {
+    "name": "Green",
+    "initials": "GR",
+    "hex": "#57BF97",
+    "pdf": "/routes/breaks/green.pdf"
+  },
+  {
+    "name": "Orange",
+    "initials": "O",
+    "hex": "#E09244",
+    "pdf": "/routes/breaks/orange.pdf"
+  },
+  {
+    "name": "Pop 105",
+    "initials": "POP",
+    "hex": "#859D43",
+    "pdf": "/routes/breaks/pop105.pdf"
+  },
+  {
+    "name": "Purple",
+    "initials": "P",
+    "hex": "#995BA5",
+    "pdf": "/routes/breaks/purple.pdf"
+  },
+  {
+    "name": "Red",
+    "initials": "R",
+    "hex": "#E04C5C",
+    "pdf": "/routes/breaks/red.pdf"
+  },
+  {
+    "name": "Gray",
+    "initials": "GY",
+    "hex": "#59595C",
+    "pdf": "/routes/breaks/gray.pdf"
+  }
+]

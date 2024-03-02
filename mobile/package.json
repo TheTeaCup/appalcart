@@ -1,0 +1,42 @@
+{
+  "name": "appalcart-mobile",
+  "version": "0.0.2",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "format": "prettier --write . && eslint . --ext .js,.ts --fix"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.1.3",
+    "@expo/vector-icons": "^14.0.0",
+    "@react-native-async-storage/async-storage": "^1.22.2",
+    "@react-navigation/bottom-tabs": "^6.5.12",
+    "@react-navigation/native": "^6.1.10",
+    "@react-navigation/native-stack": "^6.9.18",
+    "@sentry/react-native": "5.17.0",
+    "expo": "~50.0.8",
+    "expo-dev-client": "~3.3.9",
+    "expo-status-bar": "~1.11.1",
+    "expo-updates": "~0.24.11",
+    "native-base": "^3.4.28",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-map-clustering": "^3.4.2",
+    "react-native-maps": "1.10.0",
+    "react-native-paper": "^5.12.3",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "prettier": "^3.1.1",
+    "typescript": "^5.1.3"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "AppalCART",
+    "slug": "appalcart",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.hunterwilson.appalcart"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "dev.hunterwilson.appalcart"
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "appalcart",
+          "project": "mobile-app"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cb226330-d881-4e48-b30b-3fe5a552a082"
+      }
+    },
+    "owner": "howdyhooter",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cb226330-d881-4e48-b30b-3fe5a552a082"
+    }
+  }
+}

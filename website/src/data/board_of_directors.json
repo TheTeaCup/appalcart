@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Quint David",
+    "title": "Chair",
+    "image": "/board/Quint_David.webp"
+  },
+  {
+    "id": 2,
+    "name": "Barry Sauls",
+    "title": "Vice Chair",
+    "image": "/board/Barry_Sauls.webp"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Wallin",
+    "title": "Commissioner",
+    "image": "/board/Charlie_Wallin.webp"
+  },
+  {
+    "id": 4,
+    "name": "Todd Carter",
+    "title": "Boone Town Council",
+    "image": "/board/Todd_Carter.webp"
+  },
+  {
+    "id": 5,
+    "name": "Angie Boitnotte",
+    "title": "Project on Aging",
+    "image": "/board/Angie_Boitnotte.webp"
+  },
+  {
+    "id": 6,
+    "name": "David Jackson",
+    "title": "Member at Large",
+    "image": "/board/David_Jackson.webp"
+  },
+  {
+    "id": 7,
+    "name": "Joe Eller",
+    "title": "Rider Representative",
+    "image": "/board/Joe_Eller.webp"
+  },
+  {
+    "id": 8,
+    "name": "John Eckman",
+    "title": "ASU Representative",
+    "image": "/board/John_Eckman.webp"
+  }
+]

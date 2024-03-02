@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Blue",
+    "initials": "B",
+    "hex": "#4995D1",
+    "pdf": "/routes/blue.pdf"
+  },
+  {
+    "name": "Express",
+    "initials": "E",
+    "hex": "#B9CBE2",
+    "pdf": "/routes/express.pdf"
+  },
+  {
+    "name": "Gold",
+    "initials": "G",
+    "hex": "#DEDC84",
+    "pdf": "/routes/gold.pdf"
+  },
+  {
+    "name": "Gray",
+    "initials": "GY",
+    "hex": "#59595C",
+    "pdf": "/routes/gray.pdf"
+  },
+  {
+    "name": "Green",
+    "initials": "GR",
+    "hex": "#57BF97",
+    "pdf": "/routes/green.pdf"
+  },
+  {
+    "name": "NC 105 Lot Shuttle",
+    "initials": "NC",
+    "hex": "#AEDED6",
+    "pdf": "/routes/105lot.pdf"
+  },
+  {
+    "name": "Orange",
+    "initials": "O",
+    "hex": "#E09244",
+    "pdf": "/routes/orange.pdf"
+  },
+  {
+    "name": "Pink",
+    "initials": "PK",
+    "hex": "#D16BAA",
+    "pdf": "/routes/pink.pdf"
+  },
+  {
+    "name": "Pop 105",
+    "initials": "POP",
+    "hex": "#859D43",
+    "pdf": "/routes/pop105.pdf"
+  },
+  {
+    "name": "Purple",
+    "initials": "P",
+    "hex": "#995BA5",
+    "pdf": "/routes/purple.pdf"
+  },
+  {
+    "name": "Red",
+    "initials": "R",
+    "hex": "#E04C5C",
+    "pdf": "/routes/red.pdf"
+  },
+  {
+    "name": "Silver",
+    "initials": "SV",
+    "hex": "#949494",
+    "pdf": "/routes/silver.pdf"
+  },
+  {
+    "name": "State Farm Lot Shuttle",
+    "initials": "SF",
+    "hex": "#4F51A3",
+    "pdf": "/routes/state_farm.pdf"
+  },
+  {
+    "name": "Wellness District",
+    "initials": "W",
+    "hex": "#D3B1D0",
+    "pdf": "/routes/wellness.pdf"
+  }
+]
