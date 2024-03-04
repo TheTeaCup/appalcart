@@ -16,12 +16,20 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "dev.hunterwilson.appalcart"
+      "bundleIdentifier": "dev.hunterwilson.appalcart",
+        "config": {
+            "googleMapsApiKey": "AIzaSyAwnmeIDOeAX8hFs0FVTLfPGQ9rvND703U"
+        }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAwnmeIDOeAX8hFs0FVTLfPGQ9rvND703U"
+        }
       },
       "package": "dev.hunterwilson.appalcart"
     },
