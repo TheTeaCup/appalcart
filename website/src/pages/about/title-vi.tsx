@@ -33,7 +33,7 @@ const AboutTitleVI = () => {
         </Text>
 
         <Text mt={5} textAlign={"center"}>
-          For more information on AppalCART's Title VI program and the
+          For more information on AppalCART&#39;s Title VI program and the
           procedures to file a complaint, contact the Transportation Director at
           828.297.1300 extension 104. You may also email the Transportation
           Director at director@appalcart.com or visit our office at 305 NC
