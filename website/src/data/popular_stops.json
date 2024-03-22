@@ -4,23 +4,11 @@
     "stops": [
       {
         "name": "College St Station",
-        "buses": [
-          "gold",
-          "green",
-          "orange",
-          "red",
-          "nightOwlGold"
-        ]
+        "buses": ["gold", "green", "orange", "red", "nightOwlGold"]
       },
       {
         "name": "Peacock Traffic Circle",
-        "buses": [
-          "blue",
-          "express",
-          "pink",
-          "purple",
-          "nightOwlExpress"
-        ]
+        "buses": ["blue", "express", "pink", "purple", "nightOwlExpress"]
       },
       {
         "name": "Garwood Hall",
@@ -37,12 +25,7 @@
       },
       {
         "name": "College of Health Sciences",
-        "buses": [
-          "express",
-          "pink",
-          "red",
-          "wellness"
-        ]
+        "buses": ["express", "pink", "red", "wellness"]
       }
     ]
   },
@@ -51,27 +34,15 @@
     "stops": [
       {
         "name": "Walmart",
-        "buses": [
-          "Red",
-          "Express",
-          "nightOwlExpress"
-        ]
+        "buses": ["Red", "Express", "nightOwlExpress"]
       },
       {
         "name": "Boone Mall",
-        "buses": [
-          "Express",
-          "Pink",
-          "Purple",
-          "nightOwlExpress"
-        ]
+        "buses": ["Express", "Pink", "Purple", "nightOwlExpress"]
       },
       {
         "name": "New Market",
-        "buses": [
-          "Orange",
-          "Green"
-        ]
+        "buses": ["Orange", "Green"]
       }
     ]
   }
