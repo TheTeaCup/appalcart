@@ -1,0 +1,106 @@
+[
+  {
+    "name": "About",
+    "sections": [
+      {
+        "name": "Who We Are",
+        "url": "/about/"
+      },
+      {
+        "name": "History",
+        "url": "/about/history"
+      },
+      {
+        "name": "News and Updates",
+        "url": "/blog"
+      },
+      {
+        "name": "Board of Directors",
+        "url": "/about/board-of-directors"
+      },
+      {
+        "name": "Board Documents",
+        "url": "/about/board-documents"
+      },
+      {
+        "name": "Title VI",
+        "url": "/about/title-vi"
+      },
+      {
+        "name": "Statistics",
+        "url": "/statistics"
+      }
+    ]
+  },
+  {
+    "name": "Routes & Schedules",
+    "sections": [
+      {
+        "name": "Route Maps and Schedules",
+        "url": "/route-maps-and-schedules/"
+      },
+      {
+        "name": "Live Bus Tracking",
+        "url": "/route-maps-and-schedules/live-transit"
+      },
+      {
+        "name": "Game Day Routes",
+        "url": "/route-maps-and-schedules/game-day"
+      },
+      {
+        "name": "Inclement Weather Alterations",
+        "url": "/route-maps-and-schedules/inclement-weather"
+      },
+      {
+        "name": "Riders Guide",
+        "url": "/route-maps-and-schedules/riders-guide"
+      }
+    ]
+  },
+  {
+    "name": "Services",
+    "sections": [
+      {
+        "name": "Fixed Route",
+        "url": "/services/fixed-route"
+      },
+      {
+        "name": "Paratransit",
+        "url": "/services/paratransit"
+      },
+      {
+        "name": "Rural Services",
+        "url": "/services/rural-services"
+      },
+      {
+        "name": "Regional Travel",
+        "url": "/services/regional-travel"
+      },
+      {
+        "name": "Advertising",
+        "url": "/services/advertising"
+      }
+    ]
+  },
+  {
+    "name": "Accessibility",
+    "sections": [
+      {
+        "name": "Accessibility on Fixed Route",
+        "url": "/accessibility"
+      },
+      {
+        "name": "Reasonable Modification",
+        "url": "/accessibility/reasonable-modification"
+      }
+    ]
+  },
+  {
+    "name": "Employment",
+    "url": "/employment"
+  },
+  {
+    "name": "Contact Us",
+    "url": "/contact-us"
+  }
+]

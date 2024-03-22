@@ -20,113 +20,7 @@ import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { ReactNode } from "react";
 import NavLink from "@/components/navbar/link.tsx";
 import NextLink from "next/link";
-
-const links = [
-  {
-    name: "About",
-    sections: [
-      {
-        name: "Who We Are",
-        url: "/about/",
-      },
-      {
-        name: "History",
-        url: "/about/history",
-      },
-      {
-        name: "News and Updates",
-        url: "/blog",
-      },
-      {
-        name: "Board of Directors",
-        url: "/about/board-of-directors",
-      },
-      {
-        name: "Board Documents",
-        url: "/about/board-documents",
-      },
-      {
-        name: "Title VI",
-        url: "/about/title-vi",
-      },
-      {
-        name: "Statistics",
-        url: "/statistics",
-      },
-    ],
-  },
-  {
-    name: "Routes & Schedules",
-    sections: [
-      {
-        name: "Route Maps and Schedules",
-        url: "/route-maps-and-schedules/",
-      },
-      {
-        name: "Live Bus Tracking",
-        url: "/route-maps-and-schedules/live-transit",
-      },
-      {
-        name: "Game Day Routes",
-        url: "/route-maps-and-schedules/game-day",
-      },
-      {
-        name: "Inclement Weather Alterations",
-        url: "/route-maps-and-schedules/inclement-weather",
-      },
-      {
-        name: "Riders Guide",
-        url: "/route-maps-and-schedules/riders-guide",
-      },
-    ],
-  },
-  {
-    name: "Services",
-    sections: [
-      {
-        name: "Fixed Route",
-        url: "/services/fixed-route",
-      },
-      {
-        name: "Paratransit",
-        url: "/services/paratransit",
-      },
-      {
-        name: "Rural Services",
-        url: "/services/rural-services",
-      },
-      {
-        name: "Regional Travel",
-        url: "/services/regional-travel",
-      },
-      {
-        name: "Advertising",
-        url: "/services/advertising",
-      },
-    ],
-  },
-  {
-    name: "Accessibility",
-    sections: [
-      {
-        name: "Accessibility on Fixed Route",
-        url: "/accessibility",
-      },
-      {
-        name: "Reasonable Modification",
-        url: "/accessibility/reasonable-modification",
-      },
-    ],
-  },
-  {
-    name: "Employment",
-    url: "/employment",
-  },
-  {
-    name: "Contact Us",
-    url: "/contact-us",
-  },
-];
+import links from "@/data/navbar_links.json";
 
 const Navbar = ({ children }: { children?: ReactNode }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -134,7 +28,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
 
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+      <Box zIndex={999} bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <HStack spacing={8} alignItems={"center"}>
             <Box>
@@ -211,6 +105,7 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
           </Flex>
         </Flex>
 
+        {/* mobile navbar when opened */}
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
@@ -219,10 +114,10 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
                   return (
                     <div key={link.name}>
                       {/* todo: use a list here */}
-                      <Heading as={"h3"} size={"md"}>
+                      <Heading textAlign={"center"} as={"h4"} size={"md"}>
                         {link.name}
                       </Heading>
-                      <Stack as={"nav"} spacing={4} pl={4}>
+                      <Stack mt={2} as={"nav"} spacing={2}>
                         {link.sections.map((section) => (
                           <NavLink key={section.name}>{section}</NavLink>
                         ))}
@@ -238,7 +133,9 @@ const Navbar = ({ children }: { children?: ReactNode }) => {
         ) : null}
       </Box>
 
-      <Box p={4}>{children}</Box>
+      <Box display={isOpen ? "none" : ""} p={4}>
+        {children}
+      </Box>
     </>
   );
 };
