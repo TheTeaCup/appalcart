@@ -1,7 +1,7 @@
 <div>
 <div align="center">
   <br />
-<h1>AppalCART</h1>
+<h1>AppalCART - Website</h1>
 <h4>Providing public transportation for the High Country since 1981</h4>
 </div>
 
