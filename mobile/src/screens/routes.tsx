@@ -12,7 +12,7 @@ import { Route } from "../types";
 import CheckmarkSVG from "../components/checkmark";
 import useSelectedRoutes from "../utils/useSelectedRoutes";
 
-function Routes() {
+const Routes = () => {
   const { colors } = useTheme();
 
   const [routes, setRoutes] = useState<Route[]>([]);
@@ -86,7 +86,7 @@ function Routes() {
       ))}
     </ScrollView>
   );
-}
+};
 
 export default Routes;
 

@@ -22,8 +22,8 @@ Sentry.init({
   enableAutoPerformanceTracing: true,
 });
 
-function App() {
-  const Tab = createBottomTabNavigator();
+const App = () => {
+  const tab = createBottomTabNavigator();
   const scheme = useColorScheme();
 
   return (
@@ -32,9 +32,9 @@ function App() {
         <NavigationContainer
           theme={scheme === "dark" ? DarkTheme : DefaultTheme}
         >
-          <Tab.Navigator
+          <tab.Navigator
             screenOptions={({ route }) => ({
-              tabBarIcon: ({ focused, color, size }) => {
+              tabBarIcon: ({ color, size }) => {
                 if (route.name === "Map") {
                   return <Feather name={"map-pin"} size={size} color={color} />;
                 } else if (route.name === "Routes") {
@@ -53,14 +53,14 @@ function App() {
               },
             })}
           >
-            <Tab.Screen name="Map" component={Home} />
-            <Tab.Screen name="Routes" component={Routes} />
-            <Tab.Screen name="Alerts" component={Alerts} />
-          </Tab.Navigator>
+            <tab.Screen name="Map" component={Home} />
+            <tab.Screen name="Routes" component={Routes} />
+            <tab.Screen name="Alerts" component={Alerts} />
+          </tab.Navigator>
         </NavigationContainer>
       </PaperProvider>
     </>
   );
-}
+};
 
 export default Sentry.wrap(App);

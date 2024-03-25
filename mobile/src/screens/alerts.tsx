@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { useTheme } from "@react-navigation/native";
 
-function Home() {
+const Home = () => {
   const { colors } = useTheme();
 
   return (
@@ -10,7 +10,7 @@ function Home() {
       <Text style={{ color: colors.text }}>AppalCART Alerts</Text>
     </View>
   );
-}
+};
 
 export default Home;
 

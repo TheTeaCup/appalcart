@@ -8,6 +8,7 @@ interface BusMarkerProps {
   title: string;
   longitude: number;
   latitude: number;
+  color: string;
 }
 
 export { Route, BusMarkerProps };

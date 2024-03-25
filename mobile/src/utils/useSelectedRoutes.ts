@@ -1,5 +1,5 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {useEffect, useState} from "react";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useEffect, useState } from "react";
 
 // Inside your useSelectedRoutes hook
 
@@ -9,12 +9,12 @@ const useSelectedRoutes = () => {
   useEffect(() => {
     const fetchSelectedRoutes = async () => {
       try {
-        const storedRoutes = await AsyncStorage.getItem('selectedRoutes');
+        const storedRoutes = await AsyncStorage.getItem("selectedRoutes");
         if (storedRoutes !== null) {
           setSelectedRoutes(JSON.parse(storedRoutes));
         }
       } catch (error) {
-        console.error('Error fetching selected routes:', error);
+        console.error("Error fetching selected routes:", error);
       }
     };
 
@@ -23,14 +23,17 @@ const useSelectedRoutes = () => {
 
   const handleRouteSelection = async (routeId: number) => {
     const updatedRoutes = selectedRoutes.includes(routeId)
-        ? selectedRoutes.filter((id) => id !== routeId)
-        : [...selectedRoutes, routeId];
+      ? selectedRoutes.filter((id) => id !== routeId)
+      : [...selectedRoutes, routeId];
 
     try {
-      await AsyncStorage.setItem('selectedRoutes', JSON.stringify(updatedRoutes));
+      await AsyncStorage.setItem(
+        "selectedRoutes",
+        JSON.stringify(updatedRoutes),
+      );
       setSelectedRoutes(updatedRoutes);
     } catch (error) {
-      console.error('Error saving selected routes:', error);
+      console.error("Error saving selected routes:", error);
     }
   };
 
