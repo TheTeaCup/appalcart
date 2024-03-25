@@ -1,12 +1,6 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "plugins": [
-    "prefer-arrow",
-    "@typescript-eslint"
-  ],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "plugins": ["prefer-arrow", "@typescript-eslint"],
   "rules": {
     "quotes": [
       "error",
@@ -15,10 +9,7 @@
         "avoidEscape": true
       }
     ],
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
+    "object-curly-spacing": ["error", "always"],
     "react-hooks/exhaustive-deps": "off",
     "prefer-arrow/prefer-arrow-functions": "error",
     "camelcase": "error",
@@ -26,19 +17,12 @@
       "error",
       {
         "selector": "variable",
-        "types": [
-          "function"
-        ],
-        "format": [
-          "camelCase",
-          "PascalCase"
-        ]
+        "types": ["function"],
+        "format": ["camelCase", "PascalCase"]
       },
       {
         "selector": "variable",
-        "format": [
-          "camelCase"
-        ]
+        "format": ["camelCase"]
       }
     ]
   },
@@ -46,7 +30,5 @@
     "project": "./tsconfig.json"
   },
   "root": true,
-  "ignorePatterns": [
-    "babel.config.js"
-  ]
+  "ignorePatterns": ["babel.config.js"]
 }

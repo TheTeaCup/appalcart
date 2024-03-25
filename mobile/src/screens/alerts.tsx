@@ -1,23 +1,23 @@
 import React from "react";
-import {StyleSheet, Text, View} from "react-native";
-import {useTheme} from "@react-navigation/native";
+import { StyleSheet, Text, View } from "react-native";
+import { useTheme } from "@react-navigation/native";
 
 const Home = () => {
-    const {colors} = useTheme();
+  const { colors } = useTheme();
 
-    return (
-        <View style={styles.container}>
-            <Text style={{color: colors.text}}>AppalCART Alerts</Text>
-        </View>
-    );
+  return (
+    <View style={styles.container}>
+      <Text style={{ color: colors.text }}>AppalCART Alerts</Text>
+    </View>
+  );
 };
 
 export default Home;
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: "center",
-        justifyContent: "center",
-    },
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
 });
