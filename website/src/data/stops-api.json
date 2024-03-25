@@ -1,1 +1,4514 @@
-{"get_stops":[{"rid":2,"rsid":131081,"id":9,"name":"ASU College of Health Sciences","lat":36.20124053955078,"lng":-81.65235900878906,"extID":"","shortName":"CHS"},{"rid":2,"rsid":131077,"id":5,"name":"ASU State Farm Lot / Greenway","lat":36.20598220825195,"lng":-81.65555572509766,"extID":"","shortName":"25"},{"rid":2,"rsid":131082,"id":10,"name":"Parks & Rec","lat":36.202579498291016,"lng":-81.65420532226562,"extID":"","shortName":"6"},{"rid":2,"rsid":131079,"id":7,"name":"Postal St / Blowing Rock Rd","lat":36.200992584228516,"lng":-81.66154479980469,"extID":"","shortName":"119"},{"rid":2,"rsid":131078,"id":6,"name":"The Finmore","lat":36.20286178588867,"lng":-81.66133117675781,"extID":"","shortName":"3"},{"rid":2,"rsid":131080,"id":8,"name":"Watauga Medical Center","lat":36.198394775390625,"lng":-81.65241241455078,"extID":"","shortName":"137"},{"rid":3,"rsid":196623,"id":15,"name":"ASU Appalachian Heights","lat":36.21458053588867,"lng":-81.6890869140625,"extID":"","shortName":"7"},{"rid":3,"rsid":196632,"id":24,"name":"ASU Living Learning Center (down)","lat":36.2162971496582,"lng":-81.68737030029297,"extID":"","shortName":"14"},{"rid":3,"rsid":196626,"id":18,"name":"ASU Living Learning Center (Up)","lat":36.216400146484375,"lng":-81.68766784667969,"extID":"","shortName":"15"},{"rid":3,"rsid":196629,"id":21,"name":"ASU Mountaineer Hall","lat":36.21603775024414,"lng":-81.6886215209961,"extID":"","shortName":"17"},{"rid":3,"rsid":196624,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":3,"rsid":196625,"id":17,"name":"ASU SRC","lat":36.216331481933594,"lng":-81.68562316894531,"extID":"","shortName":"24"},{"rid":3,"rsid":196633,"id":25,"name":"ASU Walker Hall / Bodenheimer Drive","lat":36.21702194213867,"lng":-81.68515014648438,"extID":"","shortName":"28"},{"rid":3,"rsid":196631,"id":23,"name":"Greenwood Lot","lat":36.214481353759766,"lng":-81.68909454345703,"extID":"","shortName":"66"},{"rid":3,"rsid":196628,"id":20,"name":"South Lot / Baseball Stadium ","lat":36.212337493896484,"lng":-81.69361114501953,"extID":"","shortName":"123"},{"rid":4,"rsid":262153,"id":9,"name":"ASU College of Health Sciences","lat":36.20124053955078,"lng":-81.65235900878906,"extID":"","shortName":"CHS"},{"rid":4,"rsid":262171,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":4,"rsid":262170,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":4,"rsid":262158,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":4,"rsid":262160,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":4,"rsid":262180,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":4,"rsid":262175,"id":31,"name":"Bavarian Village","lat":36.19984436035156,"lng":-81.66395568847656,"extID":"","shortName":"32"},{"rid":4,"rsid":262174,"id":30,"name":"Boone Mall","lat":36.203514099121094,"lng":-81.66619110107422,"extID":"","shortName":"45"},{"rid":4,"rsid":262176,"id":32,"name":"College Place","lat":36.19792175292969,"lng":-81.66279602050781,"extID":"","shortName":"46"},{"rid":4,"rsid":262172,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":4,"rsid":262179,"id":35,"name":"Kangaroo Express","lat":36.208011627197266,"lng":-81.67230224609375,"extID":"","shortName":"95"},{"rid":4,"rsid":262173,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":4,"rsid":262154,"id":10,"name":"Parks & Rec","lat":36.202579498291016,"lng":-81.65420532226562,"extID":"","shortName":"6"},{"rid":4,"rsid":262150,"id":6,"name":"The Finmore","lat":36.20286178588867,"lng":-81.66133117675781,"extID":"","shortName":"3"},{"rid":4,"rsid":262178,"id":34,"name":"University Hall Drive","lat":36.20293426513672,"lng":-81.6644058227539,"extID":"","shortName":"127"},{"rid":4,"rsid":262177,"id":33,"name":"Walmart 1","lat":36.19804763793945,"lng":-81.65872192382812,"extID":"","shortName":"132"},{"rid":4,"rsid":262152,"id":8,"name":"Watauga Medical Center","lat":36.198394775390625,"lng":-81.65241241455078,"extID":"","shortName":"137"},{"rid":5,"rsid":327695,"id":15,"name":"ASU Appalachian Heights","lat":36.21458053588867,"lng":-81.6890869140625,"extID":"","shortName":"7"},{"rid":5,"rsid":327717,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":5,"rsid":327719,"id":39,"name":"ASU Dogwood Hall","lat":36.21434783935547,"lng":-81.67533874511719,"extID":"","shortName":"13"},{"rid":5,"rsid":327704,"id":24,"name":"ASU Living Learning Center (down)","lat":36.2162971496582,"lng":-81.68737030029297,"extID":"","shortName":"14"},{"rid":5,"rsid":327698,"id":18,"name":"ASU Living Learning Center (Up)","lat":36.216400146484375,"lng":-81.68766784667969,"extID":"","shortName":"15"},{"rid":5,"rsid":327701,"id":21,"name":"ASU Mountaineer Hall","lat":36.21603775024414,"lng":-81.6886215209961,"extID":"","shortName":"17"},{"rid":5,"rsid":327721,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":5,"rsid":327716,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":5,"rsid":327697,"id":17,"name":"ASU SRC","lat":36.216331481933594,"lng":-81.68562316894531,"extID":"","shortName":"24"},{"rid":5,"rsid":327720,"id":40,"name":"ASU Trivette Hall","lat":36.21300506591797,"lng":-81.68376922607422,"extID":"","shortName":"27"},{"rid":5,"rsid":327705,"id":25,"name":"ASU Walker Hall / Bodenheimer Drive","lat":36.21702194213867,"lng":-81.68515014648438,"extID":"","shortName":"28"},{"rid":5,"rsid":327703,"id":23,"name":"Greenwood Lot","lat":36.214481353759766,"lng":-81.68909454345703,"extID":"","shortName":"66"},{"rid":5,"rsid":327718,"id":38,"name":"Howard St / Hardin St","lat":36.215606689453125,"lng":-81.67478942871094,"extID":"","shortName":"81"},{"rid":5,"rsid":327723,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":5,"rsid":327700,"id":20,"name":"South Lot / Baseball Stadium ","lat":36.212337493896484,"lng":-81.69361114501953,"extID":"","shortName":"123"},{"rid":5,"rsid":327702,"id":22,"name":"Top of  Bodenheimer (down)","lat":36.21480941772461,"lng":-81.69235229492188,"extID":"","shortName":"125"},{"rid":5,"rsid":327722,"id":42,"name":"Water St / King St","lat":36.21964645385742,"lng":-81.68609619140625,"extID":"","shortName":"139"},{"rid":6,"rsid":393228,"id":12,"name":"App South PSI ","lat":36.208858489990234,"lng":-81.67432403564453,"extID":"","shortName":"2"},{"rid":6,"rsid":393253,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":6,"rsid":393243,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":6,"rsid":393242,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":6,"rsid":393230,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":6,"rsid":393284,"id":68,"name":"ASU NC 105 Lot 1 ","lat":36.201053619384766,"lng":-81.67403411865234,"extID":"","shortName":"150"},{"rid":6,"rsid":393285,"id":69,"name":"ASU NC 105 Lot 2 ","lat":36.20068359375,"lng":-81.67598724365234,"extID":"","shortName":"18"},{"rid":6,"rsid":393286,"id":70,"name":"ASU NC 105 Lot 3","lat":36.200313568115234,"lng":-81.67728424072266,"extID":"","shortName":"19"},{"rid":6,"rsid":393257,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":6,"rsid":393273,"id":57,"name":"ASU Schaefer Center","lat":36.21565246582031,"lng":-81.68328857421875,"extID":"","shortName":"22"},{"rid":6,"rsid":393252,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":6,"rsid":393296,"id":80,"name":"Bamboo Rd / Kangaroo Express","lat":36.22045135498047,"lng":-81.6390380859375,"extID":"","shortName":"30"},{"rid":6,"rsid":393294,"id":78,"name":"Blue Ridge Tourist Court","lat":36.219730377197266,"lng":-81.64924621582031,"extID":"","shortName":"115"},{"rid":6,"rsid":393261,"id":45,"name":"Brookhollow Rd / Bamboo Rd","lat":36.214759826660156,"lng":-81.63665008544922,"extID":"","shortName":"38"},{"rid":6,"rsid":393263,"id":47,"name":"Brookshire Park","lat":36.2235221862793,"lng":-81.64281463623047,"extID":"","shortName":"39"},{"rid":6,"rsid":393274,"id":58,"name":"Casa Rustica","lat":36.20296859741211,"lng":-81.6761474609375,"extID":"","shortName":"43"},{"rid":6,"rsid":393276,"id":60,"name":"Cottages of Boone 1","lat":36.20201873779297,"lng":-81.69929504394531,"extID":"","shortName":"51"},{"rid":6,"rsid":393277,"id":61,"name":"Cottages of Boone 2","lat":36.20285415649414,"lng":-81.70240020751953,"extID":"","shortName":"49"},{"rid":6,"rsid":393278,"id":62,"name":"Cottages of Boone 3","lat":36.20326232910156,"lng":-81.70382690429688,"extID":"","shortName":"47"},{"rid":6,"rsid":393288,"id":72,"name":"Dan'l Boone Inn","lat":36.2163200378418,"lng":-81.67489624023438,"extID":"","shortName":"52"},{"rid":6,"rsid":393272,"id":56,"name":"Earth Fare","lat":36.21662902832031,"lng":-81.67589569091797,"extID":"","shortName":"54"},{"rid":6,"rsid":393267,"id":51,"name":"East Village","lat":36.22248458862305,"lng":-81.65489959716797,"extID":"","shortName":"55"},{"rid":6,"rsid":393291,"id":75,"name":"Forest Hill Dr","lat":36.217323303222656,"lng":-81.66404724121094,"extID":"","shortName":"58"},{"rid":6,"rsid":393280,"id":64,"name":"Highland Commons","lat":36.20596694946289,"lng":-81.69763946533203,"extID":"","shortName":"72"},{"rid":6,"rsid":393283,"id":67,"name":"Highland Crossing","lat":36.201629638671875,"lng":-81.67974853515625,"extID":"","shortName":"73"},{"rid":6,"rsid":393260,"id":44,"name":"Hospitality House","lat":36.214744567871094,"lng":-81.64073181152344,"extID":"","shortName":"80"},{"rid":6,"rsid":393262,"id":46,"name":"Industrial Park","lat":36.222206115722656,"lng":-81.6442642211914,"extID":"","shortName":"84"},{"rid":6,"rsid":393287,"id":71,"name":"Jimmy Smith Park","lat":36.21726608276367,"lng":-81.68464660644531,"extID":"","shortName":"86"},{"rid":6,"rsid":393259,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":6,"rsid":393270,"id":54,"name":"King St / Farthing St","lat":36.21706771850586,"lng":-81.66600799560547,"extID":"","shortName":"90"},{"rid":6,"rsid":393289,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":6,"rsid":393271,"id":55,"name":"Kingswood","lat":36.21635818481445,"lng":-81.67219543457031,"extID":"","shortName":"95"},{"rid":6,"rsid":393268,"id":52,"name":"Meadowhill Estates","lat":36.22105026245117,"lng":-81.65791320800781,"extID":"","shortName":"98"},{"rid":6,"rsid":393264,"id":48,"name":"Mountaineer Village 1","lat":36.22447967529297,"lng":-81.64779663085938,"extID":"","shortName":"102"},{"rid":6,"rsid":393265,"id":49,"name":"Mountaineer Village 2","lat":36.22434997558594,"lng":-81.64995574951172,"extID":"","shortName":"103"},{"rid":6,"rsid":393275,"id":59,"name":"NC 105 Crosswalk","lat":36.201778411865234,"lng":-81.68267822265625,"extID":"","shortName":"105"},{"rid":6,"rsid":393269,"id":53,"name":"New Market","lat":36.21888732910156,"lng":-81.66014862060547,"extID":"","shortName":"108"},{"rid":6,"rsid":393292,"id":76,"name":"Old 421 / Delmar St","lat":36.21927261352539,"lng":-81.65704345703125,"extID":"","shortName":"110"},{"rid":6,"rsid":393295,"id":79,"name":"Old 421 / US 421","lat":36.22044372558594,"lng":-81.64669036865234,"extID":"","shortName":"111"},{"rid":6,"rsid":393279,"id":63,"name":"Poplar Grove / NC 105","lat":36.20680618286133,"lng":-81.70252990722656,"extID":"","shortName":"117"},{"rid":6,"rsid":393281,"id":65,"name":"Snaggy Mountain Blvd","lat":36.204715728759766,"lng":-81.69339752197266,"extID":"","shortName":"122"},{"rid":6,"rsid":393282,"id":66,"name":"Studio West","lat":36.20159912109375,"lng":-81.68270111083984,"extID":"","shortName":"124"},{"rid":6,"rsid":393293,"id":77,"name":"Watauga High School / Turtle Creek","lat":36.21931838989258,"lng":-81.65253448486328,"extID":"","shortName":"135"},{"rid":6,"rsid":393258,"id":42,"name":"Water St / King St","lat":36.21964645385742,"lng":-81.68609619140625,"extID":"","shortName":"139"},{"rid":6,"rsid":393290,"id":74,"name":"Wood Circle","lat":36.21638870239258,"lng":-81.66727447509766,"extID":"","shortName":"144"},{"rid":6,"rsid":393266,"id":50,"name":"Yosef Dr / King St","lat":36.22169876098633,"lng":-81.65005493164062,"extID":"","shortName":"145"},{"rid":7,"rsid":458791,"id":39,"name":"ASU Dogwood Hall","lat":36.21434783935547,"lng":-81.67533874511719,"extID":"","shortName":"13"},{"rid":7,"rsid":458773,"id":21,"name":"ASU Mountaineer Hall","lat":36.21603775024414,"lng":-81.6886215209961,"extID":"","shortName":"17"},{"rid":7,"rsid":458820,"id":68,"name":"ASU NC 105 Lot 1 ","lat":36.201053619384766,"lng":-81.67403411865234,"extID":"","shortName":"150"},{"rid":7,"rsid":458821,"id":69,"name":"ASU NC 105 Lot 2 ","lat":36.20068359375,"lng":-81.67598724365234,"extID":"","shortName":"18"},{"rid":7,"rsid":458822,"id":70,"name":"ASU NC 105 Lot 3","lat":36.200313568115234,"lng":-81.67728424072266,"extID":"","shortName":"19"},{"rid":7,"rsid":458792,"id":40,"name":"ASU Trivette Hall","lat":36.21300506591797,"lng":-81.68376922607422,"extID":"","shortName":"27"},{"rid":8,"rsid":524325,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":8,"rsid":524335,"id":47,"name":"Brookshire Park","lat":36.2235221862793,"lng":-81.64281463623047,"extID":"","shortName":"39"},{"rid":8,"rsid":524360,"id":72,"name":"Dan'l Boone Inn","lat":36.2163200378418,"lng":-81.67489624023438,"extID":"","shortName":"52"},{"rid":8,"rsid":524344,"id":56,"name":"Earth Fare","lat":36.21662902832031,"lng":-81.67589569091797,"extID":"","shortName":"54"},{"rid":8,"rsid":524339,"id":51,"name":"East Village","lat":36.22248458862305,"lng":-81.65489959716797,"extID":"","shortName":"55"},{"rid":8,"rsid":524363,"id":75,"name":"Forest Hill Dr","lat":36.217323303222656,"lng":-81.66404724121094,"extID":"","shortName":"58"},{"rid":8,"rsid":524334,"id":46,"name":"Industrial Park","lat":36.222206115722656,"lng":-81.6442642211914,"extID":"","shortName":"84"},{"rid":8,"rsid":524342,"id":54,"name":"King St / Farthing St","lat":36.21706771850586,"lng":-81.66600799560547,"extID":"","shortName":"90"},{"rid":8,"rsid":524361,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":8,"rsid":524421,"id":133,"name":"King St / Old 421 (Speedway)","lat":36.21978759765625,"lng":-81.6568374633789,"extID":"","shortName":"151"},{"rid":8,"rsid":524343,"id":55,"name":"Kingswood","lat":36.21635818481445,"lng":-81.67219543457031,"extID":"","shortName":"95"},{"rid":8,"rsid":524340,"id":52,"name":"Meadowhill Estates","lat":36.22105026245117,"lng":-81.65791320800781,"extID":"","shortName":"98"},{"rid":8,"rsid":524336,"id":48,"name":"Mountaineer Village 1","lat":36.22447967529297,"lng":-81.64779663085938,"extID":"","shortName":"102"},{"rid":8,"rsid":524337,"id":49,"name":"Mountaineer Village 2","lat":36.22434997558594,"lng":-81.64995574951172,"extID":"","shortName":"103"},{"rid":8,"rsid":524341,"id":53,"name":"New Market","lat":36.21888732910156,"lng":-81.66014862060547,"extID":"","shortName":"108"},{"rid":8,"rsid":524362,"id":74,"name":"Wood Circle","lat":36.21638870239258,"lng":-81.66727447509766,"extID":"","shortName":"144"},{"rid":8,"rsid":524338,"id":50,"name":"Yosef Dr / King St","lat":36.22169876098633,"lng":-81.65005493164062,"extID":"","shortName":"145"},{"rid":9,"rsid":589833,"id":9,"name":"ASU College of Health Sciences","lat":36.20124053955078,"lng":-81.65235900878906,"extID":"","shortName":"CHS"},{"rid":9,"rsid":589851,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":9,"rsid":589850,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":9,"rsid":589838,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":9,"rsid":589840,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":9,"rsid":589860,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":9,"rsid":589906,"id":82,"name":"ASU University Hall","lat":36.205265045166016,"lng":-81.66351318359375,"extID":"","shortName":"148"},{"rid":9,"rsid":589854,"id":30,"name":"Boone Mall","lat":36.203514099121094,"lng":-81.66619110107422,"extID":"","shortName":"45"},{"rid":9,"rsid":589852,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":9,"rsid":589859,"id":35,"name":"Kangaroo Express","lat":36.208011627197266,"lng":-81.67230224609375,"extID":"","shortName":"95"},{"rid":9,"rsid":589853,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":9,"rsid":589834,"id":10,"name":"Parks & Rec","lat":36.202579498291016,"lng":-81.65420532226562,"extID":"","shortName":"6"},{"rid":9,"rsid":589831,"id":7,"name":"Postal St / Blowing Rock Rd","lat":36.200992584228516,"lng":-81.66154479980469,"extID":"","shortName":"119"},{"rid":9,"rsid":589905,"id":81,"name":"Pride Dr","lat":36.19963836669922,"lng":-81.6595687866211,"extID":"","shortName":"120"},{"rid":9,"rsid":589830,"id":6,"name":"The Finmore","lat":36.20286178588867,"lng":-81.66133117675781,"extID":"","shortName":"3"},{"rid":9,"rsid":589832,"id":8,"name":"Watauga Medical Center","lat":36.198394775390625,"lng":-81.65241241455078,"extID":"","shortName":"137"},{"rid":10,"rsid":655373,"id":13,"name":"AppalCART","lat":36.22806930541992,"lng":-81.71939086914062,"extID":"","shortName":"4"},{"rid":10,"rsid":655387,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":10,"rsid":655386,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":10,"rsid":655417,"id":57,"name":"ASU Schaefer Center","lat":36.21565246582031,"lng":-81.68328857421875,"extID":"","shortName":"22"},{"rid":10,"rsid":655446,"id":86,"name":"Builder's Plaza","lat":36.22138214111328,"lng":-81.71803283691406,"extID":"","shortName":"42"},{"rid":10,"rsid":655418,"id":58,"name":"Casa Rustica","lat":36.20296859741211,"lng":-81.6761474609375,"extID":"","shortName":"43"},{"rid":10,"rsid":655485,"id":125,"name":"CCC&TI","lat":36.21567916870117,"lng":-81.71674346923828,"extID":"","shortName":"44"},{"rid":10,"rsid":655484,"id":124,"name":"Forest Edge ","lat":36.20724105834961,"lng":-81.7012710571289,"extID":"","shortName":"57"},{"rid":10,"rsid":655457,"id":97,"name":"George Wilson Rd  / Vet Hospital 1","lat":36.227176666259766,"lng":-81.71488952636719,"extID":"","shortName":"59"},{"rid":10,"rsid":655483,"id":123,"name":"Heritage Court on NC 105 ","lat":36.204673767089844,"lng":-81.69230651855469,"extID":"","shortName":"69"},{"rid":10,"rsid":655459,"id":99,"name":"High Country Condos","lat":36.22153854370117,"lng":-81.69729614257812,"extID":"","shortName":"70"},{"rid":10,"rsid":655388,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":10,"rsid":655444,"id":84,"name":"Hodges Gap Rd","lat":36.20937728881836,"lng":-81.70649719238281,"extID":"","shortName":"75"},{"rid":10,"rsid":655460,"id":100,"name":"Human Services Center","lat":36.22087860107422,"lng":-81.69172668457031,"extID":"","shortName":"83"},{"rid":10,"rsid":655447,"id":87,"name":"Long St","lat":36.22557067871094,"lng":-81.71893310546875,"extID":"","shortName":"96"},{"rid":10,"rsid":655389,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":10,"rsid":655456,"id":96,"name":"NC 105 Bypass / US 421","lat":36.2301139831543,"lng":-81.72032928466797,"extID":"","shortName":"104"},{"rid":10,"rsid":655419,"id":59,"name":"NC 105 Crosswalk","lat":36.201778411865234,"lng":-81.68267822265625,"extID":"","shortName":"105"},{"rid":10,"rsid":655458,"id":98,"name":"Oak Grove Road","lat":36.22235107421875,"lng":-81.70210266113281,"extID":"","shortName":"109"},{"rid":10,"rsid":655482,"id":122,"name":"Poplar Hill Dr","lat":36.202545166015625,"lng":-81.68556213378906,"extID":"","shortName":"118"},{"rid":10,"rsid":655461,"id":101,"name":"Ram's Rack","lat":36.22066116333008,"lng":-81.68798828125,"extID":"","shortName":"121"},{"rid":10,"rsid":655443,"id":83,"name":"University Highlands","lat":36.20936584472656,"lng":-81.70318603515625,"extID":"","shortName":"128"},{"rid":10,"rsid":655445,"id":85,"name":"Westhaven","lat":36.213958740234375,"lng":-81.71068572998047,"extID":"","shortName":"140"},{"rid":10,"rsid":655486,"id":126,"name":"White Oak Road","lat":36.21564483642578,"lng":-81.71404266357422,"extID":"","shortName":"141"},{"rid":11,"rsid":720923,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":11,"rsid":720922,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":11,"rsid":720910,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":11,"rsid":720912,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":11,"rsid":720932,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":11,"rsid":720926,"id":30,"name":"Boone Mall","lat":36.203514099121094,"lng":-81.66619110107422,"extID":"","shortName":"45"},{"rid":11,"rsid":720989,"id":93,"name":"Greenway Business Park","lat":36.19855499267578,"lng":-81.6678237915039,"extID":"","shortName":"63"},{"rid":11,"rsid":720990,"id":94,"name":"Greenway Commons","lat":36.199867248535156,"lng":-81.67037200927734,"extID":"","shortName":"64"},{"rid":11,"rsid":720988,"id":92,"name":"Greenway Rd Parking Lot","lat":36.19805145263672,"lng":-81.66397857666016,"extID":"","shortName":"65"},{"rid":11,"rsid":720924,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":11,"rsid":720931,"id":35,"name":"Kangaroo Express","lat":36.208011627197266,"lng":-81.67230224609375,"extID":"","shortName":"95"},{"rid":11,"rsid":720925,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":11,"rsid":720987,"id":91,"name":"Meadowview Dr / Greenway Rd","lat":36.197723388671875,"lng":-81.6633071899414,"extID":"","shortName":"99"},{"rid":11,"rsid":720986,"id":90,"name":"Meadowview Dr / Madison Ave","lat":36.19483184814453,"lng":-81.65555572509766,"extID":"","shortName":"149"},{"rid":11,"rsid":720984,"id":88,"name":"Meadowview Dr / US 321","lat":36.1946907043457,"lng":-81.65277099609375,"extID":"","shortName":"100"},{"rid":11,"rsid":720903,"id":7,"name":"Postal St / Blowing Rock Rd","lat":36.200992584228516,"lng":-81.66154479980469,"extID":"","shortName":"119"},{"rid":11,"rsid":720977,"id":81,"name":"Pride Dr","lat":36.19963836669922,"lng":-81.6595687866211,"extID":"","shortName":"120"},{"rid":11,"rsid":720985,"id":89,"name":"Village at Meadowview","lat":36.19465637207031,"lng":-81.65796661376953,"extID":"","shortName":"131"},{"rid":11,"rsid":720991,"id":95,"name":"Wilson Dr","lat":36.20274353027344,"lng":-81.67192840576172,"extID":"","shortName":"142"},{"rid":12,"rsid":786445,"id":13,"name":"AppalCART","lat":36.22806930541992,"lng":-81.71939086914062,"extID":"","shortName":"4"},{"rid":12,"rsid":786441,"id":9,"name":"ASU College of Health Sciences","lat":36.20124053955078,"lng":-81.65235900878906,"extID":"","shortName":"CHS"},{"rid":12,"rsid":786469,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":12,"rsid":786534,"id":102,"name":"ASU Mountain Laurel Hall / NC 105 Ext","lat":36.206478118896484,"lng":-81.66874694824219,"extID":"","shortName":"33"},{"rid":12,"rsid":786541,"id":109,"name":"Beverly Heights Ave","lat":36.210838317871094,"lng":-81.66700744628906,"extID":"","shortName":"114"},{"rid":12,"rsid":786538,"id":106,"name":"Boone Heights 1","lat":36.20238494873047,"lng":-81.65646362304688,"extID":"","shortName":"35"},{"rid":12,"rsid":786539,"id":107,"name":"Boone Heights 2","lat":36.20094299316406,"lng":-81.65758514404297,"extID":"","shortName":"36"},{"rid":12,"rsid":786464,"id":32,"name":"College Place","lat":36.19792175292969,"lng":-81.66279602050781,"extID":"","shortName":"46"},{"rid":12,"rsid":786504,"id":72,"name":"Dan'l Boone Inn","lat":36.2163200378418,"lng":-81.67489624023438,"extID":"","shortName":"52"},{"rid":12,"rsid":786488,"id":56,"name":"Earth Fare","lat":36.21662902832031,"lng":-81.67589569091797,"extID":"","shortName":"54"},{"rid":12,"rsid":786548,"id":116,"name":"Edgecliff Ln","lat":36.22190475463867,"lng":-81.69938659667969,"extID":"","shortName":"56"},{"rid":12,"rsid":786529,"id":97,"name":"George Wilson Rd  / Vet Hospital 1","lat":36.227176666259766,"lng":-81.71488952636719,"extID":"","shortName":"59"},{"rid":12,"rsid":786552,"id":120,"name":"George Wilson Rd / Vet Hospital 2","lat":36.22740936279297,"lng":-81.71490478515625,"extID":"","shortName":"60"},{"rid":12,"rsid":786551,"id":119,"name":"Graggville Rd","lat":36.22334289550781,"lng":-81.70647430419922,"extID":"","shortName":"62"},{"rid":12,"rsid":786525,"id":93,"name":"Greenway Business Park","lat":36.19855499267578,"lng":-81.6678237915039,"extID":"","shortName":"63"},{"rid":12,"rsid":786526,"id":94,"name":"Greenway Commons","lat":36.199867248535156,"lng":-81.67037200927734,"extID":"","shortName":"64"},{"rid":12,"rsid":786524,"id":92,"name":"Greenway Rd Parking Lot","lat":36.19805145263672,"lng":-81.66397857666016,"extID":"","shortName":"65"},{"rid":12,"rsid":786531,"id":99,"name":"High Country Condos","lat":36.22153854370117,"lng":-81.69729614257812,"extID":"","shortName":"70"},{"rid":12,"rsid":786550,"id":118,"name":"Highland Hall Rd","lat":36.222938537597656,"lng":-81.7044677734375,"extID":"","shortName":"74"},{"rid":12,"rsid":786532,"id":100,"name":"Human Services Center","lat":36.22087860107422,"lng":-81.69172668457031,"extID":"","shortName":"83"},{"rid":12,"rsid":786553,"id":121,"name":"Kensington Trail","lat":36.22919845581055,"lng":-81.71800231933594,"extID":"","shortName":"88"},{"rid":12,"rsid":786475,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":12,"rsid":786505,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":12,"rsid":786544,"id":112,"name":"King St / N Depot St","lat":36.21870422363281,"lng":-81.68379211425781,"extID":"","shortName":"92"},{"rid":12,"rsid":786487,"id":55,"name":"Kingswood","lat":36.21635818481445,"lng":-81.67219543457031,"extID":"","shortName":"95"},{"rid":12,"rsid":786546,"id":114,"name":"Miller Industries","lat":36.221012115478516,"lng":-81.69127655029297,"extID":"","shortName":"101"},{"rid":12,"rsid":786528,"id":96,"name":"NC 105 Bypass / US 421","lat":36.2301139831543,"lng":-81.72032928466797,"extID":"","shortName":"104"},{"rid":12,"rsid":786543,"id":111,"name":"NC 105 Ext / Azalea Dr","lat":36.20625305175781,"lng":-81.66854858398438,"extID":"","shortName":"106"},{"rid":12,"rsid":786530,"id":98,"name":"Oak Grove Road","lat":36.22235107421875,"lng":-81.70210266113281,"extID":"","shortName":"109"},{"rid":12,"rsid":786549,"id":117,"name":"Old Waterloo","lat":36.22258758544922,"lng":-81.70258331298828,"extID":"","shortName":"113"},{"rid":12,"rsid":786442,"id":10,"name":"Parks & Rec","lat":36.202579498291016,"lng":-81.65420532226562,"extID":"","shortName":"6"},{"rid":12,"rsid":786547,"id":115,"name":"Pinnacle Dr","lat":36.221954345703125,"lng":-81.69657897949219,"extID":"","shortName":"116"},{"rid":12,"rsid":786542,"id":110,"name":"Quail Drive","lat":36.21404266357422,"lng":-81.66873168945312,"extID":"","shortName":"41"},{"rid":12,"rsid":786533,"id":101,"name":"Ram's Rack","lat":36.22066116333008,"lng":-81.68798828125,"extID":"","shortName":"121"},{"rid":12,"rsid":786535,"id":103,"name":"Vet Clinic on Wilson Dr","lat":36.202049255371094,"lng":-81.67160034179688,"extID":"","shortName":"130"},{"rid":12,"rsid":786465,"id":33,"name":"Walmart 1","lat":36.19804763793945,"lng":-81.65872192382812,"extID":"","shortName":"132"},{"rid":12,"rsid":786540,"id":108,"name":"Walmart 2","lat":36.198158264160156,"lng":-81.65874481201172,"extID":"","shortName":"133"},{"rid":12,"rsid":786545,"id":113,"name":"Watauga County Courthouse","lat":36.2204475402832,"lng":-81.68690490722656,"extID":"","shortName":"134"},{"rid":12,"rsid":786440,"id":8,"name":"Watauga Medical Center","lat":36.198394775390625,"lng":-81.65241241455078,"extID":"","shortName":"137"},{"rid":12,"rsid":786537,"id":105,"name":"Watauga Opportunities","lat":36.198448181152344,"lng":-81.66809844970703,"extID":"","shortName":"138"},{"rid":12,"rsid":786527,"id":95,"name":"Wilson Dr","lat":36.20274353027344,"lng":-81.67192840576172,"extID":"","shortName":"142"},{"rid":12,"rsid":786536,"id":104,"name":"Winkler's Meadow","lat":36.19975662231445,"lng":-81.67057037353516,"extID":"","shortName":"143"},{"rid":13,"rsid":851981,"id":13,"name":"AppalCART","lat":36.22806930541992,"lng":-81.71939086914062,"extID":"","shortName":"4"},{"rid":13,"rsid":851982,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":13,"rsid":852036,"id":68,"name":"ASU NC 105 Lot 1 ","lat":36.201053619384766,"lng":-81.67403411865234,"extID":"","shortName":"150"},{"rid":13,"rsid":852037,"id":69,"name":"ASU NC 105 Lot 2 ","lat":36.20068359375,"lng":-81.67598724365234,"extID":"","shortName":"18"},{"rid":13,"rsid":852038,"id":70,"name":"ASU NC 105 Lot 3","lat":36.200313568115234,"lng":-81.67728424072266,"extID":"","shortName":"19"},{"rid":13,"rsid":852009,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":13,"rsid":852004,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":13,"rsid":852093,"id":125,"name":"CCC&TI","lat":36.21567916870117,"lng":-81.71674346923828,"extID":"","shortName":"44"},{"rid":13,"rsid":852084,"id":116,"name":"Edgecliff Ln","lat":36.22190475463867,"lng":-81.69938659667969,"extID":"","shortName":"56"},{"rid":13,"rsid":852087,"id":119,"name":"Graggville Rd","lat":36.22334289550781,"lng":-81.70647430419922,"extID":"","shortName":"62"},{"rid":13,"rsid":852032,"id":64,"name":"Highland Commons","lat":36.20596694946289,"lng":-81.69763946533203,"extID":"","shortName":"72"},{"rid":13,"rsid":852035,"id":67,"name":"Highland Crossing","lat":36.201629638671875,"lng":-81.67974853515625,"extID":"","shortName":"73"},{"rid":13,"rsid":852086,"id":118,"name":"Highland Hall Rd","lat":36.222938537597656,"lng":-81.7044677734375,"extID":"","shortName":"74"},{"rid":13,"rsid":852039,"id":71,"name":"Jimmy Smith Park","lat":36.21726608276367,"lng":-81.68464660644531,"extID":"","shortName":"86"},{"rid":13,"rsid":852089,"id":121,"name":"Kensington Trail","lat":36.22919845581055,"lng":-81.71800231933594,"extID":"","shortName":"88"},{"rid":13,"rsid":852082,"id":114,"name":"Miller Industries","lat":36.221012115478516,"lng":-81.69127655029297,"extID":"","shortName":"101"},{"rid":13,"rsid":852085,"id":117,"name":"Old Waterloo","lat":36.22258758544922,"lng":-81.70258331298828,"extID":"","shortName":"113"},{"rid":13,"rsid":852083,"id":115,"name":"Pinnacle Dr","lat":36.221954345703125,"lng":-81.69657897949219,"extID":"","shortName":"116"},{"rid":13,"rsid":852033,"id":65,"name":"Snaggy Mountain Blvd","lat":36.204715728759766,"lng":-81.69339752197266,"extID":"","shortName":"122"},{"rid":13,"rsid":852034,"id":66,"name":"Studio West","lat":36.20159912109375,"lng":-81.68270111083984,"extID":"","shortName":"124"},{"rid":13,"rsid":852081,"id":113,"name":"Watauga County Courthouse","lat":36.2204475402832,"lng":-81.68690490722656,"extID":"","shortName":"134"},{"rid":13,"rsid":852094,"id":126,"name":"White Oak Road","lat":36.21564483642578,"lng":-81.71404266357422,"extID":"","shortName":"141"},{"rid":14,"rsid":917515,"id":11,"name":"610 State Farm Rd","lat":36.204978942871094,"lng":-81.65998077392578,"extID":"","shortName":"1"},{"rid":14,"rsid":917631,"id":127,"name":"ASU Child Development Center","lat":36.21760940551758,"lng":-81.69157409667969,"extID":"","shortName":"146"},{"rid":14,"rsid":917530,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":14,"rsid":917528,"id":24,"name":"ASU Living Learning Center (down)","lat":36.2162971496582,"lng":-81.68737030029297,"extID":"","shortName":"14"},{"rid":14,"rsid":917545,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":14,"rsid":917561,"id":57,"name":"ASU Schaefer Center","lat":36.21565246582031,"lng":-81.68328857421875,"extID":"","shortName":"22"},{"rid":14,"rsid":917540,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":14,"rsid":917509,"id":5,"name":"ASU State Farm Lot / Greenway","lat":36.20598220825195,"lng":-81.65555572509766,"extID":"","shortName":"25"},{"rid":14,"rsid":917529,"id":25,"name":"ASU Walker Hall / Bodenheimer Drive","lat":36.21702194213867,"lng":-81.68515014648438,"extID":"","shortName":"28"},{"rid":14,"rsid":917632,"id":128,"name":"Feids Way","lat":36.21586227416992,"lng":-81.68846130371094,"extID":"","shortName":"147"},{"rid":14,"rsid":917633,"id":129,"name":"Hardin Street Crosswalk","lat":36.21389389038086,"lng":-81.67520904541016,"extID":"","shortName":"68"},{"rid":14,"rsid":917635,"id":131,"name":"Horn Ave","lat":36.210575103759766,"lng":-81.66791534423828,"extID":"","shortName":"77"},{"rid":14,"rsid":917636,"id":132,"name":"Horn in the West Parking Lot","lat":36.20990753173828,"lng":-81.66941833496094,"extID":"","shortName":"79"},{"rid":14,"rsid":917634,"id":130,"name":"Ivy Terrace","lat":36.20642852783203,"lng":-81.6623764038086,"extID":"","shortName":"85"},{"rid":14,"rsid":917577,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":15,"rsid":983077,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":15,"rsid":983079,"id":39,"name":"ASU Dogwood Hall","lat":36.21434783935547,"lng":-81.67533874511719,"extID":"","shortName":"13"},{"rid":15,"rsid":983076,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":15,"rsid":983045,"id":5,"name":"ASU State Farm Lot / Greenway","lat":36.20598220825195,"lng":-81.65555572509766,"extID":"","shortName":"25"},{"rid":15,"rsid":983080,"id":40,"name":"ASU Trivette Hall","lat":36.21300506591797,"lng":-81.68376922607422,"extID":"","shortName":"27"},{"rid":15,"rsid":983150,"id":110,"name":"Quail Drive","lat":36.21404266357422,"lng":-81.66873168945312,"extID":"","shortName":"41"},{"rid":16,"rsid":1048589,"id":13,"name":"AppalCART","lat":36.22806930541992,"lng":-81.71939086914062,"extID":"","shortName":"4"},{"rid":16,"rsid":1048603,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":16,"rsid":1048602,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":16,"rsid":1048633,"id":57,"name":"ASU Schaefer Center","lat":36.21565246582031,"lng":-81.68328857421875,"extID":"","shortName":"22"},{"rid":16,"rsid":1048662,"id":86,"name":"Builder's Plaza","lat":36.22138214111328,"lng":-81.71803283691406,"extID":"","shortName":"42"},{"rid":16,"rsid":1048634,"id":58,"name":"Casa Rustica","lat":36.20296859741211,"lng":-81.6761474609375,"extID":"","shortName":"43"},{"rid":16,"rsid":1048700,"id":124,"name":"Forest Edge ","lat":36.20724105834961,"lng":-81.7012710571289,"extID":"","shortName":"57"},{"rid":16,"rsid":1048673,"id":97,"name":"George Wilson Rd  / Vet Hospital 1","lat":36.227176666259766,"lng":-81.71488952636719,"extID":"","shortName":"59"},{"rid":16,"rsid":1048699,"id":123,"name":"Heritage Court on NC 105 ","lat":36.204673767089844,"lng":-81.69230651855469,"extID":"","shortName":"69"},{"rid":16,"rsid":1048675,"id":99,"name":"High Country Condos","lat":36.22153854370117,"lng":-81.69729614257812,"extID":"","shortName":"70"},{"rid":16,"rsid":1048604,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":16,"rsid":1048660,"id":84,"name":"Hodges Gap Rd","lat":36.20937728881836,"lng":-81.70649719238281,"extID":"","shortName":"75"},{"rid":16,"rsid":1048676,"id":100,"name":"Human Services Center","lat":36.22087860107422,"lng":-81.69172668457031,"extID":"","shortName":"83"},{"rid":16,"rsid":1048663,"id":87,"name":"Long St","lat":36.22557067871094,"lng":-81.71893310546875,"extID":"","shortName":"96"},{"rid":16,"rsid":1048605,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":16,"rsid":1048672,"id":96,"name":"NC 105 Bypass / US 421","lat":36.2301139831543,"lng":-81.72032928466797,"extID":"","shortName":"104"},{"rid":16,"rsid":1048635,"id":59,"name":"NC 105 Crosswalk","lat":36.201778411865234,"lng":-81.68267822265625,"extID":"","shortName":"105"},{"rid":16,"rsid":1048674,"id":98,"name":"Oak Grove Road","lat":36.22235107421875,"lng":-81.70210266113281,"extID":"","shortName":"109"},{"rid":16,"rsid":1048698,"id":122,"name":"Poplar Hill Dr","lat":36.202545166015625,"lng":-81.68556213378906,"extID":"","shortName":"118"},{"rid":16,"rsid":1048677,"id":101,"name":"Ram's Rack","lat":36.22066116333008,"lng":-81.68798828125,"extID":"","shortName":"121"},{"rid":16,"rsid":1048659,"id":83,"name":"University Highlands","lat":36.20936584472656,"lng":-81.70318603515625,"extID":"","shortName":"128"},{"rid":16,"rsid":1048661,"id":85,"name":"Westhaven","lat":36.213958740234375,"lng":-81.71068572998047,"extID":"","shortName":"140"},{"rid":17,"rsid":1114127,"id":15,"name":"ASU Appalachian Heights","lat":36.21458053588867,"lng":-81.6890869140625,"extID":"","shortName":"7"},{"rid":17,"rsid":1114149,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":17,"rsid":1114151,"id":39,"name":"ASU Dogwood Hall","lat":36.21434783935547,"lng":-81.67533874511719,"extID":"","shortName":"13"},{"rid":17,"rsid":1114136,"id":24,"name":"ASU Living Learning Center (down)","lat":36.2162971496582,"lng":-81.68737030029297,"extID":"","shortName":"14"},{"rid":17,"rsid":1114130,"id":18,"name":"ASU Living Learning Center (Up)","lat":36.216400146484375,"lng":-81.68766784667969,"extID":"","shortName":"15"},{"rid":17,"rsid":1114133,"id":21,"name":"ASU Mountaineer Hall","lat":36.21603775024414,"lng":-81.6886215209961,"extID":"","shortName":"17"},{"rid":17,"rsid":1114153,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":17,"rsid":1114148,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":17,"rsid":1114129,"id":17,"name":"ASU SRC","lat":36.216331481933594,"lng":-81.68562316894531,"extID":"","shortName":"24"},{"rid":17,"rsid":1114152,"id":40,"name":"ASU Trivette Hall","lat":36.21300506591797,"lng":-81.68376922607422,"extID":"","shortName":"27"},{"rid":17,"rsid":1114137,"id":25,"name":"ASU Walker Hall / Bodenheimer Drive","lat":36.21702194213867,"lng":-81.68515014648438,"extID":"","shortName":"28"},{"rid":17,"rsid":1114135,"id":23,"name":"Greenwood Lot","lat":36.214481353759766,"lng":-81.68909454345703,"extID":"","shortName":"66"},{"rid":17,"rsid":1114150,"id":38,"name":"Howard St / Hardin St","lat":36.215606689453125,"lng":-81.67478942871094,"extID":"","shortName":"81"},{"rid":17,"rsid":1114155,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":17,"rsid":1114132,"id":20,"name":"South Lot / Baseball Stadium ","lat":36.212337493896484,"lng":-81.69361114501953,"extID":"","shortName":"123"},{"rid":17,"rsid":1114154,"id":42,"name":"Water St / King St","lat":36.21964645385742,"lng":-81.68609619140625,"extID":"","shortName":"139"},{"rid":18,"rsid":1179675,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":18,"rsid":1179674,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":18,"rsid":1179662,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":18,"rsid":1179664,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":18,"rsid":1179684,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":18,"rsid":1179679,"id":31,"name":"Bavarian Village","lat":36.19984436035156,"lng":-81.66395568847656,"extID":"","shortName":"32"},{"rid":18,"rsid":1179678,"id":30,"name":"Boone Mall","lat":36.203514099121094,"lng":-81.66619110107422,"extID":"","shortName":"45"},{"rid":18,"rsid":1179680,"id":32,"name":"College Place","lat":36.19792175292969,"lng":-81.66279602050781,"extID":"","shortName":"46"},{"rid":18,"rsid":1179741,"id":93,"name":"Greenway Business Park","lat":36.19855499267578,"lng":-81.6678237915039,"extID":"","shortName":"63"},{"rid":18,"rsid":1179742,"id":94,"name":"Greenway Commons","lat":36.199867248535156,"lng":-81.67037200927734,"extID":"","shortName":"64"},{"rid":18,"rsid":1179740,"id":92,"name":"Greenway Rd Parking Lot","lat":36.19805145263672,"lng":-81.66397857666016,"extID":"","shortName":"65"},{"rid":18,"rsid":1179676,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":18,"rsid":1179683,"id":35,"name":"Kangaroo Express","lat":36.208011627197266,"lng":-81.67230224609375,"extID":"","shortName":"95"},{"rid":18,"rsid":1179677,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":18,"rsid":1179739,"id":91,"name":"Meadowview Dr / Greenway Rd","lat":36.197723388671875,"lng":-81.6633071899414,"extID":"","shortName":"99"},{"rid":18,"rsid":1179738,"id":90,"name":"Meadowview Dr / Madison Ave","lat":36.19483184814453,"lng":-81.65555572509766,"extID":"","shortName":"149"},{"rid":18,"rsid":1179736,"id":88,"name":"Meadowview Dr / US 321","lat":36.1946907043457,"lng":-81.65277099609375,"extID":"","shortName":"100"},{"rid":18,"rsid":1179737,"id":89,"name":"Village at Meadowview","lat":36.19465637207031,"lng":-81.65796661376953,"extID":"","shortName":"131"},{"rid":18,"rsid":1179681,"id":33,"name":"Walmart 1","lat":36.19804763793945,"lng":-81.65872192382812,"extID":"","shortName":"132"},{"rid":18,"rsid":1179743,"id":95,"name":"Wilson Dr","lat":36.20274353027344,"lng":-81.67192840576172,"extID":"","shortName":"142"},{"rid":20,"rsid":1310736,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":20,"rsid":1310854,"id":134,"name":"Poplar Grove Connector Parking Lot","lat":36.220489501953125,"lng":-81.69156646728516,"extID":"","shortName":"152"},{"rid":21,"rsid":1376293,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":21,"rsid":1376295,"id":39,"name":"ASU Dogwood Hall","lat":36.21434783935547,"lng":-81.67533874511719,"extID":"","shortName":"13"},{"rid":21,"rsid":1376297,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":21,"rsid":1376292,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":21,"rsid":1376294,"id":38,"name":"Howard St / Hardin St","lat":36.215606689453125,"lng":-81.67478942871094,"extID":"","shortName":"81"},{"rid":21,"rsid":1376299,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":21,"rsid":1376298,"id":42,"name":"Water St / King St","lat":36.21964645385742,"lng":-81.68609619140625,"extID":"","shortName":"139"},{"rid":22,"rsid":1441803,"id":11,"name":"610 State Farm Rd","lat":36.204978942871094,"lng":-81.65998077392578,"extID":"","shortName":"1"},{"rid":22,"rsid":1441818,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":22,"rsid":1441808,"id":16,"name":"ASU Peacock Traffic Circle","lat":36.215797424316406,"lng":-81.68212890625,"extID":"","shortName":"20"},{"rid":22,"rsid":1441828,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":22,"rsid":1441797,"id":5,"name":"ASU State Farm Lot / Greenway","lat":36.20598220825195,"lng":-81.65555572509766,"extID":"","shortName":"25"},{"rid":22,"rsid":1441921,"id":129,"name":"Hardin Street Crosswalk","lat":36.21389389038086,"lng":-81.67520904541016,"extID":"","shortName":"68"},{"rid":22,"rsid":1441923,"id":131,"name":"Horn Ave","lat":36.210575103759766,"lng":-81.66791534423828,"extID":"","shortName":"77"},{"rid":22,"rsid":1441924,"id":132,"name":"Horn in the West Parking Lot","lat":36.20990753173828,"lng":-81.66941833496094,"extID":"","shortName":"79"},{"rid":22,"rsid":1441922,"id":130,"name":"Ivy Terrace","lat":36.20642852783203,"lng":-81.6623764038086,"extID":"","shortName":"85"},{"rid":22,"rsid":1441865,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":24,"rsid":1572877,"id":13,"name":"AppalCART","lat":36.22806930541992,"lng":-81.71939086914062,"extID":"","shortName":"4"},{"rid":24,"rsid":1572873,"id":9,"name":"ASU College of Health Sciences","lat":36.20124053955078,"lng":-81.65235900878906,"extID":"","shortName":"CHS"},{"rid":24,"rsid":1572901,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":24,"rsid":1572966,"id":102,"name":"ASU Mountain Laurel Hall / NC 105 Ext","lat":36.206478118896484,"lng":-81.66874694824219,"extID":"","shortName":"33"},{"rid":24,"rsid":1572973,"id":109,"name":"Beverly Heights Ave","lat":36.210838317871094,"lng":-81.66700744628906,"extID":"","shortName":"114"},{"rid":24,"rsid":1572970,"id":106,"name":"Boone Heights 1","lat":36.20238494873047,"lng":-81.65646362304688,"extID":"","shortName":"35"},{"rid":24,"rsid":1572971,"id":107,"name":"Boone Heights 2","lat":36.20094299316406,"lng":-81.65758514404297,"extID":"","shortName":"36"},{"rid":24,"rsid":1572896,"id":32,"name":"College Place","lat":36.19792175292969,"lng":-81.66279602050781,"extID":"","shortName":"46"},{"rid":24,"rsid":1572936,"id":72,"name":"Dan'l Boone Inn","lat":36.2163200378418,"lng":-81.67489624023438,"extID":"","shortName":"52"},{"rid":24,"rsid":1572920,"id":56,"name":"Earth Fare","lat":36.21662902832031,"lng":-81.67589569091797,"extID":"","shortName":"54"},{"rid":24,"rsid":1572980,"id":116,"name":"Edgecliff Ln","lat":36.22190475463867,"lng":-81.69938659667969,"extID":"","shortName":"56"},{"rid":24,"rsid":1572961,"id":97,"name":"George Wilson Rd  / Vet Hospital 1","lat":36.227176666259766,"lng":-81.71488952636719,"extID":"","shortName":"59"},{"rid":24,"rsid":1572984,"id":120,"name":"George Wilson Rd / Vet Hospital 2","lat":36.22740936279297,"lng":-81.71490478515625,"extID":"","shortName":"60"},{"rid":24,"rsid":1572983,"id":119,"name":"Graggville Rd","lat":36.22334289550781,"lng":-81.70647430419922,"extID":"","shortName":"62"},{"rid":24,"rsid":1572957,"id":93,"name":"Greenway Business Park","lat":36.19855499267578,"lng":-81.6678237915039,"extID":"","shortName":"63"},{"rid":24,"rsid":1572958,"id":94,"name":"Greenway Commons","lat":36.199867248535156,"lng":-81.67037200927734,"extID":"","shortName":"64"},{"rid":24,"rsid":1572956,"id":92,"name":"Greenway Rd Parking Lot","lat":36.19805145263672,"lng":-81.66397857666016,"extID":"","shortName":"65"},{"rid":24,"rsid":1572963,"id":99,"name":"High Country Condos","lat":36.22153854370117,"lng":-81.69729614257812,"extID":"","shortName":"70"},{"rid":24,"rsid":1572982,"id":118,"name":"Highland Hall Rd","lat":36.222938537597656,"lng":-81.7044677734375,"extID":"","shortName":"74"},{"rid":24,"rsid":1572964,"id":100,"name":"Human Services Center","lat":36.22087860107422,"lng":-81.69172668457031,"extID":"","shortName":"83"},{"rid":24,"rsid":1572985,"id":121,"name":"Kensington Trail","lat":36.22919845581055,"lng":-81.71800231933594,"extID":"","shortName":"88"},{"rid":24,"rsid":1572907,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":24,"rsid":1572937,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":24,"rsid":1572976,"id":112,"name":"King St / N Depot St","lat":36.21870422363281,"lng":-81.68379211425781,"extID":"","shortName":"92"},{"rid":24,"rsid":1572919,"id":55,"name":"Kingswood","lat":36.21635818481445,"lng":-81.67219543457031,"extID":"","shortName":"95"},{"rid":24,"rsid":1572978,"id":114,"name":"Miller Industries","lat":36.221012115478516,"lng":-81.69127655029297,"extID":"","shortName":"101"},{"rid":24,"rsid":1572960,"id":96,"name":"NC 105 Bypass / US 421","lat":36.2301139831543,"lng":-81.72032928466797,"extID":"","shortName":"104"},{"rid":24,"rsid":1572975,"id":111,"name":"NC 105 Ext / Azalea Dr","lat":36.20625305175781,"lng":-81.66854858398438,"extID":"","shortName":"106"},{"rid":24,"rsid":1572962,"id":98,"name":"Oak Grove Road","lat":36.22235107421875,"lng":-81.70210266113281,"extID":"","shortName":"109"},{"rid":24,"rsid":1572981,"id":117,"name":"Old Waterloo","lat":36.22258758544922,"lng":-81.70258331298828,"extID":"","shortName":"113"},{"rid":24,"rsid":1572874,"id":10,"name":"Parks & Rec","lat":36.202579498291016,"lng":-81.65420532226562,"extID":"","shortName":"6"},{"rid":24,"rsid":1572979,"id":115,"name":"Pinnacle Dr","lat":36.221954345703125,"lng":-81.69657897949219,"extID":"","shortName":"116"},{"rid":24,"rsid":1572974,"id":110,"name":"Quail Drive","lat":36.21404266357422,"lng":-81.66873168945312,"extID":"","shortName":"41"},{"rid":24,"rsid":1572965,"id":101,"name":"Ram's Rack","lat":36.22066116333008,"lng":-81.68798828125,"extID":"","shortName":"121"},{"rid":24,"rsid":1572967,"id":103,"name":"Vet Clinic on Wilson Dr","lat":36.202049255371094,"lng":-81.67160034179688,"extID":"","shortName":"130"},{"rid":24,"rsid":1572897,"id":33,"name":"Walmart 1","lat":36.19804763793945,"lng":-81.65872192382812,"extID":"","shortName":"132"},{"rid":24,"rsid":1572972,"id":108,"name":"Walmart 2","lat":36.198158264160156,"lng":-81.65874481201172,"extID":"","shortName":"133"},{"rid":24,"rsid":1572977,"id":113,"name":"Watauga County Courthouse","lat":36.2204475402832,"lng":-81.68690490722656,"extID":"","shortName":"134"},{"rid":24,"rsid":1572872,"id":8,"name":"Watauga Medical Center","lat":36.198394775390625,"lng":-81.65241241455078,"extID":"","shortName":"137"},{"rid":24,"rsid":1572969,"id":105,"name":"Watauga Opportunities","lat":36.198448181152344,"lng":-81.66809844970703,"extID":"","shortName":"138"},{"rid":24,"rsid":1572959,"id":95,"name":"Wilson Dr","lat":36.20274353027344,"lng":-81.67192840576172,"extID":"","shortName":"142"},{"rid":24,"rsid":1572968,"id":104,"name":"Winkler's Meadow","lat":36.19975662231445,"lng":-81.67057037353516,"extID":"","shortName":"143"},{"rid":26,"rsid":1703948,"id":12,"name":"App South PSI ","lat":36.208858489990234,"lng":-81.67432403564453,"extID":"","shortName":"2"},{"rid":26,"rsid":1703973,"id":37,"name":"ASU College St Station","lat":36.21570587158203,"lng":-81.67964172363281,"extID":"","shortName":"11"},{"rid":26,"rsid":1703963,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":26,"rsid":1703962,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":26,"rsid":1703950,"id":14,"name":"ASU Mountain Laurel Hall ","lat":36.206146240234375,"lng":-81.67009735107422,"extID":"","shortName":"8"},{"rid":26,"rsid":1704004,"id":68,"name":"ASU NC 105 Lot 1 ","lat":36.201053619384766,"lng":-81.67403411865234,"extID":"","shortName":"150"},{"rid":26,"rsid":1704005,"id":69,"name":"ASU NC 105 Lot 2 ","lat":36.20068359375,"lng":-81.67598724365234,"extID":"","shortName":"18"},{"rid":26,"rsid":1704006,"id":70,"name":"ASU NC 105 Lot 3","lat":36.200313568115234,"lng":-81.67728424072266,"extID":"","shortName":"19"},{"rid":26,"rsid":1703977,"id":41,"name":"ASU Peacock Traffic Light","lat":36.21519470214844,"lng":-81.68280029296875,"extID":"","shortName":"21"},{"rid":26,"rsid":1703993,"id":57,"name":"ASU Schaefer Center","lat":36.21565246582031,"lng":-81.68328857421875,"extID":"","shortName":"22"},{"rid":26,"rsid":1703972,"id":36,"name":"ASU Skywalk","lat":36.21227264404297,"lng":-81.67963409423828,"extID":"","shortName":"23"},{"rid":26,"rsid":1704016,"id":80,"name":"Bamboo Rd / Kangaroo Express","lat":36.22045135498047,"lng":-81.6390380859375,"extID":"","shortName":"30"},{"rid":26,"rsid":1704014,"id":78,"name":"Blue Ridge Tourist Court","lat":36.219730377197266,"lng":-81.64924621582031,"extID":"","shortName":"115"},{"rid":26,"rsid":1703981,"id":45,"name":"Brookhollow Rd / Bamboo Rd","lat":36.214759826660156,"lng":-81.63665008544922,"extID":"","shortName":"38"},{"rid":26,"rsid":1703983,"id":47,"name":"Brookshire Park","lat":36.2235221862793,"lng":-81.64281463623047,"extID":"","shortName":"39"},{"rid":26,"rsid":1703994,"id":58,"name":"Casa Rustica","lat":36.20296859741211,"lng":-81.6761474609375,"extID":"","shortName":"43"},{"rid":26,"rsid":1703996,"id":60,"name":"Cottages of Boone 1","lat":36.20201873779297,"lng":-81.69929504394531,"extID":"","shortName":"51"},{"rid":26,"rsid":1703997,"id":61,"name":"Cottages of Boone 2","lat":36.20285415649414,"lng":-81.70240020751953,"extID":"","shortName":"49"},{"rid":26,"rsid":1703998,"id":62,"name":"Cottages of Boone 3","lat":36.20326232910156,"lng":-81.70382690429688,"extID":"","shortName":"47"},{"rid":26,"rsid":1704008,"id":72,"name":"Dan'l Boone Inn","lat":36.2163200378418,"lng":-81.67489624023438,"extID":"","shortName":"52"},{"rid":26,"rsid":1703992,"id":56,"name":"Earth Fare","lat":36.21662902832031,"lng":-81.67589569091797,"extID":"","shortName":"54"},{"rid":26,"rsid":1703987,"id":51,"name":"East Village","lat":36.22248458862305,"lng":-81.65489959716797,"extID":"","shortName":"55"},{"rid":26,"rsid":1704011,"id":75,"name":"Forest Hill Dr","lat":36.217323303222656,"lng":-81.66404724121094,"extID":"","shortName":"58"},{"rid":26,"rsid":1704000,"id":64,"name":"Highland Commons","lat":36.20596694946289,"lng":-81.69763946533203,"extID":"","shortName":"72"},{"rid":26,"rsid":1704003,"id":67,"name":"Highland Crossing","lat":36.201629638671875,"lng":-81.67974853515625,"extID":"","shortName":"73"},{"rid":26,"rsid":1703980,"id":44,"name":"Hospitality House","lat":36.214744567871094,"lng":-81.64073181152344,"extID":"","shortName":"80"},{"rid":26,"rsid":1703982,"id":46,"name":"Industrial Park","lat":36.222206115722656,"lng":-81.6442642211914,"extID":"","shortName":"84"},{"rid":26,"rsid":1704007,"id":71,"name":"Jimmy Smith Park","lat":36.21726608276367,"lng":-81.68464660644531,"extID":"","shortName":"86"},{"rid":26,"rsid":1703979,"id":43,"name":"King St / Depot St","lat":36.21870422363281,"lng":-81.6841812133789,"extID":"","shortName":"89"},{"rid":26,"rsid":1703990,"id":54,"name":"King St / Farthing St","lat":36.21706771850586,"lng":-81.66600799560547,"extID":"","shortName":"90"},{"rid":26,"rsid":1704009,"id":73,"name":"King St / Hillside Dr","lat":36.216163635253906,"lng":-81.67047119140625,"extID":"","shortName":"91"},{"rid":26,"rsid":1703991,"id":55,"name":"Kingswood","lat":36.21635818481445,"lng":-81.67219543457031,"extID":"","shortName":"95"},{"rid":26,"rsid":1703988,"id":52,"name":"Meadowhill Estates","lat":36.22105026245117,"lng":-81.65791320800781,"extID":"","shortName":"98"},{"rid":26,"rsid":1703984,"id":48,"name":"Mountaineer Village 1","lat":36.22447967529297,"lng":-81.64779663085938,"extID":"","shortName":"102"},{"rid":26,"rsid":1703985,"id":49,"name":"Mountaineer Village 2","lat":36.22434997558594,"lng":-81.64995574951172,"extID":"","shortName":"103"},{"rid":26,"rsid":1703995,"id":59,"name":"NC 105 Crosswalk","lat":36.201778411865234,"lng":-81.68267822265625,"extID":"","shortName":"105"},{"rid":26,"rsid":1703989,"id":53,"name":"New Market","lat":36.21888732910156,"lng":-81.66014862060547,"extID":"","shortName":"108"},{"rid":26,"rsid":1704012,"id":76,"name":"Old 421 / Delmar St","lat":36.21927261352539,"lng":-81.65704345703125,"extID":"","shortName":"110"},{"rid":26,"rsid":1704015,"id":79,"name":"Old 421 / US 421","lat":36.22044372558594,"lng":-81.64669036865234,"extID":"","shortName":"111"},{"rid":26,"rsid":1703999,"id":63,"name":"Poplar Grove / NC 105","lat":36.20680618286133,"lng":-81.70252990722656,"extID":"","shortName":"117"},{"rid":26,"rsid":1704001,"id":65,"name":"Snaggy Mountain Blvd","lat":36.204715728759766,"lng":-81.69339752197266,"extID":"","shortName":"122"},{"rid":26,"rsid":1704002,"id":66,"name":"Studio West","lat":36.20159912109375,"lng":-81.68270111083984,"extID":"","shortName":"124"},{"rid":26,"rsid":1704013,"id":77,"name":"Watauga High School / Turtle Creek","lat":36.21931838989258,"lng":-81.65253448486328,"extID":"","shortName":"135"},{"rid":26,"rsid":1703978,"id":42,"name":"Water St / King St","lat":36.21964645385742,"lng":-81.68609619140625,"extID":"","shortName":"139"},{"rid":26,"rsid":1704010,"id":74,"name":"Wood Circle","lat":36.21638870239258,"lng":-81.66727447509766,"extID":"","shortName":"144"},{"rid":26,"rsid":1703986,"id":50,"name":"Yosef Dr / King St","lat":36.22169876098633,"lng":-81.65005493164062,"extID":"","shortName":"145"},{"rid":27,"rsid":1769485,"id":13,"name":"AppalCART","lat":36.22806930541992,"lng":-81.71939086914062,"extID":"","shortName":"4"},{"rid":27,"rsid":1769499,"id":27,"name":"ASU Convocation Center","lat":36.2109375,"lng":-81.67520141601562,"extID":"","shortName":"12"},{"rid":27,"rsid":1769498,"id":26,"name":"ASU Garwood Hall","lat":36.21305465698242,"lng":-81.68165588378906,"extID":"","shortName":"9"},{"rid":27,"rsid":1769529,"id":57,"name":"ASU Schaefer Center","lat":36.21565246582031,"lng":-81.68328857421875,"extID":"","shortName":"22"},{"rid":27,"rsid":1769558,"id":86,"name":"Builder's Plaza","lat":36.22138214111328,"lng":-81.71803283691406,"extID":"","shortName":"42"},{"rid":27,"rsid":1769530,"id":58,"name":"Casa Rustica","lat":36.20296859741211,"lng":-81.6761474609375,"extID":"","shortName":"43"},{"rid":27,"rsid":1769597,"id":125,"name":"CCC&TI","lat":36.21567916870117,"lng":-81.71674346923828,"extID":"","shortName":"44"},{"rid":27,"rsid":1769596,"id":124,"name":"Forest Edge ","lat":36.20724105834961,"lng":-81.7012710571289,"extID":"","shortName":"57"},{"rid":27,"rsid":1769569,"id":97,"name":"George Wilson Rd  / Vet Hospital 1","lat":36.227176666259766,"lng":-81.71488952636719,"extID":"","shortName":"59"},{"rid":27,"rsid":1769595,"id":123,"name":"Heritage Court on NC 105 ","lat":36.204673767089844,"lng":-81.69230651855469,"extID":"","shortName":"69"},{"rid":27,"rsid":1769571,"id":99,"name":"High Country Condos","lat":36.22153854370117,"lng":-81.69729614257812,"extID":"","shortName":"70"},{"rid":27,"rsid":1769500,"id":28,"name":"Highland Avenue","lat":36.2090950012207,"lng":-81.67361450195312,"extID":"","shortName":"71"},{"rid":27,"rsid":1769556,"id":84,"name":"Hodges Gap Rd","lat":36.20937728881836,"lng":-81.70649719238281,"extID":"","shortName":"75"},{"rid":27,"rsid":1769572,"id":100,"name":"Human Services Center","lat":36.22087860107422,"lng":-81.69172668457031,"extID":"","shortName":"83"},{"rid":27,"rsid":1769559,"id":87,"name":"Long St","lat":36.22557067871094,"lng":-81.71893310546875,"extID":"","shortName":"96"},{"rid":27,"rsid":1769501,"id":29,"name":"McDonalds","lat":36.20663833618164,"lng":-81.67127227783203,"extID":"","shortName":"97"},{"rid":27,"rsid":1769568,"id":96,"name":"NC 105 Bypass / US 421","lat":36.2301139831543,"lng":-81.72032928466797,"extID":"","shortName":"104"},{"rid":27,"rsid":1769531,"id":59,"name":"NC 105 Crosswalk","lat":36.201778411865234,"lng":-81.68267822265625,"extID":"","shortName":"105"},{"rid":27,"rsid":1769570,"id":98,"name":"Oak Grove Road","lat":36.22235107421875,"lng":-81.70210266113281,"extID":"","shortName":"109"},{"rid":27,"rsid":1769594,"id":122,"name":"Poplar Hill Dr","lat":36.202545166015625,"lng":-81.68556213378906,"extID":"","shortName":"118"},{"rid":27,"rsid":1769573,"id":101,"name":"Ram's Rack","lat":36.22066116333008,"lng":-81.68798828125,"extID":"","shortName":"121"},{"rid":27,"rsid":1769555,"id":83,"name":"University Highlands","lat":36.20936584472656,"lng":-81.70318603515625,"extID":"","shortName":"128"},{"rid":27,"rsid":1769557,"id":85,"name":"Westhaven","lat":36.213958740234375,"lng":-81.71068572998047,"extID":"","shortName":"140"},{"rid":27,"rsid":1769598,"id":126,"name":"White Oak Road","lat":36.21564483642578,"lng":-81.71404266357422,"extID":"","shortName":"141"}]}
+{
+  "get_stops": [
+    {
+      "rid": 2,
+      "rsid": 131081,
+      "id": 9,
+      "name": "ASU College of Health Sciences",
+      "lat": 36.20124053955078,
+      "lng": -81.65235900878906,
+      "extID": "",
+      "shortName": "CHS"
+    },
+    {
+      "rid": 2,
+      "rsid": 131077,
+      "id": 5,
+      "name": "ASU State Farm Lot / Greenway",
+      "lat": 36.20598220825195,
+      "lng": -81.65555572509766,
+      "extID": "",
+      "shortName": "25"
+    },
+    {
+      "rid": 2,
+      "rsid": 131082,
+      "id": 10,
+      "name": "Parks & Rec",
+      "lat": 36.202579498291016,
+      "lng": -81.65420532226562,
+      "extID": "",
+      "shortName": "6"
+    },
+    {
+      "rid": 2,
+      "rsid": 131079,
+      "id": 7,
+      "name": "Postal St / Blowing Rock Rd",
+      "lat": 36.200992584228516,
+      "lng": -81.66154479980469,
+      "extID": "",
+      "shortName": "119"
+    },
+    {
+      "rid": 2,
+      "rsid": 131078,
+      "id": 6,
+      "name": "The Finmore",
+      "lat": 36.20286178588867,
+      "lng": -81.66133117675781,
+      "extID": "",
+      "shortName": "3"
+    },
+    {
+      "rid": 2,
+      "rsid": 131080,
+      "id": 8,
+      "name": "Watauga Medical Center",
+      "lat": 36.198394775390625,
+      "lng": -81.65241241455078,
+      "extID": "",
+      "shortName": "137"
+    },
+    {
+      "rid": 3,
+      "rsid": 196623,
+      "id": 15,
+      "name": "ASU Appalachian Heights",
+      "lat": 36.21458053588867,
+      "lng": -81.6890869140625,
+      "extID": "",
+      "shortName": "7"
+    },
+    {
+      "rid": 3,
+      "rsid": 196632,
+      "id": 24,
+      "name": "ASU Living Learning Center (down)",
+      "lat": 36.2162971496582,
+      "lng": -81.68737030029297,
+      "extID": "",
+      "shortName": "14"
+    },
+    {
+      "rid": 3,
+      "rsid": 196626,
+      "id": 18,
+      "name": "ASU Living Learning Center (Up)",
+      "lat": 36.216400146484375,
+      "lng": -81.68766784667969,
+      "extID": "",
+      "shortName": "15"
+    },
+    {
+      "rid": 3,
+      "rsid": 196629,
+      "id": 21,
+      "name": "ASU Mountaineer Hall",
+      "lat": 36.21603775024414,
+      "lng": -81.6886215209961,
+      "extID": "",
+      "shortName": "17"
+    },
+    {
+      "rid": 3,
+      "rsid": 196624,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 3,
+      "rsid": 196625,
+      "id": 17,
+      "name": "ASU SRC",
+      "lat": 36.216331481933594,
+      "lng": -81.68562316894531,
+      "extID": "",
+      "shortName": "24"
+    },
+    {
+      "rid": 3,
+      "rsid": 196633,
+      "id": 25,
+      "name": "ASU Walker Hall / Bodenheimer Drive",
+      "lat": 36.21702194213867,
+      "lng": -81.68515014648438,
+      "extID": "",
+      "shortName": "28"
+    },
+    {
+      "rid": 3,
+      "rsid": 196631,
+      "id": 23,
+      "name": "Greenwood Lot",
+      "lat": 36.214481353759766,
+      "lng": -81.68909454345703,
+      "extID": "",
+      "shortName": "66"
+    },
+    {
+      "rid": 3,
+      "rsid": 196628,
+      "id": 20,
+      "name": "South Lot / Baseball Stadium ",
+      "lat": 36.212337493896484,
+      "lng": -81.69361114501953,
+      "extID": "",
+      "shortName": "123"
+    },
+    {
+      "rid": 4,
+      "rsid": 262153,
+      "id": 9,
+      "name": "ASU College of Health Sciences",
+      "lat": 36.20124053955078,
+      "lng": -81.65235900878906,
+      "extID": "",
+      "shortName": "CHS"
+    },
+    {
+      "rid": 4,
+      "rsid": 262171,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 4,
+      "rsid": 262170,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 4,
+      "rsid": 262158,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 4,
+      "rsid": 262160,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 4,
+      "rsid": 262180,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 4,
+      "rsid": 262175,
+      "id": 31,
+      "name": "Bavarian Village",
+      "lat": 36.19984436035156,
+      "lng": -81.66395568847656,
+      "extID": "",
+      "shortName": "32"
+    },
+    {
+      "rid": 4,
+      "rsid": 262174,
+      "id": 30,
+      "name": "Boone Mall",
+      "lat": 36.203514099121094,
+      "lng": -81.66619110107422,
+      "extID": "",
+      "shortName": "45"
+    },
+    {
+      "rid": 4,
+      "rsid": 262176,
+      "id": 32,
+      "name": "College Place",
+      "lat": 36.19792175292969,
+      "lng": -81.66279602050781,
+      "extID": "",
+      "shortName": "46"
+    },
+    {
+      "rid": 4,
+      "rsid": 262172,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 4,
+      "rsid": 262179,
+      "id": 35,
+      "name": "Kangaroo Express",
+      "lat": 36.208011627197266,
+      "lng": -81.67230224609375,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 4,
+      "rsid": 262173,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 4,
+      "rsid": 262154,
+      "id": 10,
+      "name": "Parks & Rec",
+      "lat": 36.202579498291016,
+      "lng": -81.65420532226562,
+      "extID": "",
+      "shortName": "6"
+    },
+    {
+      "rid": 4,
+      "rsid": 262150,
+      "id": 6,
+      "name": "The Finmore",
+      "lat": 36.20286178588867,
+      "lng": -81.66133117675781,
+      "extID": "",
+      "shortName": "3"
+    },
+    {
+      "rid": 4,
+      "rsid": 262178,
+      "id": 34,
+      "name": "University Hall Drive",
+      "lat": 36.20293426513672,
+      "lng": -81.6644058227539,
+      "extID": "",
+      "shortName": "127"
+    },
+    {
+      "rid": 4,
+      "rsid": 262177,
+      "id": 33,
+      "name": "Walmart 1",
+      "lat": 36.19804763793945,
+      "lng": -81.65872192382812,
+      "extID": "",
+      "shortName": "132"
+    },
+    {
+      "rid": 4,
+      "rsid": 262152,
+      "id": 8,
+      "name": "Watauga Medical Center",
+      "lat": 36.198394775390625,
+      "lng": -81.65241241455078,
+      "extID": "",
+      "shortName": "137"
+    },
+    {
+      "rid": 5,
+      "rsid": 327695,
+      "id": 15,
+      "name": "ASU Appalachian Heights",
+      "lat": 36.21458053588867,
+      "lng": -81.6890869140625,
+      "extID": "",
+      "shortName": "7"
+    },
+    {
+      "rid": 5,
+      "rsid": 327717,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 5,
+      "rsid": 327719,
+      "id": 39,
+      "name": "ASU Dogwood Hall",
+      "lat": 36.21434783935547,
+      "lng": -81.67533874511719,
+      "extID": "",
+      "shortName": "13"
+    },
+    {
+      "rid": 5,
+      "rsid": 327704,
+      "id": 24,
+      "name": "ASU Living Learning Center (down)",
+      "lat": 36.2162971496582,
+      "lng": -81.68737030029297,
+      "extID": "",
+      "shortName": "14"
+    },
+    {
+      "rid": 5,
+      "rsid": 327698,
+      "id": 18,
+      "name": "ASU Living Learning Center (Up)",
+      "lat": 36.216400146484375,
+      "lng": -81.68766784667969,
+      "extID": "",
+      "shortName": "15"
+    },
+    {
+      "rid": 5,
+      "rsid": 327701,
+      "id": 21,
+      "name": "ASU Mountaineer Hall",
+      "lat": 36.21603775024414,
+      "lng": -81.6886215209961,
+      "extID": "",
+      "shortName": "17"
+    },
+    {
+      "rid": 5,
+      "rsid": 327721,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 5,
+      "rsid": 327716,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 5,
+      "rsid": 327697,
+      "id": 17,
+      "name": "ASU SRC",
+      "lat": 36.216331481933594,
+      "lng": -81.68562316894531,
+      "extID": "",
+      "shortName": "24"
+    },
+    {
+      "rid": 5,
+      "rsid": 327720,
+      "id": 40,
+      "name": "ASU Trivette Hall",
+      "lat": 36.21300506591797,
+      "lng": -81.68376922607422,
+      "extID": "",
+      "shortName": "27"
+    },
+    {
+      "rid": 5,
+      "rsid": 327705,
+      "id": 25,
+      "name": "ASU Walker Hall / Bodenheimer Drive",
+      "lat": 36.21702194213867,
+      "lng": -81.68515014648438,
+      "extID": "",
+      "shortName": "28"
+    },
+    {
+      "rid": 5,
+      "rsid": 327703,
+      "id": 23,
+      "name": "Greenwood Lot",
+      "lat": 36.214481353759766,
+      "lng": -81.68909454345703,
+      "extID": "",
+      "shortName": "66"
+    },
+    {
+      "rid": 5,
+      "rsid": 327718,
+      "id": 38,
+      "name": "Howard St / Hardin St",
+      "lat": 36.215606689453125,
+      "lng": -81.67478942871094,
+      "extID": "",
+      "shortName": "81"
+    },
+    {
+      "rid": 5,
+      "rsid": 327723,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 5,
+      "rsid": 327700,
+      "id": 20,
+      "name": "South Lot / Baseball Stadium ",
+      "lat": 36.212337493896484,
+      "lng": -81.69361114501953,
+      "extID": "",
+      "shortName": "123"
+    },
+    {
+      "rid": 5,
+      "rsid": 327702,
+      "id": 22,
+      "name": "Top of  Bodenheimer (down)",
+      "lat": 36.21480941772461,
+      "lng": -81.69235229492188,
+      "extID": "",
+      "shortName": "125"
+    },
+    {
+      "rid": 5,
+      "rsid": 327722,
+      "id": 42,
+      "name": "Water St / King St",
+      "lat": 36.21964645385742,
+      "lng": -81.68609619140625,
+      "extID": "",
+      "shortName": "139"
+    },
+    {
+      "rid": 6,
+      "rsid": 393228,
+      "id": 12,
+      "name": "App South PSI ",
+      "lat": 36.208858489990234,
+      "lng": -81.67432403564453,
+      "extID": "",
+      "shortName": "2"
+    },
+    {
+      "rid": 6,
+      "rsid": 393253,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 6,
+      "rsid": 393243,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 6,
+      "rsid": 393242,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 6,
+      "rsid": 393230,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 6,
+      "rsid": 393284,
+      "id": 68,
+      "name": "ASU NC 105 Lot 1 ",
+      "lat": 36.201053619384766,
+      "lng": -81.67403411865234,
+      "extID": "",
+      "shortName": "150"
+    },
+    {
+      "rid": 6,
+      "rsid": 393285,
+      "id": 69,
+      "name": "ASU NC 105 Lot 2 ",
+      "lat": 36.20068359375,
+      "lng": -81.67598724365234,
+      "extID": "",
+      "shortName": "18"
+    },
+    {
+      "rid": 6,
+      "rsid": 393286,
+      "id": 70,
+      "name": "ASU NC 105 Lot 3",
+      "lat": 36.200313568115234,
+      "lng": -81.67728424072266,
+      "extID": "",
+      "shortName": "19"
+    },
+    {
+      "rid": 6,
+      "rsid": 393257,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 6,
+      "rsid": 393273,
+      "id": 57,
+      "name": "ASU Schaefer Center",
+      "lat": 36.21565246582031,
+      "lng": -81.68328857421875,
+      "extID": "",
+      "shortName": "22"
+    },
+    {
+      "rid": 6,
+      "rsid": 393252,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 6,
+      "rsid": 393296,
+      "id": 80,
+      "name": "Bamboo Rd / Kangaroo Express",
+      "lat": 36.22045135498047,
+      "lng": -81.6390380859375,
+      "extID": "",
+      "shortName": "30"
+    },
+    {
+      "rid": 6,
+      "rsid": 393294,
+      "id": 78,
+      "name": "Blue Ridge Tourist Court",
+      "lat": 36.219730377197266,
+      "lng": -81.64924621582031,
+      "extID": "",
+      "shortName": "115"
+    },
+    {
+      "rid": 6,
+      "rsid": 393261,
+      "id": 45,
+      "name": "Brookhollow Rd / Bamboo Rd",
+      "lat": 36.214759826660156,
+      "lng": -81.63665008544922,
+      "extID": "",
+      "shortName": "38"
+    },
+    {
+      "rid": 6,
+      "rsid": 393263,
+      "id": 47,
+      "name": "Brookshire Park",
+      "lat": 36.2235221862793,
+      "lng": -81.64281463623047,
+      "extID": "",
+      "shortName": "39"
+    },
+    {
+      "rid": 6,
+      "rsid": 393274,
+      "id": 58,
+      "name": "Casa Rustica",
+      "lat": 36.20296859741211,
+      "lng": -81.6761474609375,
+      "extID": "",
+      "shortName": "43"
+    },
+    {
+      "rid": 6,
+      "rsid": 393276,
+      "id": 60,
+      "name": "Cottages of Boone 1",
+      "lat": 36.20201873779297,
+      "lng": -81.69929504394531,
+      "extID": "",
+      "shortName": "51"
+    },
+    {
+      "rid": 6,
+      "rsid": 393277,
+      "id": 61,
+      "name": "Cottages of Boone 2",
+      "lat": 36.20285415649414,
+      "lng": -81.70240020751953,
+      "extID": "",
+      "shortName": "49"
+    },
+    {
+      "rid": 6,
+      "rsid": 393278,
+      "id": 62,
+      "name": "Cottages of Boone 3",
+      "lat": 36.20326232910156,
+      "lng": -81.70382690429688,
+      "extID": "",
+      "shortName": "47"
+    },
+    {
+      "rid": 6,
+      "rsid": 393288,
+      "id": 72,
+      "name": "Dan'l Boone Inn",
+      "lat": 36.2163200378418,
+      "lng": -81.67489624023438,
+      "extID": "",
+      "shortName": "52"
+    },
+    {
+      "rid": 6,
+      "rsid": 393272,
+      "id": 56,
+      "name": "Earth Fare",
+      "lat": 36.21662902832031,
+      "lng": -81.67589569091797,
+      "extID": "",
+      "shortName": "54"
+    },
+    {
+      "rid": 6,
+      "rsid": 393267,
+      "id": 51,
+      "name": "East Village",
+      "lat": 36.22248458862305,
+      "lng": -81.65489959716797,
+      "extID": "",
+      "shortName": "55"
+    },
+    {
+      "rid": 6,
+      "rsid": 393291,
+      "id": 75,
+      "name": "Forest Hill Dr",
+      "lat": 36.217323303222656,
+      "lng": -81.66404724121094,
+      "extID": "",
+      "shortName": "58"
+    },
+    {
+      "rid": 6,
+      "rsid": 393280,
+      "id": 64,
+      "name": "Highland Commons",
+      "lat": 36.20596694946289,
+      "lng": -81.69763946533203,
+      "extID": "",
+      "shortName": "72"
+    },
+    {
+      "rid": 6,
+      "rsid": 393283,
+      "id": 67,
+      "name": "Highland Crossing",
+      "lat": 36.201629638671875,
+      "lng": -81.67974853515625,
+      "extID": "",
+      "shortName": "73"
+    },
+    {
+      "rid": 6,
+      "rsid": 393260,
+      "id": 44,
+      "name": "Hospitality House",
+      "lat": 36.214744567871094,
+      "lng": -81.64073181152344,
+      "extID": "",
+      "shortName": "80"
+    },
+    {
+      "rid": 6,
+      "rsid": 393262,
+      "id": 46,
+      "name": "Industrial Park",
+      "lat": 36.222206115722656,
+      "lng": -81.6442642211914,
+      "extID": "",
+      "shortName": "84"
+    },
+    {
+      "rid": 6,
+      "rsid": 393287,
+      "id": 71,
+      "name": "Jimmy Smith Park",
+      "lat": 36.21726608276367,
+      "lng": -81.68464660644531,
+      "extID": "",
+      "shortName": "86"
+    },
+    {
+      "rid": 6,
+      "rsid": 393259,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 6,
+      "rsid": 393270,
+      "id": 54,
+      "name": "King St / Farthing St",
+      "lat": 36.21706771850586,
+      "lng": -81.66600799560547,
+      "extID": "",
+      "shortName": "90"
+    },
+    {
+      "rid": 6,
+      "rsid": 393289,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 6,
+      "rsid": 393271,
+      "id": 55,
+      "name": "Kingswood",
+      "lat": 36.21635818481445,
+      "lng": -81.67219543457031,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 6,
+      "rsid": 393268,
+      "id": 52,
+      "name": "Meadowhill Estates",
+      "lat": 36.22105026245117,
+      "lng": -81.65791320800781,
+      "extID": "",
+      "shortName": "98"
+    },
+    {
+      "rid": 6,
+      "rsid": 393264,
+      "id": 48,
+      "name": "Mountaineer Village 1",
+      "lat": 36.22447967529297,
+      "lng": -81.64779663085938,
+      "extID": "",
+      "shortName": "102"
+    },
+    {
+      "rid": 6,
+      "rsid": 393265,
+      "id": 49,
+      "name": "Mountaineer Village 2",
+      "lat": 36.22434997558594,
+      "lng": -81.64995574951172,
+      "extID": "",
+      "shortName": "103"
+    },
+    {
+      "rid": 6,
+      "rsid": 393275,
+      "id": 59,
+      "name": "NC 105 Crosswalk",
+      "lat": 36.201778411865234,
+      "lng": -81.68267822265625,
+      "extID": "",
+      "shortName": "105"
+    },
+    {
+      "rid": 6,
+      "rsid": 393269,
+      "id": 53,
+      "name": "New Market",
+      "lat": 36.21888732910156,
+      "lng": -81.66014862060547,
+      "extID": "",
+      "shortName": "108"
+    },
+    {
+      "rid": 6,
+      "rsid": 393292,
+      "id": 76,
+      "name": "Old 421 / Delmar St",
+      "lat": 36.21927261352539,
+      "lng": -81.65704345703125,
+      "extID": "",
+      "shortName": "110"
+    },
+    {
+      "rid": 6,
+      "rsid": 393295,
+      "id": 79,
+      "name": "Old 421 / US 421",
+      "lat": 36.22044372558594,
+      "lng": -81.64669036865234,
+      "extID": "",
+      "shortName": "111"
+    },
+    {
+      "rid": 6,
+      "rsid": 393279,
+      "id": 63,
+      "name": "Poplar Grove / NC 105",
+      "lat": 36.20680618286133,
+      "lng": -81.70252990722656,
+      "extID": "",
+      "shortName": "117"
+    },
+    {
+      "rid": 6,
+      "rsid": 393281,
+      "id": 65,
+      "name": "Snaggy Mountain Blvd",
+      "lat": 36.204715728759766,
+      "lng": -81.69339752197266,
+      "extID": "",
+      "shortName": "122"
+    },
+    {
+      "rid": 6,
+      "rsid": 393282,
+      "id": 66,
+      "name": "Studio West",
+      "lat": 36.20159912109375,
+      "lng": -81.68270111083984,
+      "extID": "",
+      "shortName": "124"
+    },
+    {
+      "rid": 6,
+      "rsid": 393293,
+      "id": 77,
+      "name": "Watauga High School / Turtle Creek",
+      "lat": 36.21931838989258,
+      "lng": -81.65253448486328,
+      "extID": "",
+      "shortName": "135"
+    },
+    {
+      "rid": 6,
+      "rsid": 393258,
+      "id": 42,
+      "name": "Water St / King St",
+      "lat": 36.21964645385742,
+      "lng": -81.68609619140625,
+      "extID": "",
+      "shortName": "139"
+    },
+    {
+      "rid": 6,
+      "rsid": 393290,
+      "id": 74,
+      "name": "Wood Circle",
+      "lat": 36.21638870239258,
+      "lng": -81.66727447509766,
+      "extID": "",
+      "shortName": "144"
+    },
+    {
+      "rid": 6,
+      "rsid": 393266,
+      "id": 50,
+      "name": "Yosef Dr / King St",
+      "lat": 36.22169876098633,
+      "lng": -81.65005493164062,
+      "extID": "",
+      "shortName": "145"
+    },
+    {
+      "rid": 7,
+      "rsid": 458791,
+      "id": 39,
+      "name": "ASU Dogwood Hall",
+      "lat": 36.21434783935547,
+      "lng": -81.67533874511719,
+      "extID": "",
+      "shortName": "13"
+    },
+    {
+      "rid": 7,
+      "rsid": 458773,
+      "id": 21,
+      "name": "ASU Mountaineer Hall",
+      "lat": 36.21603775024414,
+      "lng": -81.6886215209961,
+      "extID": "",
+      "shortName": "17"
+    },
+    {
+      "rid": 7,
+      "rsid": 458820,
+      "id": 68,
+      "name": "ASU NC 105 Lot 1 ",
+      "lat": 36.201053619384766,
+      "lng": -81.67403411865234,
+      "extID": "",
+      "shortName": "150"
+    },
+    {
+      "rid": 7,
+      "rsid": 458821,
+      "id": 69,
+      "name": "ASU NC 105 Lot 2 ",
+      "lat": 36.20068359375,
+      "lng": -81.67598724365234,
+      "extID": "",
+      "shortName": "18"
+    },
+    {
+      "rid": 7,
+      "rsid": 458822,
+      "id": 70,
+      "name": "ASU NC 105 Lot 3",
+      "lat": 36.200313568115234,
+      "lng": -81.67728424072266,
+      "extID": "",
+      "shortName": "19"
+    },
+    {
+      "rid": 7,
+      "rsid": 458792,
+      "id": 40,
+      "name": "ASU Trivette Hall",
+      "lat": 36.21300506591797,
+      "lng": -81.68376922607422,
+      "extID": "",
+      "shortName": "27"
+    },
+    {
+      "rid": 8,
+      "rsid": 524325,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 8,
+      "rsid": 524335,
+      "id": 47,
+      "name": "Brookshire Park",
+      "lat": 36.2235221862793,
+      "lng": -81.64281463623047,
+      "extID": "",
+      "shortName": "39"
+    },
+    {
+      "rid": 8,
+      "rsid": 524360,
+      "id": 72,
+      "name": "Dan'l Boone Inn",
+      "lat": 36.2163200378418,
+      "lng": -81.67489624023438,
+      "extID": "",
+      "shortName": "52"
+    },
+    {
+      "rid": 8,
+      "rsid": 524344,
+      "id": 56,
+      "name": "Earth Fare",
+      "lat": 36.21662902832031,
+      "lng": -81.67589569091797,
+      "extID": "",
+      "shortName": "54"
+    },
+    {
+      "rid": 8,
+      "rsid": 524339,
+      "id": 51,
+      "name": "East Village",
+      "lat": 36.22248458862305,
+      "lng": -81.65489959716797,
+      "extID": "",
+      "shortName": "55"
+    },
+    {
+      "rid": 8,
+      "rsid": 524363,
+      "id": 75,
+      "name": "Forest Hill Dr",
+      "lat": 36.217323303222656,
+      "lng": -81.66404724121094,
+      "extID": "",
+      "shortName": "58"
+    },
+    {
+      "rid": 8,
+      "rsid": 524334,
+      "id": 46,
+      "name": "Industrial Park",
+      "lat": 36.222206115722656,
+      "lng": -81.6442642211914,
+      "extID": "",
+      "shortName": "84"
+    },
+    {
+      "rid": 8,
+      "rsid": 524342,
+      "id": 54,
+      "name": "King St / Farthing St",
+      "lat": 36.21706771850586,
+      "lng": -81.66600799560547,
+      "extID": "",
+      "shortName": "90"
+    },
+    {
+      "rid": 8,
+      "rsid": 524361,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 8,
+      "rsid": 524421,
+      "id": 133,
+      "name": "King St / Old 421 (Speedway)",
+      "lat": 36.21978759765625,
+      "lng": -81.6568374633789,
+      "extID": "",
+      "shortName": "151"
+    },
+    {
+      "rid": 8,
+      "rsid": 524343,
+      "id": 55,
+      "name": "Kingswood",
+      "lat": 36.21635818481445,
+      "lng": -81.67219543457031,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 8,
+      "rsid": 524340,
+      "id": 52,
+      "name": "Meadowhill Estates",
+      "lat": 36.22105026245117,
+      "lng": -81.65791320800781,
+      "extID": "",
+      "shortName": "98"
+    },
+    {
+      "rid": 8,
+      "rsid": 524336,
+      "id": 48,
+      "name": "Mountaineer Village 1",
+      "lat": 36.22447967529297,
+      "lng": -81.64779663085938,
+      "extID": "",
+      "shortName": "102"
+    },
+    {
+      "rid": 8,
+      "rsid": 524337,
+      "id": 49,
+      "name": "Mountaineer Village 2",
+      "lat": 36.22434997558594,
+      "lng": -81.64995574951172,
+      "extID": "",
+      "shortName": "103"
+    },
+    {
+      "rid": 8,
+      "rsid": 524341,
+      "id": 53,
+      "name": "New Market",
+      "lat": 36.21888732910156,
+      "lng": -81.66014862060547,
+      "extID": "",
+      "shortName": "108"
+    },
+    {
+      "rid": 8,
+      "rsid": 524362,
+      "id": 74,
+      "name": "Wood Circle",
+      "lat": 36.21638870239258,
+      "lng": -81.66727447509766,
+      "extID": "",
+      "shortName": "144"
+    },
+    {
+      "rid": 8,
+      "rsid": 524338,
+      "id": 50,
+      "name": "Yosef Dr / King St",
+      "lat": 36.22169876098633,
+      "lng": -81.65005493164062,
+      "extID": "",
+      "shortName": "145"
+    },
+    {
+      "rid": 9,
+      "rsid": 589833,
+      "id": 9,
+      "name": "ASU College of Health Sciences",
+      "lat": 36.20124053955078,
+      "lng": -81.65235900878906,
+      "extID": "",
+      "shortName": "CHS"
+    },
+    {
+      "rid": 9,
+      "rsid": 589851,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 9,
+      "rsid": 589850,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 9,
+      "rsid": 589838,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 9,
+      "rsid": 589840,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 9,
+      "rsid": 589860,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 9,
+      "rsid": 589906,
+      "id": 82,
+      "name": "ASU University Hall",
+      "lat": 36.205265045166016,
+      "lng": -81.66351318359375,
+      "extID": "",
+      "shortName": "148"
+    },
+    {
+      "rid": 9,
+      "rsid": 589854,
+      "id": 30,
+      "name": "Boone Mall",
+      "lat": 36.203514099121094,
+      "lng": -81.66619110107422,
+      "extID": "",
+      "shortName": "45"
+    },
+    {
+      "rid": 9,
+      "rsid": 589852,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 9,
+      "rsid": 589859,
+      "id": 35,
+      "name": "Kangaroo Express",
+      "lat": 36.208011627197266,
+      "lng": -81.67230224609375,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 9,
+      "rsid": 589853,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 9,
+      "rsid": 589834,
+      "id": 10,
+      "name": "Parks & Rec",
+      "lat": 36.202579498291016,
+      "lng": -81.65420532226562,
+      "extID": "",
+      "shortName": "6"
+    },
+    {
+      "rid": 9,
+      "rsid": 589831,
+      "id": 7,
+      "name": "Postal St / Blowing Rock Rd",
+      "lat": 36.200992584228516,
+      "lng": -81.66154479980469,
+      "extID": "",
+      "shortName": "119"
+    },
+    {
+      "rid": 9,
+      "rsid": 589905,
+      "id": 81,
+      "name": "Pride Dr",
+      "lat": 36.19963836669922,
+      "lng": -81.6595687866211,
+      "extID": "",
+      "shortName": "120"
+    },
+    {
+      "rid": 9,
+      "rsid": 589830,
+      "id": 6,
+      "name": "The Finmore",
+      "lat": 36.20286178588867,
+      "lng": -81.66133117675781,
+      "extID": "",
+      "shortName": "3"
+    },
+    {
+      "rid": 9,
+      "rsid": 589832,
+      "id": 8,
+      "name": "Watauga Medical Center",
+      "lat": 36.198394775390625,
+      "lng": -81.65241241455078,
+      "extID": "",
+      "shortName": "137"
+    },
+    {
+      "rid": 10,
+      "rsid": 655373,
+      "id": 13,
+      "name": "AppalCART",
+      "lat": 36.22806930541992,
+      "lng": -81.71939086914062,
+      "extID": "",
+      "shortName": "4"
+    },
+    {
+      "rid": 10,
+      "rsid": 655387,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 10,
+      "rsid": 655386,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 10,
+      "rsid": 655417,
+      "id": 57,
+      "name": "ASU Schaefer Center",
+      "lat": 36.21565246582031,
+      "lng": -81.68328857421875,
+      "extID": "",
+      "shortName": "22"
+    },
+    {
+      "rid": 10,
+      "rsid": 655446,
+      "id": 86,
+      "name": "Builder's Plaza",
+      "lat": 36.22138214111328,
+      "lng": -81.71803283691406,
+      "extID": "",
+      "shortName": "42"
+    },
+    {
+      "rid": 10,
+      "rsid": 655418,
+      "id": 58,
+      "name": "Casa Rustica",
+      "lat": 36.20296859741211,
+      "lng": -81.6761474609375,
+      "extID": "",
+      "shortName": "43"
+    },
+    {
+      "rid": 10,
+      "rsid": 655485,
+      "id": 125,
+      "name": "CCC&TI",
+      "lat": 36.21567916870117,
+      "lng": -81.71674346923828,
+      "extID": "",
+      "shortName": "44"
+    },
+    {
+      "rid": 10,
+      "rsid": 655484,
+      "id": 124,
+      "name": "Forest Edge ",
+      "lat": 36.20724105834961,
+      "lng": -81.7012710571289,
+      "extID": "",
+      "shortName": "57"
+    },
+    {
+      "rid": 10,
+      "rsid": 655457,
+      "id": 97,
+      "name": "George Wilson Rd  / Vet Hospital 1",
+      "lat": 36.227176666259766,
+      "lng": -81.71488952636719,
+      "extID": "",
+      "shortName": "59"
+    },
+    {
+      "rid": 10,
+      "rsid": 655483,
+      "id": 123,
+      "name": "Heritage Court on NC 105 ",
+      "lat": 36.204673767089844,
+      "lng": -81.69230651855469,
+      "extID": "",
+      "shortName": "69"
+    },
+    {
+      "rid": 10,
+      "rsid": 655459,
+      "id": 99,
+      "name": "High Country Condos",
+      "lat": 36.22153854370117,
+      "lng": -81.69729614257812,
+      "extID": "",
+      "shortName": "70"
+    },
+    {
+      "rid": 10,
+      "rsid": 655388,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 10,
+      "rsid": 655444,
+      "id": 84,
+      "name": "Hodges Gap Rd",
+      "lat": 36.20937728881836,
+      "lng": -81.70649719238281,
+      "extID": "",
+      "shortName": "75"
+    },
+    {
+      "rid": 10,
+      "rsid": 655460,
+      "id": 100,
+      "name": "Human Services Center",
+      "lat": 36.22087860107422,
+      "lng": -81.69172668457031,
+      "extID": "",
+      "shortName": "83"
+    },
+    {
+      "rid": 10,
+      "rsid": 655447,
+      "id": 87,
+      "name": "Long St",
+      "lat": 36.22557067871094,
+      "lng": -81.71893310546875,
+      "extID": "",
+      "shortName": "96"
+    },
+    {
+      "rid": 10,
+      "rsid": 655389,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 10,
+      "rsid": 655456,
+      "id": 96,
+      "name": "NC 105 Bypass / US 421",
+      "lat": 36.2301139831543,
+      "lng": -81.72032928466797,
+      "extID": "",
+      "shortName": "104"
+    },
+    {
+      "rid": 10,
+      "rsid": 655419,
+      "id": 59,
+      "name": "NC 105 Crosswalk",
+      "lat": 36.201778411865234,
+      "lng": -81.68267822265625,
+      "extID": "",
+      "shortName": "105"
+    },
+    {
+      "rid": 10,
+      "rsid": 655458,
+      "id": 98,
+      "name": "Oak Grove Road",
+      "lat": 36.22235107421875,
+      "lng": -81.70210266113281,
+      "extID": "",
+      "shortName": "109"
+    },
+    {
+      "rid": 10,
+      "rsid": 655482,
+      "id": 122,
+      "name": "Poplar Hill Dr",
+      "lat": 36.202545166015625,
+      "lng": -81.68556213378906,
+      "extID": "",
+      "shortName": "118"
+    },
+    {
+      "rid": 10,
+      "rsid": 655461,
+      "id": 101,
+      "name": "Ram's Rack",
+      "lat": 36.22066116333008,
+      "lng": -81.68798828125,
+      "extID": "",
+      "shortName": "121"
+    },
+    {
+      "rid": 10,
+      "rsid": 655443,
+      "id": 83,
+      "name": "University Highlands",
+      "lat": 36.20936584472656,
+      "lng": -81.70318603515625,
+      "extID": "",
+      "shortName": "128"
+    },
+    {
+      "rid": 10,
+      "rsid": 655445,
+      "id": 85,
+      "name": "Westhaven",
+      "lat": 36.213958740234375,
+      "lng": -81.71068572998047,
+      "extID": "",
+      "shortName": "140"
+    },
+    {
+      "rid": 10,
+      "rsid": 655486,
+      "id": 126,
+      "name": "White Oak Road",
+      "lat": 36.21564483642578,
+      "lng": -81.71404266357422,
+      "extID": "",
+      "shortName": "141"
+    },
+    {
+      "rid": 11,
+      "rsid": 720923,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 11,
+      "rsid": 720922,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 11,
+      "rsid": 720910,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 11,
+      "rsid": 720912,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 11,
+      "rsid": 720932,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 11,
+      "rsid": 720926,
+      "id": 30,
+      "name": "Boone Mall",
+      "lat": 36.203514099121094,
+      "lng": -81.66619110107422,
+      "extID": "",
+      "shortName": "45"
+    },
+    {
+      "rid": 11,
+      "rsid": 720989,
+      "id": 93,
+      "name": "Greenway Business Park",
+      "lat": 36.19855499267578,
+      "lng": -81.6678237915039,
+      "extID": "",
+      "shortName": "63"
+    },
+    {
+      "rid": 11,
+      "rsid": 720990,
+      "id": 94,
+      "name": "Greenway Commons",
+      "lat": 36.199867248535156,
+      "lng": -81.67037200927734,
+      "extID": "",
+      "shortName": "64"
+    },
+    {
+      "rid": 11,
+      "rsid": 720988,
+      "id": 92,
+      "name": "Greenway Rd Parking Lot",
+      "lat": 36.19805145263672,
+      "lng": -81.66397857666016,
+      "extID": "",
+      "shortName": "65"
+    },
+    {
+      "rid": 11,
+      "rsid": 720924,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 11,
+      "rsid": 720931,
+      "id": 35,
+      "name": "Kangaroo Express",
+      "lat": 36.208011627197266,
+      "lng": -81.67230224609375,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 11,
+      "rsid": 720925,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 11,
+      "rsid": 720987,
+      "id": 91,
+      "name": "Meadowview Dr / Greenway Rd",
+      "lat": 36.197723388671875,
+      "lng": -81.6633071899414,
+      "extID": "",
+      "shortName": "99"
+    },
+    {
+      "rid": 11,
+      "rsid": 720986,
+      "id": 90,
+      "name": "Meadowview Dr / Madison Ave",
+      "lat": 36.19483184814453,
+      "lng": -81.65555572509766,
+      "extID": "",
+      "shortName": "149"
+    },
+    {
+      "rid": 11,
+      "rsid": 720984,
+      "id": 88,
+      "name": "Meadowview Dr / US 321",
+      "lat": 36.1946907043457,
+      "lng": -81.65277099609375,
+      "extID": "",
+      "shortName": "100"
+    },
+    {
+      "rid": 11,
+      "rsid": 720903,
+      "id": 7,
+      "name": "Postal St / Blowing Rock Rd",
+      "lat": 36.200992584228516,
+      "lng": -81.66154479980469,
+      "extID": "",
+      "shortName": "119"
+    },
+    {
+      "rid": 11,
+      "rsid": 720977,
+      "id": 81,
+      "name": "Pride Dr",
+      "lat": 36.19963836669922,
+      "lng": -81.6595687866211,
+      "extID": "",
+      "shortName": "120"
+    },
+    {
+      "rid": 11,
+      "rsid": 720985,
+      "id": 89,
+      "name": "Village at Meadowview",
+      "lat": 36.19465637207031,
+      "lng": -81.65796661376953,
+      "extID": "",
+      "shortName": "131"
+    },
+    {
+      "rid": 11,
+      "rsid": 720991,
+      "id": 95,
+      "name": "Wilson Dr",
+      "lat": 36.20274353027344,
+      "lng": -81.67192840576172,
+      "extID": "",
+      "shortName": "142"
+    },
+    {
+      "rid": 12,
+      "rsid": 786445,
+      "id": 13,
+      "name": "AppalCART",
+      "lat": 36.22806930541992,
+      "lng": -81.71939086914062,
+      "extID": "",
+      "shortName": "4"
+    },
+    {
+      "rid": 12,
+      "rsid": 786441,
+      "id": 9,
+      "name": "ASU College of Health Sciences",
+      "lat": 36.20124053955078,
+      "lng": -81.65235900878906,
+      "extID": "",
+      "shortName": "CHS"
+    },
+    {
+      "rid": 12,
+      "rsid": 786469,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 12,
+      "rsid": 786534,
+      "id": 102,
+      "name": "ASU Mountain Laurel Hall / NC 105 Ext",
+      "lat": 36.206478118896484,
+      "lng": -81.66874694824219,
+      "extID": "",
+      "shortName": "33"
+    },
+    {
+      "rid": 12,
+      "rsid": 786541,
+      "id": 109,
+      "name": "Beverly Heights Ave",
+      "lat": 36.210838317871094,
+      "lng": -81.66700744628906,
+      "extID": "",
+      "shortName": "114"
+    },
+    {
+      "rid": 12,
+      "rsid": 786538,
+      "id": 106,
+      "name": "Boone Heights 1",
+      "lat": 36.20238494873047,
+      "lng": -81.65646362304688,
+      "extID": "",
+      "shortName": "35"
+    },
+    {
+      "rid": 12,
+      "rsid": 786539,
+      "id": 107,
+      "name": "Boone Heights 2",
+      "lat": 36.20094299316406,
+      "lng": -81.65758514404297,
+      "extID": "",
+      "shortName": "36"
+    },
+    {
+      "rid": 12,
+      "rsid": 786464,
+      "id": 32,
+      "name": "College Place",
+      "lat": 36.19792175292969,
+      "lng": -81.66279602050781,
+      "extID": "",
+      "shortName": "46"
+    },
+    {
+      "rid": 12,
+      "rsid": 786504,
+      "id": 72,
+      "name": "Dan'l Boone Inn",
+      "lat": 36.2163200378418,
+      "lng": -81.67489624023438,
+      "extID": "",
+      "shortName": "52"
+    },
+    {
+      "rid": 12,
+      "rsid": 786488,
+      "id": 56,
+      "name": "Earth Fare",
+      "lat": 36.21662902832031,
+      "lng": -81.67589569091797,
+      "extID": "",
+      "shortName": "54"
+    },
+    {
+      "rid": 12,
+      "rsid": 786548,
+      "id": 116,
+      "name": "Edgecliff Ln",
+      "lat": 36.22190475463867,
+      "lng": -81.69938659667969,
+      "extID": "",
+      "shortName": "56"
+    },
+    {
+      "rid": 12,
+      "rsid": 786529,
+      "id": 97,
+      "name": "George Wilson Rd  / Vet Hospital 1",
+      "lat": 36.227176666259766,
+      "lng": -81.71488952636719,
+      "extID": "",
+      "shortName": "59"
+    },
+    {
+      "rid": 12,
+      "rsid": 786552,
+      "id": 120,
+      "name": "George Wilson Rd / Vet Hospital 2",
+      "lat": 36.22740936279297,
+      "lng": -81.71490478515625,
+      "extID": "",
+      "shortName": "60"
+    },
+    {
+      "rid": 12,
+      "rsid": 786551,
+      "id": 119,
+      "name": "Graggville Rd",
+      "lat": 36.22334289550781,
+      "lng": -81.70647430419922,
+      "extID": "",
+      "shortName": "62"
+    },
+    {
+      "rid": 12,
+      "rsid": 786525,
+      "id": 93,
+      "name": "Greenway Business Park",
+      "lat": 36.19855499267578,
+      "lng": -81.6678237915039,
+      "extID": "",
+      "shortName": "63"
+    },
+    {
+      "rid": 12,
+      "rsid": 786526,
+      "id": 94,
+      "name": "Greenway Commons",
+      "lat": 36.199867248535156,
+      "lng": -81.67037200927734,
+      "extID": "",
+      "shortName": "64"
+    },
+    {
+      "rid": 12,
+      "rsid": 786524,
+      "id": 92,
+      "name": "Greenway Rd Parking Lot",
+      "lat": 36.19805145263672,
+      "lng": -81.66397857666016,
+      "extID": "",
+      "shortName": "65"
+    },
+    {
+      "rid": 12,
+      "rsid": 786531,
+      "id": 99,
+      "name": "High Country Condos",
+      "lat": 36.22153854370117,
+      "lng": -81.69729614257812,
+      "extID": "",
+      "shortName": "70"
+    },
+    {
+      "rid": 12,
+      "rsid": 786550,
+      "id": 118,
+      "name": "Highland Hall Rd",
+      "lat": 36.222938537597656,
+      "lng": -81.7044677734375,
+      "extID": "",
+      "shortName": "74"
+    },
+    {
+      "rid": 12,
+      "rsid": 786532,
+      "id": 100,
+      "name": "Human Services Center",
+      "lat": 36.22087860107422,
+      "lng": -81.69172668457031,
+      "extID": "",
+      "shortName": "83"
+    },
+    {
+      "rid": 12,
+      "rsid": 786553,
+      "id": 121,
+      "name": "Kensington Trail",
+      "lat": 36.22919845581055,
+      "lng": -81.71800231933594,
+      "extID": "",
+      "shortName": "88"
+    },
+    {
+      "rid": 12,
+      "rsid": 786475,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 12,
+      "rsid": 786505,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 12,
+      "rsid": 786544,
+      "id": 112,
+      "name": "King St / N Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.68379211425781,
+      "extID": "",
+      "shortName": "92"
+    },
+    {
+      "rid": 12,
+      "rsid": 786487,
+      "id": 55,
+      "name": "Kingswood",
+      "lat": 36.21635818481445,
+      "lng": -81.67219543457031,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 12,
+      "rsid": 786546,
+      "id": 114,
+      "name": "Miller Industries",
+      "lat": 36.221012115478516,
+      "lng": -81.69127655029297,
+      "extID": "",
+      "shortName": "101"
+    },
+    {
+      "rid": 12,
+      "rsid": 786528,
+      "id": 96,
+      "name": "NC 105 Bypass / US 421",
+      "lat": 36.2301139831543,
+      "lng": -81.72032928466797,
+      "extID": "",
+      "shortName": "104"
+    },
+    {
+      "rid": 12,
+      "rsid": 786543,
+      "id": 111,
+      "name": "NC 105 Ext / Azalea Dr",
+      "lat": 36.20625305175781,
+      "lng": -81.66854858398438,
+      "extID": "",
+      "shortName": "106"
+    },
+    {
+      "rid": 12,
+      "rsid": 786530,
+      "id": 98,
+      "name": "Oak Grove Road",
+      "lat": 36.22235107421875,
+      "lng": -81.70210266113281,
+      "extID": "",
+      "shortName": "109"
+    },
+    {
+      "rid": 12,
+      "rsid": 786549,
+      "id": 117,
+      "name": "Old Waterloo",
+      "lat": 36.22258758544922,
+      "lng": -81.70258331298828,
+      "extID": "",
+      "shortName": "113"
+    },
+    {
+      "rid": 12,
+      "rsid": 786442,
+      "id": 10,
+      "name": "Parks & Rec",
+      "lat": 36.202579498291016,
+      "lng": -81.65420532226562,
+      "extID": "",
+      "shortName": "6"
+    },
+    {
+      "rid": 12,
+      "rsid": 786547,
+      "id": 115,
+      "name": "Pinnacle Dr",
+      "lat": 36.221954345703125,
+      "lng": -81.69657897949219,
+      "extID": "",
+      "shortName": "116"
+    },
+    {
+      "rid": 12,
+      "rsid": 786542,
+      "id": 110,
+      "name": "Quail Drive",
+      "lat": 36.21404266357422,
+      "lng": -81.66873168945312,
+      "extID": "",
+      "shortName": "41"
+    },
+    {
+      "rid": 12,
+      "rsid": 786533,
+      "id": 101,
+      "name": "Ram's Rack",
+      "lat": 36.22066116333008,
+      "lng": -81.68798828125,
+      "extID": "",
+      "shortName": "121"
+    },
+    {
+      "rid": 12,
+      "rsid": 786535,
+      "id": 103,
+      "name": "Vet Clinic on Wilson Dr",
+      "lat": 36.202049255371094,
+      "lng": -81.67160034179688,
+      "extID": "",
+      "shortName": "130"
+    },
+    {
+      "rid": 12,
+      "rsid": 786465,
+      "id": 33,
+      "name": "Walmart 1",
+      "lat": 36.19804763793945,
+      "lng": -81.65872192382812,
+      "extID": "",
+      "shortName": "132"
+    },
+    {
+      "rid": 12,
+      "rsid": 786540,
+      "id": 108,
+      "name": "Walmart 2",
+      "lat": 36.198158264160156,
+      "lng": -81.65874481201172,
+      "extID": "",
+      "shortName": "133"
+    },
+    {
+      "rid": 12,
+      "rsid": 786545,
+      "id": 113,
+      "name": "Watauga County Courthouse",
+      "lat": 36.2204475402832,
+      "lng": -81.68690490722656,
+      "extID": "",
+      "shortName": "134"
+    },
+    {
+      "rid": 12,
+      "rsid": 786440,
+      "id": 8,
+      "name": "Watauga Medical Center",
+      "lat": 36.198394775390625,
+      "lng": -81.65241241455078,
+      "extID": "",
+      "shortName": "137"
+    },
+    {
+      "rid": 12,
+      "rsid": 786537,
+      "id": 105,
+      "name": "Watauga Opportunities",
+      "lat": 36.198448181152344,
+      "lng": -81.66809844970703,
+      "extID": "",
+      "shortName": "138"
+    },
+    {
+      "rid": 12,
+      "rsid": 786527,
+      "id": 95,
+      "name": "Wilson Dr",
+      "lat": 36.20274353027344,
+      "lng": -81.67192840576172,
+      "extID": "",
+      "shortName": "142"
+    },
+    {
+      "rid": 12,
+      "rsid": 786536,
+      "id": 104,
+      "name": "Winkler's Meadow",
+      "lat": 36.19975662231445,
+      "lng": -81.67057037353516,
+      "extID": "",
+      "shortName": "143"
+    },
+    {
+      "rid": 13,
+      "rsid": 851981,
+      "id": 13,
+      "name": "AppalCART",
+      "lat": 36.22806930541992,
+      "lng": -81.71939086914062,
+      "extID": "",
+      "shortName": "4"
+    },
+    {
+      "rid": 13,
+      "rsid": 851982,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 13,
+      "rsid": 852036,
+      "id": 68,
+      "name": "ASU NC 105 Lot 1 ",
+      "lat": 36.201053619384766,
+      "lng": -81.67403411865234,
+      "extID": "",
+      "shortName": "150"
+    },
+    {
+      "rid": 13,
+      "rsid": 852037,
+      "id": 69,
+      "name": "ASU NC 105 Lot 2 ",
+      "lat": 36.20068359375,
+      "lng": -81.67598724365234,
+      "extID": "",
+      "shortName": "18"
+    },
+    {
+      "rid": 13,
+      "rsid": 852038,
+      "id": 70,
+      "name": "ASU NC 105 Lot 3",
+      "lat": 36.200313568115234,
+      "lng": -81.67728424072266,
+      "extID": "",
+      "shortName": "19"
+    },
+    {
+      "rid": 13,
+      "rsid": 852009,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 13,
+      "rsid": 852004,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 13,
+      "rsid": 852093,
+      "id": 125,
+      "name": "CCC&TI",
+      "lat": 36.21567916870117,
+      "lng": -81.71674346923828,
+      "extID": "",
+      "shortName": "44"
+    },
+    {
+      "rid": 13,
+      "rsid": 852084,
+      "id": 116,
+      "name": "Edgecliff Ln",
+      "lat": 36.22190475463867,
+      "lng": -81.69938659667969,
+      "extID": "",
+      "shortName": "56"
+    },
+    {
+      "rid": 13,
+      "rsid": 852087,
+      "id": 119,
+      "name": "Graggville Rd",
+      "lat": 36.22334289550781,
+      "lng": -81.70647430419922,
+      "extID": "",
+      "shortName": "62"
+    },
+    {
+      "rid": 13,
+      "rsid": 852032,
+      "id": 64,
+      "name": "Highland Commons",
+      "lat": 36.20596694946289,
+      "lng": -81.69763946533203,
+      "extID": "",
+      "shortName": "72"
+    },
+    {
+      "rid": 13,
+      "rsid": 852035,
+      "id": 67,
+      "name": "Highland Crossing",
+      "lat": 36.201629638671875,
+      "lng": -81.67974853515625,
+      "extID": "",
+      "shortName": "73"
+    },
+    {
+      "rid": 13,
+      "rsid": 852086,
+      "id": 118,
+      "name": "Highland Hall Rd",
+      "lat": 36.222938537597656,
+      "lng": -81.7044677734375,
+      "extID": "",
+      "shortName": "74"
+    },
+    {
+      "rid": 13,
+      "rsid": 852039,
+      "id": 71,
+      "name": "Jimmy Smith Park",
+      "lat": 36.21726608276367,
+      "lng": -81.68464660644531,
+      "extID": "",
+      "shortName": "86"
+    },
+    {
+      "rid": 13,
+      "rsid": 852089,
+      "id": 121,
+      "name": "Kensington Trail",
+      "lat": 36.22919845581055,
+      "lng": -81.71800231933594,
+      "extID": "",
+      "shortName": "88"
+    },
+    {
+      "rid": 13,
+      "rsid": 852082,
+      "id": 114,
+      "name": "Miller Industries",
+      "lat": 36.221012115478516,
+      "lng": -81.69127655029297,
+      "extID": "",
+      "shortName": "101"
+    },
+    {
+      "rid": 13,
+      "rsid": 852085,
+      "id": 117,
+      "name": "Old Waterloo",
+      "lat": 36.22258758544922,
+      "lng": -81.70258331298828,
+      "extID": "",
+      "shortName": "113"
+    },
+    {
+      "rid": 13,
+      "rsid": 852083,
+      "id": 115,
+      "name": "Pinnacle Dr",
+      "lat": 36.221954345703125,
+      "lng": -81.69657897949219,
+      "extID": "",
+      "shortName": "116"
+    },
+    {
+      "rid": 13,
+      "rsid": 852033,
+      "id": 65,
+      "name": "Snaggy Mountain Blvd",
+      "lat": 36.204715728759766,
+      "lng": -81.69339752197266,
+      "extID": "",
+      "shortName": "122"
+    },
+    {
+      "rid": 13,
+      "rsid": 852034,
+      "id": 66,
+      "name": "Studio West",
+      "lat": 36.20159912109375,
+      "lng": -81.68270111083984,
+      "extID": "",
+      "shortName": "124"
+    },
+    {
+      "rid": 13,
+      "rsid": 852081,
+      "id": 113,
+      "name": "Watauga County Courthouse",
+      "lat": 36.2204475402832,
+      "lng": -81.68690490722656,
+      "extID": "",
+      "shortName": "134"
+    },
+    {
+      "rid": 13,
+      "rsid": 852094,
+      "id": 126,
+      "name": "White Oak Road",
+      "lat": 36.21564483642578,
+      "lng": -81.71404266357422,
+      "extID": "",
+      "shortName": "141"
+    },
+    {
+      "rid": 14,
+      "rsid": 917515,
+      "id": 11,
+      "name": "610 State Farm Rd",
+      "lat": 36.204978942871094,
+      "lng": -81.65998077392578,
+      "extID": "",
+      "shortName": "1"
+    },
+    {
+      "rid": 14,
+      "rsid": 917631,
+      "id": 127,
+      "name": "ASU Child Development Center",
+      "lat": 36.21760940551758,
+      "lng": -81.69157409667969,
+      "extID": "",
+      "shortName": "146"
+    },
+    {
+      "rid": 14,
+      "rsid": 917530,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 14,
+      "rsid": 917528,
+      "id": 24,
+      "name": "ASU Living Learning Center (down)",
+      "lat": 36.2162971496582,
+      "lng": -81.68737030029297,
+      "extID": "",
+      "shortName": "14"
+    },
+    {
+      "rid": 14,
+      "rsid": 917545,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 14,
+      "rsid": 917561,
+      "id": 57,
+      "name": "ASU Schaefer Center",
+      "lat": 36.21565246582031,
+      "lng": -81.68328857421875,
+      "extID": "",
+      "shortName": "22"
+    },
+    {
+      "rid": 14,
+      "rsid": 917540,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 14,
+      "rsid": 917509,
+      "id": 5,
+      "name": "ASU State Farm Lot / Greenway",
+      "lat": 36.20598220825195,
+      "lng": -81.65555572509766,
+      "extID": "",
+      "shortName": "25"
+    },
+    {
+      "rid": 14,
+      "rsid": 917529,
+      "id": 25,
+      "name": "ASU Walker Hall / Bodenheimer Drive",
+      "lat": 36.21702194213867,
+      "lng": -81.68515014648438,
+      "extID": "",
+      "shortName": "28"
+    },
+    {
+      "rid": 14,
+      "rsid": 917632,
+      "id": 128,
+      "name": "Feids Way",
+      "lat": 36.21586227416992,
+      "lng": -81.68846130371094,
+      "extID": "",
+      "shortName": "147"
+    },
+    {
+      "rid": 14,
+      "rsid": 917633,
+      "id": 129,
+      "name": "Hardin Street Crosswalk",
+      "lat": 36.21389389038086,
+      "lng": -81.67520904541016,
+      "extID": "",
+      "shortName": "68"
+    },
+    {
+      "rid": 14,
+      "rsid": 917635,
+      "id": 131,
+      "name": "Horn Ave",
+      "lat": 36.210575103759766,
+      "lng": -81.66791534423828,
+      "extID": "",
+      "shortName": "77"
+    },
+    {
+      "rid": 14,
+      "rsid": 917636,
+      "id": 132,
+      "name": "Horn in the West Parking Lot",
+      "lat": 36.20990753173828,
+      "lng": -81.66941833496094,
+      "extID": "",
+      "shortName": "79"
+    },
+    {
+      "rid": 14,
+      "rsid": 917634,
+      "id": 130,
+      "name": "Ivy Terrace",
+      "lat": 36.20642852783203,
+      "lng": -81.6623764038086,
+      "extID": "",
+      "shortName": "85"
+    },
+    {
+      "rid": 14,
+      "rsid": 917577,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 15,
+      "rsid": 983077,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 15,
+      "rsid": 983079,
+      "id": 39,
+      "name": "ASU Dogwood Hall",
+      "lat": 36.21434783935547,
+      "lng": -81.67533874511719,
+      "extID": "",
+      "shortName": "13"
+    },
+    {
+      "rid": 15,
+      "rsid": 983076,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 15,
+      "rsid": 983045,
+      "id": 5,
+      "name": "ASU State Farm Lot / Greenway",
+      "lat": 36.20598220825195,
+      "lng": -81.65555572509766,
+      "extID": "",
+      "shortName": "25"
+    },
+    {
+      "rid": 15,
+      "rsid": 983080,
+      "id": 40,
+      "name": "ASU Trivette Hall",
+      "lat": 36.21300506591797,
+      "lng": -81.68376922607422,
+      "extID": "",
+      "shortName": "27"
+    },
+    {
+      "rid": 15,
+      "rsid": 983150,
+      "id": 110,
+      "name": "Quail Drive",
+      "lat": 36.21404266357422,
+      "lng": -81.66873168945312,
+      "extID": "",
+      "shortName": "41"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048589,
+      "id": 13,
+      "name": "AppalCART",
+      "lat": 36.22806930541992,
+      "lng": -81.71939086914062,
+      "extID": "",
+      "shortName": "4"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048603,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048602,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048633,
+      "id": 57,
+      "name": "ASU Schaefer Center",
+      "lat": 36.21565246582031,
+      "lng": -81.68328857421875,
+      "extID": "",
+      "shortName": "22"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048662,
+      "id": 86,
+      "name": "Builder's Plaza",
+      "lat": 36.22138214111328,
+      "lng": -81.71803283691406,
+      "extID": "",
+      "shortName": "42"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048634,
+      "id": 58,
+      "name": "Casa Rustica",
+      "lat": 36.20296859741211,
+      "lng": -81.6761474609375,
+      "extID": "",
+      "shortName": "43"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048700,
+      "id": 124,
+      "name": "Forest Edge ",
+      "lat": 36.20724105834961,
+      "lng": -81.7012710571289,
+      "extID": "",
+      "shortName": "57"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048673,
+      "id": 97,
+      "name": "George Wilson Rd  / Vet Hospital 1",
+      "lat": 36.227176666259766,
+      "lng": -81.71488952636719,
+      "extID": "",
+      "shortName": "59"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048699,
+      "id": 123,
+      "name": "Heritage Court on NC 105 ",
+      "lat": 36.204673767089844,
+      "lng": -81.69230651855469,
+      "extID": "",
+      "shortName": "69"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048675,
+      "id": 99,
+      "name": "High Country Condos",
+      "lat": 36.22153854370117,
+      "lng": -81.69729614257812,
+      "extID": "",
+      "shortName": "70"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048604,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048660,
+      "id": 84,
+      "name": "Hodges Gap Rd",
+      "lat": 36.20937728881836,
+      "lng": -81.70649719238281,
+      "extID": "",
+      "shortName": "75"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048676,
+      "id": 100,
+      "name": "Human Services Center",
+      "lat": 36.22087860107422,
+      "lng": -81.69172668457031,
+      "extID": "",
+      "shortName": "83"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048663,
+      "id": 87,
+      "name": "Long St",
+      "lat": 36.22557067871094,
+      "lng": -81.71893310546875,
+      "extID": "",
+      "shortName": "96"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048605,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048672,
+      "id": 96,
+      "name": "NC 105 Bypass / US 421",
+      "lat": 36.2301139831543,
+      "lng": -81.72032928466797,
+      "extID": "",
+      "shortName": "104"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048635,
+      "id": 59,
+      "name": "NC 105 Crosswalk",
+      "lat": 36.201778411865234,
+      "lng": -81.68267822265625,
+      "extID": "",
+      "shortName": "105"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048674,
+      "id": 98,
+      "name": "Oak Grove Road",
+      "lat": 36.22235107421875,
+      "lng": -81.70210266113281,
+      "extID": "",
+      "shortName": "109"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048698,
+      "id": 122,
+      "name": "Poplar Hill Dr",
+      "lat": 36.202545166015625,
+      "lng": -81.68556213378906,
+      "extID": "",
+      "shortName": "118"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048677,
+      "id": 101,
+      "name": "Ram's Rack",
+      "lat": 36.22066116333008,
+      "lng": -81.68798828125,
+      "extID": "",
+      "shortName": "121"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048659,
+      "id": 83,
+      "name": "University Highlands",
+      "lat": 36.20936584472656,
+      "lng": -81.70318603515625,
+      "extID": "",
+      "shortName": "128"
+    },
+    {
+      "rid": 16,
+      "rsid": 1048661,
+      "id": 85,
+      "name": "Westhaven",
+      "lat": 36.213958740234375,
+      "lng": -81.71068572998047,
+      "extID": "",
+      "shortName": "140"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114127,
+      "id": 15,
+      "name": "ASU Appalachian Heights",
+      "lat": 36.21458053588867,
+      "lng": -81.6890869140625,
+      "extID": "",
+      "shortName": "7"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114149,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114151,
+      "id": 39,
+      "name": "ASU Dogwood Hall",
+      "lat": 36.21434783935547,
+      "lng": -81.67533874511719,
+      "extID": "",
+      "shortName": "13"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114136,
+      "id": 24,
+      "name": "ASU Living Learning Center (down)",
+      "lat": 36.2162971496582,
+      "lng": -81.68737030029297,
+      "extID": "",
+      "shortName": "14"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114130,
+      "id": 18,
+      "name": "ASU Living Learning Center (Up)",
+      "lat": 36.216400146484375,
+      "lng": -81.68766784667969,
+      "extID": "",
+      "shortName": "15"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114133,
+      "id": 21,
+      "name": "ASU Mountaineer Hall",
+      "lat": 36.21603775024414,
+      "lng": -81.6886215209961,
+      "extID": "",
+      "shortName": "17"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114153,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114148,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114129,
+      "id": 17,
+      "name": "ASU SRC",
+      "lat": 36.216331481933594,
+      "lng": -81.68562316894531,
+      "extID": "",
+      "shortName": "24"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114152,
+      "id": 40,
+      "name": "ASU Trivette Hall",
+      "lat": 36.21300506591797,
+      "lng": -81.68376922607422,
+      "extID": "",
+      "shortName": "27"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114137,
+      "id": 25,
+      "name": "ASU Walker Hall / Bodenheimer Drive",
+      "lat": 36.21702194213867,
+      "lng": -81.68515014648438,
+      "extID": "",
+      "shortName": "28"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114135,
+      "id": 23,
+      "name": "Greenwood Lot",
+      "lat": 36.214481353759766,
+      "lng": -81.68909454345703,
+      "extID": "",
+      "shortName": "66"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114150,
+      "id": 38,
+      "name": "Howard St / Hardin St",
+      "lat": 36.215606689453125,
+      "lng": -81.67478942871094,
+      "extID": "",
+      "shortName": "81"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114155,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114132,
+      "id": 20,
+      "name": "South Lot / Baseball Stadium ",
+      "lat": 36.212337493896484,
+      "lng": -81.69361114501953,
+      "extID": "",
+      "shortName": "123"
+    },
+    {
+      "rid": 17,
+      "rsid": 1114154,
+      "id": 42,
+      "name": "Water St / King St",
+      "lat": 36.21964645385742,
+      "lng": -81.68609619140625,
+      "extID": "",
+      "shortName": "139"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179675,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179674,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179662,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179664,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179684,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179679,
+      "id": 31,
+      "name": "Bavarian Village",
+      "lat": 36.19984436035156,
+      "lng": -81.66395568847656,
+      "extID": "",
+      "shortName": "32"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179678,
+      "id": 30,
+      "name": "Boone Mall",
+      "lat": 36.203514099121094,
+      "lng": -81.66619110107422,
+      "extID": "",
+      "shortName": "45"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179680,
+      "id": 32,
+      "name": "College Place",
+      "lat": 36.19792175292969,
+      "lng": -81.66279602050781,
+      "extID": "",
+      "shortName": "46"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179741,
+      "id": 93,
+      "name": "Greenway Business Park",
+      "lat": 36.19855499267578,
+      "lng": -81.6678237915039,
+      "extID": "",
+      "shortName": "63"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179742,
+      "id": 94,
+      "name": "Greenway Commons",
+      "lat": 36.199867248535156,
+      "lng": -81.67037200927734,
+      "extID": "",
+      "shortName": "64"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179740,
+      "id": 92,
+      "name": "Greenway Rd Parking Lot",
+      "lat": 36.19805145263672,
+      "lng": -81.66397857666016,
+      "extID": "",
+      "shortName": "65"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179676,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179683,
+      "id": 35,
+      "name": "Kangaroo Express",
+      "lat": 36.208011627197266,
+      "lng": -81.67230224609375,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179677,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179739,
+      "id": 91,
+      "name": "Meadowview Dr / Greenway Rd",
+      "lat": 36.197723388671875,
+      "lng": -81.6633071899414,
+      "extID": "",
+      "shortName": "99"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179738,
+      "id": 90,
+      "name": "Meadowview Dr / Madison Ave",
+      "lat": 36.19483184814453,
+      "lng": -81.65555572509766,
+      "extID": "",
+      "shortName": "149"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179736,
+      "id": 88,
+      "name": "Meadowview Dr / US 321",
+      "lat": 36.1946907043457,
+      "lng": -81.65277099609375,
+      "extID": "",
+      "shortName": "100"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179737,
+      "id": 89,
+      "name": "Village at Meadowview",
+      "lat": 36.19465637207031,
+      "lng": -81.65796661376953,
+      "extID": "",
+      "shortName": "131"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179681,
+      "id": 33,
+      "name": "Walmart 1",
+      "lat": 36.19804763793945,
+      "lng": -81.65872192382812,
+      "extID": "",
+      "shortName": "132"
+    },
+    {
+      "rid": 18,
+      "rsid": 1179743,
+      "id": 95,
+      "name": "Wilson Dr",
+      "lat": 36.20274353027344,
+      "lng": -81.67192840576172,
+      "extID": "",
+      "shortName": "142"
+    },
+    {
+      "rid": 20,
+      "rsid": 1310736,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 20,
+      "rsid": 1310854,
+      "id": 134,
+      "name": "Poplar Grove Connector Parking Lot",
+      "lat": 36.220489501953125,
+      "lng": -81.69156646728516,
+      "extID": "",
+      "shortName": "152"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376293,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376295,
+      "id": 39,
+      "name": "ASU Dogwood Hall",
+      "lat": 36.21434783935547,
+      "lng": -81.67533874511719,
+      "extID": "",
+      "shortName": "13"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376297,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376292,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376294,
+      "id": 38,
+      "name": "Howard St / Hardin St",
+      "lat": 36.215606689453125,
+      "lng": -81.67478942871094,
+      "extID": "",
+      "shortName": "81"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376299,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 21,
+      "rsid": 1376298,
+      "id": 42,
+      "name": "Water St / King St",
+      "lat": 36.21964645385742,
+      "lng": -81.68609619140625,
+      "extID": "",
+      "shortName": "139"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441803,
+      "id": 11,
+      "name": "610 State Farm Rd",
+      "lat": 36.204978942871094,
+      "lng": -81.65998077392578,
+      "extID": "",
+      "shortName": "1"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441818,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441808,
+      "id": 16,
+      "name": "ASU Peacock Traffic Circle",
+      "lat": 36.215797424316406,
+      "lng": -81.68212890625,
+      "extID": "",
+      "shortName": "20"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441828,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441797,
+      "id": 5,
+      "name": "ASU State Farm Lot / Greenway",
+      "lat": 36.20598220825195,
+      "lng": -81.65555572509766,
+      "extID": "",
+      "shortName": "25"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441921,
+      "id": 129,
+      "name": "Hardin Street Crosswalk",
+      "lat": 36.21389389038086,
+      "lng": -81.67520904541016,
+      "extID": "",
+      "shortName": "68"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441923,
+      "id": 131,
+      "name": "Horn Ave",
+      "lat": 36.210575103759766,
+      "lng": -81.66791534423828,
+      "extID": "",
+      "shortName": "77"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441924,
+      "id": 132,
+      "name": "Horn in the West Parking Lot",
+      "lat": 36.20990753173828,
+      "lng": -81.66941833496094,
+      "extID": "",
+      "shortName": "79"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441922,
+      "id": 130,
+      "name": "Ivy Terrace",
+      "lat": 36.20642852783203,
+      "lng": -81.6623764038086,
+      "extID": "",
+      "shortName": "85"
+    },
+    {
+      "rid": 22,
+      "rsid": 1441865,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572877,
+      "id": 13,
+      "name": "AppalCART",
+      "lat": 36.22806930541992,
+      "lng": -81.71939086914062,
+      "extID": "",
+      "shortName": "4"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572873,
+      "id": 9,
+      "name": "ASU College of Health Sciences",
+      "lat": 36.20124053955078,
+      "lng": -81.65235900878906,
+      "extID": "",
+      "shortName": "CHS"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572901,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572966,
+      "id": 102,
+      "name": "ASU Mountain Laurel Hall / NC 105 Ext",
+      "lat": 36.206478118896484,
+      "lng": -81.66874694824219,
+      "extID": "",
+      "shortName": "33"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572973,
+      "id": 109,
+      "name": "Beverly Heights Ave",
+      "lat": 36.210838317871094,
+      "lng": -81.66700744628906,
+      "extID": "",
+      "shortName": "114"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572970,
+      "id": 106,
+      "name": "Boone Heights 1",
+      "lat": 36.20238494873047,
+      "lng": -81.65646362304688,
+      "extID": "",
+      "shortName": "35"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572971,
+      "id": 107,
+      "name": "Boone Heights 2",
+      "lat": 36.20094299316406,
+      "lng": -81.65758514404297,
+      "extID": "",
+      "shortName": "36"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572896,
+      "id": 32,
+      "name": "College Place",
+      "lat": 36.19792175292969,
+      "lng": -81.66279602050781,
+      "extID": "",
+      "shortName": "46"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572936,
+      "id": 72,
+      "name": "Dan'l Boone Inn",
+      "lat": 36.2163200378418,
+      "lng": -81.67489624023438,
+      "extID": "",
+      "shortName": "52"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572920,
+      "id": 56,
+      "name": "Earth Fare",
+      "lat": 36.21662902832031,
+      "lng": -81.67589569091797,
+      "extID": "",
+      "shortName": "54"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572980,
+      "id": 116,
+      "name": "Edgecliff Ln",
+      "lat": 36.22190475463867,
+      "lng": -81.69938659667969,
+      "extID": "",
+      "shortName": "56"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572961,
+      "id": 97,
+      "name": "George Wilson Rd  / Vet Hospital 1",
+      "lat": 36.227176666259766,
+      "lng": -81.71488952636719,
+      "extID": "",
+      "shortName": "59"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572984,
+      "id": 120,
+      "name": "George Wilson Rd / Vet Hospital 2",
+      "lat": 36.22740936279297,
+      "lng": -81.71490478515625,
+      "extID": "",
+      "shortName": "60"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572983,
+      "id": 119,
+      "name": "Graggville Rd",
+      "lat": 36.22334289550781,
+      "lng": -81.70647430419922,
+      "extID": "",
+      "shortName": "62"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572957,
+      "id": 93,
+      "name": "Greenway Business Park",
+      "lat": 36.19855499267578,
+      "lng": -81.6678237915039,
+      "extID": "",
+      "shortName": "63"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572958,
+      "id": 94,
+      "name": "Greenway Commons",
+      "lat": 36.199867248535156,
+      "lng": -81.67037200927734,
+      "extID": "",
+      "shortName": "64"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572956,
+      "id": 92,
+      "name": "Greenway Rd Parking Lot",
+      "lat": 36.19805145263672,
+      "lng": -81.66397857666016,
+      "extID": "",
+      "shortName": "65"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572963,
+      "id": 99,
+      "name": "High Country Condos",
+      "lat": 36.22153854370117,
+      "lng": -81.69729614257812,
+      "extID": "",
+      "shortName": "70"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572982,
+      "id": 118,
+      "name": "Highland Hall Rd",
+      "lat": 36.222938537597656,
+      "lng": -81.7044677734375,
+      "extID": "",
+      "shortName": "74"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572964,
+      "id": 100,
+      "name": "Human Services Center",
+      "lat": 36.22087860107422,
+      "lng": -81.69172668457031,
+      "extID": "",
+      "shortName": "83"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572985,
+      "id": 121,
+      "name": "Kensington Trail",
+      "lat": 36.22919845581055,
+      "lng": -81.71800231933594,
+      "extID": "",
+      "shortName": "88"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572907,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572937,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572976,
+      "id": 112,
+      "name": "King St / N Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.68379211425781,
+      "extID": "",
+      "shortName": "92"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572919,
+      "id": 55,
+      "name": "Kingswood",
+      "lat": 36.21635818481445,
+      "lng": -81.67219543457031,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572978,
+      "id": 114,
+      "name": "Miller Industries",
+      "lat": 36.221012115478516,
+      "lng": -81.69127655029297,
+      "extID": "",
+      "shortName": "101"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572960,
+      "id": 96,
+      "name": "NC 105 Bypass / US 421",
+      "lat": 36.2301139831543,
+      "lng": -81.72032928466797,
+      "extID": "",
+      "shortName": "104"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572975,
+      "id": 111,
+      "name": "NC 105 Ext / Azalea Dr",
+      "lat": 36.20625305175781,
+      "lng": -81.66854858398438,
+      "extID": "",
+      "shortName": "106"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572962,
+      "id": 98,
+      "name": "Oak Grove Road",
+      "lat": 36.22235107421875,
+      "lng": -81.70210266113281,
+      "extID": "",
+      "shortName": "109"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572981,
+      "id": 117,
+      "name": "Old Waterloo",
+      "lat": 36.22258758544922,
+      "lng": -81.70258331298828,
+      "extID": "",
+      "shortName": "113"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572874,
+      "id": 10,
+      "name": "Parks & Rec",
+      "lat": 36.202579498291016,
+      "lng": -81.65420532226562,
+      "extID": "",
+      "shortName": "6"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572979,
+      "id": 115,
+      "name": "Pinnacle Dr",
+      "lat": 36.221954345703125,
+      "lng": -81.69657897949219,
+      "extID": "",
+      "shortName": "116"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572974,
+      "id": 110,
+      "name": "Quail Drive",
+      "lat": 36.21404266357422,
+      "lng": -81.66873168945312,
+      "extID": "",
+      "shortName": "41"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572965,
+      "id": 101,
+      "name": "Ram's Rack",
+      "lat": 36.22066116333008,
+      "lng": -81.68798828125,
+      "extID": "",
+      "shortName": "121"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572967,
+      "id": 103,
+      "name": "Vet Clinic on Wilson Dr",
+      "lat": 36.202049255371094,
+      "lng": -81.67160034179688,
+      "extID": "",
+      "shortName": "130"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572897,
+      "id": 33,
+      "name": "Walmart 1",
+      "lat": 36.19804763793945,
+      "lng": -81.65872192382812,
+      "extID": "",
+      "shortName": "132"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572972,
+      "id": 108,
+      "name": "Walmart 2",
+      "lat": 36.198158264160156,
+      "lng": -81.65874481201172,
+      "extID": "",
+      "shortName": "133"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572977,
+      "id": 113,
+      "name": "Watauga County Courthouse",
+      "lat": 36.2204475402832,
+      "lng": -81.68690490722656,
+      "extID": "",
+      "shortName": "134"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572872,
+      "id": 8,
+      "name": "Watauga Medical Center",
+      "lat": 36.198394775390625,
+      "lng": -81.65241241455078,
+      "extID": "",
+      "shortName": "137"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572969,
+      "id": 105,
+      "name": "Watauga Opportunities",
+      "lat": 36.198448181152344,
+      "lng": -81.66809844970703,
+      "extID": "",
+      "shortName": "138"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572959,
+      "id": 95,
+      "name": "Wilson Dr",
+      "lat": 36.20274353027344,
+      "lng": -81.67192840576172,
+      "extID": "",
+      "shortName": "142"
+    },
+    {
+      "rid": 24,
+      "rsid": 1572968,
+      "id": 104,
+      "name": "Winkler's Meadow",
+      "lat": 36.19975662231445,
+      "lng": -81.67057037353516,
+      "extID": "",
+      "shortName": "143"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703948,
+      "id": 12,
+      "name": "App South PSI ",
+      "lat": 36.208858489990234,
+      "lng": -81.67432403564453,
+      "extID": "",
+      "shortName": "2"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703973,
+      "id": 37,
+      "name": "ASU College St Station",
+      "lat": 36.21570587158203,
+      "lng": -81.67964172363281,
+      "extID": "",
+      "shortName": "11"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703963,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703962,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703950,
+      "id": 14,
+      "name": "ASU Mountain Laurel Hall ",
+      "lat": 36.206146240234375,
+      "lng": -81.67009735107422,
+      "extID": "",
+      "shortName": "8"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704004,
+      "id": 68,
+      "name": "ASU NC 105 Lot 1 ",
+      "lat": 36.201053619384766,
+      "lng": -81.67403411865234,
+      "extID": "",
+      "shortName": "150"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704005,
+      "id": 69,
+      "name": "ASU NC 105 Lot 2 ",
+      "lat": 36.20068359375,
+      "lng": -81.67598724365234,
+      "extID": "",
+      "shortName": "18"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704006,
+      "id": 70,
+      "name": "ASU NC 105 Lot 3",
+      "lat": 36.200313568115234,
+      "lng": -81.67728424072266,
+      "extID": "",
+      "shortName": "19"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703977,
+      "id": 41,
+      "name": "ASU Peacock Traffic Light",
+      "lat": 36.21519470214844,
+      "lng": -81.68280029296875,
+      "extID": "",
+      "shortName": "21"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703993,
+      "id": 57,
+      "name": "ASU Schaefer Center",
+      "lat": 36.21565246582031,
+      "lng": -81.68328857421875,
+      "extID": "",
+      "shortName": "22"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703972,
+      "id": 36,
+      "name": "ASU Skywalk",
+      "lat": 36.21227264404297,
+      "lng": -81.67963409423828,
+      "extID": "",
+      "shortName": "23"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704016,
+      "id": 80,
+      "name": "Bamboo Rd / Kangaroo Express",
+      "lat": 36.22045135498047,
+      "lng": -81.6390380859375,
+      "extID": "",
+      "shortName": "30"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704014,
+      "id": 78,
+      "name": "Blue Ridge Tourist Court",
+      "lat": 36.219730377197266,
+      "lng": -81.64924621582031,
+      "extID": "",
+      "shortName": "115"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703981,
+      "id": 45,
+      "name": "Brookhollow Rd / Bamboo Rd",
+      "lat": 36.214759826660156,
+      "lng": -81.63665008544922,
+      "extID": "",
+      "shortName": "38"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703983,
+      "id": 47,
+      "name": "Brookshire Park",
+      "lat": 36.2235221862793,
+      "lng": -81.64281463623047,
+      "extID": "",
+      "shortName": "39"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703994,
+      "id": 58,
+      "name": "Casa Rustica",
+      "lat": 36.20296859741211,
+      "lng": -81.6761474609375,
+      "extID": "",
+      "shortName": "43"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703996,
+      "id": 60,
+      "name": "Cottages of Boone 1",
+      "lat": 36.20201873779297,
+      "lng": -81.69929504394531,
+      "extID": "",
+      "shortName": "51"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703997,
+      "id": 61,
+      "name": "Cottages of Boone 2",
+      "lat": 36.20285415649414,
+      "lng": -81.70240020751953,
+      "extID": "",
+      "shortName": "49"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703998,
+      "id": 62,
+      "name": "Cottages of Boone 3",
+      "lat": 36.20326232910156,
+      "lng": -81.70382690429688,
+      "extID": "",
+      "shortName": "47"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704008,
+      "id": 72,
+      "name": "Dan'l Boone Inn",
+      "lat": 36.2163200378418,
+      "lng": -81.67489624023438,
+      "extID": "",
+      "shortName": "52"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703992,
+      "id": 56,
+      "name": "Earth Fare",
+      "lat": 36.21662902832031,
+      "lng": -81.67589569091797,
+      "extID": "",
+      "shortName": "54"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703987,
+      "id": 51,
+      "name": "East Village",
+      "lat": 36.22248458862305,
+      "lng": -81.65489959716797,
+      "extID": "",
+      "shortName": "55"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704011,
+      "id": 75,
+      "name": "Forest Hill Dr",
+      "lat": 36.217323303222656,
+      "lng": -81.66404724121094,
+      "extID": "",
+      "shortName": "58"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704000,
+      "id": 64,
+      "name": "Highland Commons",
+      "lat": 36.20596694946289,
+      "lng": -81.69763946533203,
+      "extID": "",
+      "shortName": "72"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704003,
+      "id": 67,
+      "name": "Highland Crossing",
+      "lat": 36.201629638671875,
+      "lng": -81.67974853515625,
+      "extID": "",
+      "shortName": "73"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703980,
+      "id": 44,
+      "name": "Hospitality House",
+      "lat": 36.214744567871094,
+      "lng": -81.64073181152344,
+      "extID": "",
+      "shortName": "80"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703982,
+      "id": 46,
+      "name": "Industrial Park",
+      "lat": 36.222206115722656,
+      "lng": -81.6442642211914,
+      "extID": "",
+      "shortName": "84"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704007,
+      "id": 71,
+      "name": "Jimmy Smith Park",
+      "lat": 36.21726608276367,
+      "lng": -81.68464660644531,
+      "extID": "",
+      "shortName": "86"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703979,
+      "id": 43,
+      "name": "King St / Depot St",
+      "lat": 36.21870422363281,
+      "lng": -81.6841812133789,
+      "extID": "",
+      "shortName": "89"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703990,
+      "id": 54,
+      "name": "King St / Farthing St",
+      "lat": 36.21706771850586,
+      "lng": -81.66600799560547,
+      "extID": "",
+      "shortName": "90"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704009,
+      "id": 73,
+      "name": "King St / Hillside Dr",
+      "lat": 36.216163635253906,
+      "lng": -81.67047119140625,
+      "extID": "",
+      "shortName": "91"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703991,
+      "id": 55,
+      "name": "Kingswood",
+      "lat": 36.21635818481445,
+      "lng": -81.67219543457031,
+      "extID": "",
+      "shortName": "95"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703988,
+      "id": 52,
+      "name": "Meadowhill Estates",
+      "lat": 36.22105026245117,
+      "lng": -81.65791320800781,
+      "extID": "",
+      "shortName": "98"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703984,
+      "id": 48,
+      "name": "Mountaineer Village 1",
+      "lat": 36.22447967529297,
+      "lng": -81.64779663085938,
+      "extID": "",
+      "shortName": "102"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703985,
+      "id": 49,
+      "name": "Mountaineer Village 2",
+      "lat": 36.22434997558594,
+      "lng": -81.64995574951172,
+      "extID": "",
+      "shortName": "103"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703995,
+      "id": 59,
+      "name": "NC 105 Crosswalk",
+      "lat": 36.201778411865234,
+      "lng": -81.68267822265625,
+      "extID": "",
+      "shortName": "105"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703989,
+      "id": 53,
+      "name": "New Market",
+      "lat": 36.21888732910156,
+      "lng": -81.66014862060547,
+      "extID": "",
+      "shortName": "108"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704012,
+      "id": 76,
+      "name": "Old 421 / Delmar St",
+      "lat": 36.21927261352539,
+      "lng": -81.65704345703125,
+      "extID": "",
+      "shortName": "110"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704015,
+      "id": 79,
+      "name": "Old 421 / US 421",
+      "lat": 36.22044372558594,
+      "lng": -81.64669036865234,
+      "extID": "",
+      "shortName": "111"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703999,
+      "id": 63,
+      "name": "Poplar Grove / NC 105",
+      "lat": 36.20680618286133,
+      "lng": -81.70252990722656,
+      "extID": "",
+      "shortName": "117"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704001,
+      "id": 65,
+      "name": "Snaggy Mountain Blvd",
+      "lat": 36.204715728759766,
+      "lng": -81.69339752197266,
+      "extID": "",
+      "shortName": "122"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704002,
+      "id": 66,
+      "name": "Studio West",
+      "lat": 36.20159912109375,
+      "lng": -81.68270111083984,
+      "extID": "",
+      "shortName": "124"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704013,
+      "id": 77,
+      "name": "Watauga High School / Turtle Creek",
+      "lat": 36.21931838989258,
+      "lng": -81.65253448486328,
+      "extID": "",
+      "shortName": "135"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703978,
+      "id": 42,
+      "name": "Water St / King St",
+      "lat": 36.21964645385742,
+      "lng": -81.68609619140625,
+      "extID": "",
+      "shortName": "139"
+    },
+    {
+      "rid": 26,
+      "rsid": 1704010,
+      "id": 74,
+      "name": "Wood Circle",
+      "lat": 36.21638870239258,
+      "lng": -81.66727447509766,
+      "extID": "",
+      "shortName": "144"
+    },
+    {
+      "rid": 26,
+      "rsid": 1703986,
+      "id": 50,
+      "name": "Yosef Dr / King St",
+      "lat": 36.22169876098633,
+      "lng": -81.65005493164062,
+      "extID": "",
+      "shortName": "145"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769485,
+      "id": 13,
+      "name": "AppalCART",
+      "lat": 36.22806930541992,
+      "lng": -81.71939086914062,
+      "extID": "",
+      "shortName": "4"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769499,
+      "id": 27,
+      "name": "ASU Convocation Center",
+      "lat": 36.2109375,
+      "lng": -81.67520141601562,
+      "extID": "",
+      "shortName": "12"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769498,
+      "id": 26,
+      "name": "ASU Garwood Hall",
+      "lat": 36.21305465698242,
+      "lng": -81.68165588378906,
+      "extID": "",
+      "shortName": "9"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769529,
+      "id": 57,
+      "name": "ASU Schaefer Center",
+      "lat": 36.21565246582031,
+      "lng": -81.68328857421875,
+      "extID": "",
+      "shortName": "22"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769558,
+      "id": 86,
+      "name": "Builder's Plaza",
+      "lat": 36.22138214111328,
+      "lng": -81.71803283691406,
+      "extID": "",
+      "shortName": "42"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769530,
+      "id": 58,
+      "name": "Casa Rustica",
+      "lat": 36.20296859741211,
+      "lng": -81.6761474609375,
+      "extID": "",
+      "shortName": "43"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769597,
+      "id": 125,
+      "name": "CCC&TI",
+      "lat": 36.21567916870117,
+      "lng": -81.71674346923828,
+      "extID": "",
+      "shortName": "44"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769596,
+      "id": 124,
+      "name": "Forest Edge ",
+      "lat": 36.20724105834961,
+      "lng": -81.7012710571289,
+      "extID": "",
+      "shortName": "57"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769569,
+      "id": 97,
+      "name": "George Wilson Rd  / Vet Hospital 1",
+      "lat": 36.227176666259766,
+      "lng": -81.71488952636719,
+      "extID": "",
+      "shortName": "59"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769595,
+      "id": 123,
+      "name": "Heritage Court on NC 105 ",
+      "lat": 36.204673767089844,
+      "lng": -81.69230651855469,
+      "extID": "",
+      "shortName": "69"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769571,
+      "id": 99,
+      "name": "High Country Condos",
+      "lat": 36.22153854370117,
+      "lng": -81.69729614257812,
+      "extID": "",
+      "shortName": "70"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769500,
+      "id": 28,
+      "name": "Highland Avenue",
+      "lat": 36.2090950012207,
+      "lng": -81.67361450195312,
+      "extID": "",
+      "shortName": "71"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769556,
+      "id": 84,
+      "name": "Hodges Gap Rd",
+      "lat": 36.20937728881836,
+      "lng": -81.70649719238281,
+      "extID": "",
+      "shortName": "75"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769572,
+      "id": 100,
+      "name": "Human Services Center",
+      "lat": 36.22087860107422,
+      "lng": -81.69172668457031,
+      "extID": "",
+      "shortName": "83"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769559,
+      "id": 87,
+      "name": "Long St",
+      "lat": 36.22557067871094,
+      "lng": -81.71893310546875,
+      "extID": "",
+      "shortName": "96"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769501,
+      "id": 29,
+      "name": "McDonalds",
+      "lat": 36.20663833618164,
+      "lng": -81.67127227783203,
+      "extID": "",
+      "shortName": "97"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769568,
+      "id": 96,
+      "name": "NC 105 Bypass / US 421",
+      "lat": 36.2301139831543,
+      "lng": -81.72032928466797,
+      "extID": "",
+      "shortName": "104"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769531,
+      "id": 59,
+      "name": "NC 105 Crosswalk",
+      "lat": 36.201778411865234,
+      "lng": -81.68267822265625,
+      "extID": "",
+      "shortName": "105"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769570,
+      "id": 98,
+      "name": "Oak Grove Road",
+      "lat": 36.22235107421875,
+      "lng": -81.70210266113281,
+      "extID": "",
+      "shortName": "109"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769594,
+      "id": 122,
+      "name": "Poplar Hill Dr",
+      "lat": 36.202545166015625,
+      "lng": -81.68556213378906,
+      "extID": "",
+      "shortName": "118"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769573,
+      "id": 101,
+      "name": "Ram's Rack",
+      "lat": 36.22066116333008,
+      "lng": -81.68798828125,
+      "extID": "",
+      "shortName": "121"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769555,
+      "id": 83,
+      "name": "University Highlands",
+      "lat": 36.20936584472656,
+      "lng": -81.70318603515625,
+      "extID": "",
+      "shortName": "128"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769557,
+      "id": 85,
+      "name": "Westhaven",
+      "lat": 36.213958740234375,
+      "lng": -81.71068572998047,
+      "extID": "",
+      "shortName": "140"
+    },
+    {
+      "rid": 27,
+      "rsid": 1769598,
+      "id": 126,
+      "name": "White Oak Road",
+      "lat": 36.21564483642578,
+      "lng": -81.71404266357422,
+      "extID": "",
+      "shortName": "141"
+    }
+  ]
+}

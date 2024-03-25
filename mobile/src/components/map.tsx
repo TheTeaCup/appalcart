@@ -13,6 +13,8 @@ const Map = ({ children, ...props }: MapViewProps) => {
     <>
       <View style={styles.container}>
         <MapView
+            showsUserLocation={true}
+            showsMyLocationButton={true}
           userInterfaceStyle={colorScheme ?? "light"}
           children={filteredChildren}
           style={styles.map}

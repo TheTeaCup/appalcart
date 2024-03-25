@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 // Inside your useSelectedRoutes hook
 
 const useSelectedRoutes = () => {
-  const [selectedRoutes, setSelectedRoutes] = useState<number[]>([]);
+  const [selectedRoutes, setSelectedRoutes] = useState<number[]>([3]);
 
   useEffect(() => {
     const fetchSelectedRoutes = async () => {

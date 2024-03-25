@@ -11,4 +11,13 @@ interface BusMarkerProps {
   color: string;
 }
 
-export { Route, BusMarkerProps };
+interface LineProps {
+  coordinates: { latitude: number; longitude: number }[];
+}
+
+interface CoordinateProps {
+  latitude: number;
+  longitude: number;
+};
+
+export { Route, BusMarkerProps, LineProps, CoordinateProps };

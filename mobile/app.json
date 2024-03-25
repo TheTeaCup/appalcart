@@ -26,7 +26,7 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyAwnmeIDOeAX8hFs0FVTLfPGQ9rvND703U"
+          "apiKey": "TODO"
         }
       },
       "package": "dev.hunterwilson.appalcart"
