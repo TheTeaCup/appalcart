@@ -1,8 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useEffect, useState } from "react";
 
-// Inside your useSelectedRoutes hook
-
 const useSelectedRoutes = () => {
   const [selectedRoutes, setSelectedRoutes] = useState<number[]>([3]);
 
