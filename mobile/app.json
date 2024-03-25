@@ -17,9 +17,9 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "dev.hunterwilson.appalcart",
-        "config": {
-            "googleMapsApiKey": "AIzaSyAwnmeIDOeAX8hFs0FVTLfPGQ9rvND703U"
-        }
+      "config": {
+        "googleMapsApiKey": "AIzaSyAwnmeIDOeAX8hFs0FVTLfPGQ9rvND703U"
+      }
     },
     "android": {
       "adaptiveIcon": {
